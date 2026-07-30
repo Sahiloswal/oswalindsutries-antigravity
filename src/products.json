@@ -1,0 +1,2630 @@
+[
+  {
+    "id": "welding-din-2",
+    "prodname": "2 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "2",
+    "subtitle": "Shade 2 — Light Welding & Brazing",
+    "description": "2 DIN welding goggles suitable for light brazing and soldering operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Filter: Shade 2 — Class 1 Optical Quality glass",
+        "Frame material: Cellulose Acetate — skin-safe, lightweight, heat resistant",
+        "Glass Thickness: 3 mm (±0.2 mm)",
+        "Suitable for very light brazing, soldering, and low-intensity UV exposures",
+        "Embossed OSWAL marking for product authenticity",
+        "Perforated side protection mesh for enhanced peripheral coverage",
+        "Integrated smooth frame nose area for comfortable extended wear",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Very light gas brazing and soldering operations",
+        "Torch brazing with low-intensity flame",
+        "Light inspection tasks in mildly illuminated industrial environments",
+        "Laboratory glasswork and light flame operations"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Chemical & sweat resistant, dimensionally stable under prolonged heat exposure"
+        },
+        {
+          "name": "Lens",
+          "material": "2 DIN Toughened Filter Glass",
+          "advantage": "Filters UV and mild IR radiation — optimal for very low-intensity flame operations"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Secure, adjustable fit for all-day comfort"
+        },
+        {
+          "name": "Lens Surround",
+          "material": "Cellulose Acetate",
+          "advantage": "Dual-lens housing with secure lock mechanism"
+        }
+      ],
+      "industries": [
+        "Jewellery Manufacturing",
+        "Laboratory & Research",
+        "HVAC",
+        "Plumbing",
+        "General Fabrication",
+        "Food Processing Equipment Maintenance"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "Class 1",
+      "filter": "Shade 2",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "usage": "Suitable for operators performing very low-intensity flame work such as light soldering and brazing where UV exposure is minimal. Shade 2 provides the lightest filtration in the welding goggle range.",
+      "lensOptions": "2 DIN (Shade 2) — Toughened Filter Glass",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 85 g"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-3",
+    "prodname": "3 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "3",
+    "subtitle": "Shade 3 — Light Welding & Cutting",
+    "description": "3 DIN welding goggles suitable for light welding and cutting operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Filter: Shade 3 — Class 1 Optical Quality glass",
+        "Frame material: Cellulose Acetate — skin-safe, lightweight, heat resistant",
+        "Glass Thickness: 3 mm (±0.2 mm)",
+        "Athermal shade — used in low-intensity gas welding and flame cutting upto 70 ltrs Acetylene/hour",
+        "Suitable for Acetylene/Oxygen equipment at low pressure settings",
+        "Embossed OSWAL marking for product authenticity",
+        "Perforated side protection mesh for enhanced peripheral coverage",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Light gas welding up to 70 litres Acetylene/hour",
+        "Light flame cutting up to 900 litres Oxygen/hour",
+        "Soldering and light brazing operations",
+        "Steel tack welding at low intensity"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Chemical & sweat resistant, dimensionally stable under prolonged heat exposure"
+        },
+        {
+          "name": "Lens",
+          "material": "3 DIN Toughened Filter Glass",
+          "advantage": "Filters UV and mild IR radiation — suitable for light gas welding and brazing"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Secure, adjustable fit for all-day comfort"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Cellulose Acetate with perforated mesh",
+          "advantage": "Additional protection from spatter and peripheral radiation"
+        }
+      ],
+      "industries": [
+        "Automotive",
+        "Plumbing & HVAC",
+        "Metal Fabrication",
+        "General Manufacturing",
+        "Railroad Maintenance"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "Class 1",
+      "filter": "Shade 3",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "usage": "Shade 3 is an athermal class goggle intended for light brazing, torch soldering, and low-intensity gas welding tasks. Provides a clearer view while blocking UV and early-stage IR radiation.",
+      "lensOptions": "3 DIN (Shade 3) — Toughened Filter Glass",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 85 g"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-4",
+    "prodname": "4 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "4",
+    "subtitle": "Shade 4 — Gas Welding & Cutting",
+    "description": "4 DIN welding goggles suitable for gas welding, brazing, and cutting operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Filter: Shade 4 — Class 1 German Optical Quality glass",
+        "Frame material: Cellulose Acetate — chemical resistant, heat stable",
+        "Glass Thickness: 3 mm (±0.2 mm)",
+        "Suitable for Gas Welding up to 70 ltrs Acetylene/hour",
+        "Suitable for Flame Cutting up to 900 ltrs Oxygen/hour",
+        "Ideal for Steel & Grey Cast-Iron Welding",
+        "Suitable for Light Alloy Welding",
+        "Embossed OSWAL marking for authenticity",
+        "Perforated side protection mesh — peripheral safety",
+        "Adjustable side shield — open/closed position",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Gas Welding up to 70 litres Acetylene/hour",
+        "Flame Cutting up to 900 litres Oxygen/hour",
+        "Steel & Grey Cast-Iron Welding",
+        "Light Alloy Welding",
+        "Torch Brazing and Silver Soldering"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Heat-stable, lightweight, chemical resistant — built for demanding industrial environments"
+        },
+        {
+          "name": "Lens",
+          "material": "4 DIN German Toughened Filter Glass",
+          "advantage": "Blocks UV & IR radiation from gas welding up to 70 ltrs Acetylene/hour — German optical quality"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Cellulose Acetate with ventilation mesh",
+          "advantage": "Prevents hot spatter ingress while maintaining airflow"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Universal fit with secure retention for industrial use"
+        }
+      ],
+      "industries": [
+        "Iron & Steel",
+        "Automotive",
+        "Heavy Engineering",
+        "Metal Fabrication",
+        "Shipbuilding",
+        "Construction Equipment",
+        "Railways"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "Class 1",
+      "filter": "Shade 4",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "usage": "Shade 4 German Welding Goggles are the entry point of the German series. Designed for standard gas welding and cutting operations involving steel, cast iron, and light alloys. Delivers superior optical clarity with German-grade filter glass.",
+      "lensOptions": "4 DIN (Shade 4) — German Toughened Filter Glass",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 90 g"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-5",
+    "prodname": "5 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "5",
+    "subtitle": "Shade 5 — Gas Welding",
+    "description": "5 DIN welding goggles suitable for standard gas welding and cutting operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Filter: Shade 5 — Class 1 German Optical Quality glass",
+        "Frame material: Cellulose Acetate",
+        "Glass Thickness: 3 mm (±0.2 mm)",
+        "Suitable for Gas Welding above 70 ltrs Acetylene/hour",
+        "Suitable for Flame Cutting above 900 ltrs Oxygen/hour",
+        "Heavy Steel Welding and structural fabrication",
+        "Used for Cutting and welding of thick sections",
+        "Embossed OSWAL marking for authenticity",
+        "Perforated side protection mesh",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Gas Welding above 70 litres Acetylene/hour",
+        "Flame Cutting above 900 litres Oxygen/hour",
+        "Heavy Structural Steel Welding",
+        "Thick Section Metal Cutting",
+        "Oxy-fuel operations at higher pressures"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Heat-stable, lightweight, chemical resistant"
+        },
+        {
+          "name": "Lens",
+          "material": "5 DIN German Toughened Filter Glass",
+          "advantage": "Optimal UV & IR filtration for medium-intensity gas welding operations"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Cellulose Acetate with ventilation mesh",
+          "advantage": "Peripheral spatter and heat protection"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Secure all-day fit"
+        }
+      ],
+      "industries": [
+        "Structural Steel",
+        "Shipbuilding",
+        "Railways",
+        "Heavy Engineering",
+        "Construction",
+        "Power Plants"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "Class 1",
+      "filter": "Shade 5",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "usage": "Shade 5 is designed for higher intensity gas welding and cutting operations beyond 70 ltrs Acetylene/hour. The deeper shade ensures adequate protection against intense UV, visible, and IR radiation in structural fabrication environments.",
+      "lensOptions": "5 DIN (Shade 5) — German Toughened Filter Glass",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 90 g"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-6",
+    "prodname": "6 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "6",
+    "subtitle": "Shade 6 — Gas Welding & Gouging",
+    "description": "6 DIN welding goggles suitable for heavy gas welding and gouging operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Filter: Shade 6 — Class 1 German Optical Quality glass",
+        "Frame material: Cellulose Acetate",
+        "Glass Thickness: 3 mm (±0.2 mm)",
+        "Designed for heavy-duty gas welding and high-volume cutting operations",
+        "Suitable for oxy-fuel processes at high pressures and flow rates",
+        "Protects against intense UV, visible, and infrared radiation",
+        "Embossed OSWAL marking for authenticity",
+        "Perforated side protection mesh",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Heavy-duty gas welding at high intensity",
+        "High-volume oxygen cutting operations",
+        "Plate cutting and structural fabrication",
+        "Industrial boiler and pressure vessel welding"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Heat-stable, chemical resistant, ideal for long-duration industrial wear"
+        },
+        {
+          "name": "Lens",
+          "material": "6 DIN German Toughened Filter Glass",
+          "advantage": "Heavy-duty radiation filtration for intense gas welding and oxygen cutting"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Cellulose Acetate with mesh vents",
+          "advantage": "Full peripheral protection against sparks and spatter"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Adjustable universal fit"
+        }
+      ],
+      "industries": [
+        "Boilermaking",
+        "Pressure Vessel Manufacturing",
+        "Shipbuilding",
+        "Heavy Industry",
+        "Power Generation",
+        "Defense Manufacturing"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "Class 1",
+      "filter": "Shade 6",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "usage": "Shade 6 provides the heaviest filtration in the German standard gas welding range. Intended for high-intensity oxy-fuel operations, thick plate cutting, and heavy structural welding where maximum UV, visible, and IR attenuation is required.",
+      "lensOptions": "6 DIN (Shade 6) — German Toughened Filter Glass",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 90 g"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-7",
+    "prodname": "7 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "7",
+    "subtitle": "Shade 7 — Arc Welding",
+    "description": "7 DIN welding goggles suitable for light arc welding operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Glass Thickness: 3 mm (+/- 0.2mm tolerance)",
+        "Model: 7 DIN Welding Goggle",
+        "Frame: OSWAL Welding Frame",
+        "Glass: 7 DIN Filter Glass"
+      ],
+      "applications": [
+        "Gas Welding >800 ltrs Acetylene/hour",
+        "Flame cutting 4000-8000 ltrs oxygen/hour"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Durable and lightweight"
+        },
+        {
+          "name": "Glass",
+          "material": "7 DIN Filter Glass",
+          "advantage": "Protection against IR/UV"
+        }
+      ],
+      "industries": [
+        "Mining",
+        "Construction",
+        "Railroad Industry",
+        "Automotive",
+        "Iron & Steel",
+        "Oil & Gas",
+        "Marine",
+        "Manufacturing",
+        "Power",
+        "Electronics Manufacturing",
+        "Aerospace",
+        "FMCG",
+        "Agriculture",
+        "Food Processing"
+      ],
+      "packaging": "10/12/15 nos per box - 300/400/1000 nos per carton",
+      "storage": "Do not store in direct / high heat or sunlight as this may distort the colour. Can be stored in the dark for up to 2 years. Can be stored and transported in their original cartons at ambient temperature (0° C to +30° C)",
+      "cleaning": "Use cloth given with the goggle or Clean it with a soft cloth",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "1",
+      "filter": "Shade - 7",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-8",
+    "prodname": "8 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "8",
+    "subtitle": "Shade 8 — Arc Welding",
+    "description": "8 DIN welding goggles suitable for standard arc welding operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Glass Thickness: 3 mm (+/- 0.2mm tolerance)",
+        "Model: 8 DIN Welding Goggle",
+        "Frame: OSWAL Welding Frame",
+        "Glass: 8 DIN Filter Glass"
+      ],
+      "applications": [
+        "Arc welding and intense thermal cutting suitable for shade 8"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Durable and lightweight"
+        },
+        {
+          "name": "Glass",
+          "material": "8 DIN Filter Glass",
+          "advantage": "Protection against IR/UV"
+        }
+      ],
+      "industries": [
+        "Mining",
+        "Construction",
+        "Railroad Industry",
+        "Automotive",
+        "Iron & Steel",
+        "Oil & Gas",
+        "Marine",
+        "Manufacturing",
+        "Power",
+        "Electronics Manufacturing",
+        "Aerospace",
+        "FMCG",
+        "Agriculture",
+        "Food Processing"
+      ],
+      "packaging": "10/12/15 nos per box - 300/400/1000 nos per carton",
+      "storage": "Do not store in direct / high heat or sunlight as this may distort the colour. Can be stored in the dark for up to 2 years. Can be stored and transported in their original cartons at ambient temperature (0° C to +30° C)",
+      "cleaning": "Use cloth given with the goggle or Clean it with a soft cloth",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "1",
+      "filter": "Shade - 8",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-9",
+    "prodname": "9 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "9",
+    "subtitle": "Shade 9 — Arc Welding",
+    "description": "9 DIN welding goggles suitable for arc welding operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Filter: Shade 9 — Class 1 German Optical Quality glass",
+        "Frame material: Cellulose Acetate",
+        "Glass Thickness: 3 mm (±0.2 mm)",
+        "Designed for arc welding and high-amperage operations",
+        "Protects against intense arc flash, UV, and IR radiation",
+        "Suitable for MIG, TIG, and arc welding at medium amperage",
+        "Embossed OSWAL marking for authenticity",
+        "Perforated side protection mesh",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Electric arc welding at medium amperage",
+        "MIG and TIG welding operations",
+        "Plasma arc cutting",
+        "High-intensity welding in heavy fabrication"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Robust industrial frame — dimensionally stable in high-heat environments"
+        },
+        {
+          "name": "Lens",
+          "material": "9 DIN German Toughened Filter Glass",
+          "advantage": "Deep-shade optical glass for arc and heavy-radiation protection"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Cellulose Acetate with ventilation mesh",
+          "advantage": "Comprehensive peripheral protection against spatter and intense light"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Secure, adjustable retention for industrial use"
+        }
+      ],
+      "industries": [
+        "Iron & Steel",
+        "Automotive Manufacturing",
+        "Aerospace",
+        "Defense",
+        "Heavy Fabrication",
+        "Shipbuilding"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "Class 1",
+      "filter": "Shade 9",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "usage": "Shade 9 delivers deep optical attenuation for electric arc and plasma-based welding operations. Provides robust protection against arc flash, intense UV and IR radiation in high-amperage processes.",
+      "lensOptions": "9 DIN (Shade 9) — German Toughened Filter Glass",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 95 g"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-10",
+    "prodname": "10 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "10",
+    "subtitle": "Shade 10 — Arc Welding",
+    "description": "10 DIN welding goggles suitable for heavy arc welding operations. Filters UV and IR radiation for safe eye protection.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Glass Thickness: 3 mm (+/- 0.2mm tolerance)",
+        "Model: 10 DIN Welding Goggle",
+        "Frame: OSWAL Welding Frame",
+        "Glass: 10 DIN Filter Glass"
+      ],
+      "applications": [
+        "Arc welding and intense thermal cutting suitable for shade 10"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Durable and lightweight"
+        },
+        {
+          "name": "Glass",
+          "material": "10 DIN Filter Glass",
+          "advantage": "Protection against IR/UV"
+        }
+      ],
+      "industries": [
+        "Mining",
+        "Construction",
+        "Railroad Industry",
+        "Automotive",
+        "Iron & Steel",
+        "Oil & Gas",
+        "Marine",
+        "Manufacturing",
+        "Power",
+        "Electronics Manufacturing",
+        "Aerospace",
+        "FMCG",
+        "Agriculture",
+        "Food Processing"
+      ],
+      "packaging": "10/12/15 nos per box - 300/400/1000 nos per carton",
+      "storage": "Do not store in direct / high heat or sunlight as this may distort the colour. Can be stored in the dark for up to 2 years. Can be stored and transported in their original cartons at ambient temperature (0° C to +30° C)",
+      "cleaning": "Use cloth given with the goggle or Clean it with a soft cloth",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "1",
+      "filter": "Shade - 10",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-11",
+    "prodname": "11 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "11",
+    "subtitle": "Shade 11 — Heavy Arc Welding",
+    "description": "11 DIN welding goggles for heavy-duty arc welding, MIG/MAG, and plasma welding operations. Maximum protection against intense UV and IR radiation.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Filter: Shade 11 — Class 1 Athermal Optical Quality glass",
+        "Frame material: Cellulose Acetate",
+        "Glass Thickness: 3 mm (±0.2 mm)",
+        "Maximum protection athermal filter for very high-amperage arc welding",
+        "Suitable for heavy-duty TIG, MIG, plasma arc at high amperage",
+        "Protects against extreme UV, visible arc flash, and intense IR radiation",
+        "Embossed OSWAL marking for authenticity",
+        "Perforated side protection mesh",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Heavy-duty arc welding at high amperage (above 200A)",
+        "High-intensity plasma cutting and welding",
+        "Carbon arc gouging",
+        "Intensive MIG/TIG welding in industrial environments"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Heat-stable, robust industrial grade construction"
+        },
+        {
+          "name": "Lens",
+          "material": "11 DIN Athermal Toughened Filter Glass",
+          "advantage": "Maximum athermal shade protection for very high-intensity arc welding"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Cellulose Acetate with ventilation mesh",
+          "advantage": "Full peripheral protection from intense arc flash"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Adjustable secure retention"
+        }
+      ],
+      "industries": [
+        "Heavy Engineering",
+        "Defense Manufacturing",
+        "Shipbuilding",
+        "Aerospace",
+        "Steel Plants",
+        "Large-scale Industrial Fabrication"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "Class 1",
+      "filter": "Shade 11",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "usage": "Shade 11 is the deepest athermal shade available in the OSWAL range. Designed for the most demanding arc welding environments where intense radiation, arc flash, and UV exposure are at their highest.",
+      "lensOptions": "11 DIN (Shade 11) — Athermal Toughened Filter Glass",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 95 g"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "welding-din-12",
+    "prodname": "12 DIN Welding Goggles",
+    "category": "Welding Goggles",
+    "shade": "12",
+    "subtitle": "Shade 12 — Intense Arc & Plasma Welding",
+    "description": "12 DIN welding goggles for intense arc welding and plasma operations. Maximum protection against the highest levels of UV and IR radiation.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Glass Thickness: 3 mm (+/- 0.2mm tolerance)",
+        "Model: 12 DIN Welding Goggle",
+        "Frame: OSWAL Welding Frame",
+        "Glass: 12 DIN Filter Glass"
+      ],
+      "applications": [
+        "Arc welding and intense thermal cutting suitable for shade 12"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Durable and lightweight"
+        },
+        {
+          "name": "Glass",
+          "material": "12 DIN Filter Glass",
+          "advantage": "Protection against extreme IR/UV"
+        }
+      ],
+      "industries": [
+        "Mining",
+        "Construction",
+        "Railroad Industry",
+        "Automotive",
+        "Iron & Steel",
+        "Oil & Gas",
+        "Marine",
+        "Manufacturing",
+        "Power",
+        "Electronics Manufacturing",
+        "Aerospace",
+        "FMCG",
+        "Agriculture",
+        "Food Processing"
+      ],
+      "packaging": "10/12/15 nos per box - 300/400/1000 nos per carton",
+      "storage": "Do not store in direct / high heat or sunlight as this may distort the colour. Can be stored in the dark for up to 2 years. Can be stored and transported in their original cartons at ambient temperature (0° C to +30° C)",
+      "cleaning": "Use cloth given with the goggle or Clean it with a soft cloth",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "1",
+      "filter": "Shade - 12",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)"
+    },
+    "image": "/products/234 din.png",
+    "isSubProduct": true,
+    "gallery": [
+      "/products/234 din.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "3",
+    "prodname": "Furnace Observation Goggles",
+    "category": "Smelter/Furnace Safety",
+    "subtitle": "Cobalt Blue Glass — Heat & IR Protection",
+    "description": "Specially designed for furnace operators. Cobalt blue glass filters intense heat, radiant energy and infrared radiation from furnace openings and molten metal.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "highlights": [
+        "Thermal Radiation Filtering",
+        "Improved Visual Contrast",
+        "Reduced Eye Fatigue"
+      ],
+      "keyFeatures": [
+        "Cobalt blue glass selectively filters excessive infrared radiation from molten metal and furnace sources",
+        "Glass Thickness: 3 mm (±0.2 mm) — industrial grade optical quality",
+        "Frame material: Cellulose Acetate — heat-stable, skin-safe",
+        "Enhances visibility of furnace interiors while significantly reducing harmful glare",
+        "Allows operators to safely observe high-temperature processes for extended durations",
+        "Superior optical clarity compared to fibre or polycarbonate shields",
+        "Scratch-resistant optical glass surface — stable under extreme temperature cycling",
+        "Perforated side protection mesh for enhanced peripheral safety",
+        "Adjustable side shield in open/closed position for versatile protection",
+        "Integrated smooth nose bridge for all-day comfort",
+        "Embossed OSWAL marking for product authenticity"
+      ],
+      "applications": [
+        "Furnace interior observation and process monitoring",
+        "Protection against radiant thermal energy from furnace openings",
+        "Molten metal process monitoring in steel plants and foundries",
+        "Smelting and casting observation",
+        "Kiln and glass furnace operations",
+        "Metal Smelting and slab casting observation"
+      ],
+      "industries": [
+        "Iron & Steel",
+        "Foundries & Smelters",
+        "Glass Manufacturing",
+        "Ceramics",
+        "Cement Plants",
+        "Non-Ferrous Metals",
+        "Power Generation",
+        "Chemical Processing"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate with reinforced side panels",
+          "advantage": "Dimensionally stable under continuous radiant heat — resists warping and chemical degradation"
+        },
+        {
+          "name": "Lens",
+          "material": "Cobalt Blue Optical Glass (3 mm)",
+          "advantage": "Selectively filters excessive infrared and UV radiation from furnace openings and molten metal — provides a clear, undistorted view of high-temperature processes"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Perforated Cellulose Acetate mesh",
+          "advantage": "Prevents peripheral heat, spatter, and radiant energy ingress while maintaining airflow"
+        },
+        {
+          "name": "Nose Bridge",
+          "material": "Integrated smooth contour frame",
+          "advantage": "Comfort-engineered for extended observation shifts"
+        }
+      ],
+      "usage": "Specifically engineered for furnace operators who require extended observation into high-temperature environments. The cobalt blue optical glass provides a uniquely comfortable and protective view of processes like molten steel, smelting operations, and kiln work, where radiant infrared energy poses the primary hazard.",
+      "lensOptions": "Cobalt Blue Optical Glass — 3 mm thickness",
+      "opticalClass": "Class 1 (Optical Clarity)",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 120 g"
+    },
+    "image": "/products/cobalt bluee goggle.png",
+    "gallery": [
+      "/products/cobalt bluee goggle.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "4",
+    "prodname": "Oswal Dual Face Shield for Furnace",
+    "category": "Smelter/Furnace Safety",
+    "subtitle": "Dual Layer — Steel Plants & Foundries",
+    "description": "Dual-layered furnace face shield. Outer aluminized visor reflects radiant heat; inner cobalt blue glass gives a clear, safe view of furnace interiors. For steel plants, foundries and smelters.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "highlights": [
+        "Heat Protection",
+        "Impact Protection",
+        "Industrial Use",
+        "Full Face Safety",
+        "Clear Visibility",
+        "Industrial Durability"
+      ],
+      "keyFeatures": [
+        "Dual-shield design: simultaneous facial, eye, and neck protection in a single unit",
+        "Full-face coverage from chin to forehead — eliminates exposure gaps",
+        "Outer shield guards against mechanical impact, spatter, and molten droplets",
+        "Inner cobalt/athermal filter lens attenuates infrared radiation from furnace openings",
+        "Temperature resistant construction for proximity to high-heat sources",
+        "Ratchet-adjust head harness for secure, hands-free operation",
+        "Approved for use in steel plants, smelters, and glass furnace environments"
+      ],
+      "applications": [
+        "Furnace tapping and charging operations",
+        "Molten metal pouring and casting",
+        "Proximity work near electric arc furnaces",
+        "High-radiant-heat industrial environments",
+        "Smelter maintenance and inspection tasks"
+      ],
+      "industries": [
+        "Iron & Steel",
+        "Non-Ferrous Smelting",
+        "Foundries",
+        "Glass Manufacturing",
+        "Aluminum Processing",
+        "Copper Smelting",
+        "Power Generation"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Outer Shield",
+          "material": "High-clarity Polycarbonate",
+          "advantage": "Broad-coverage impact and spatter protection — resists mechanical impact from falling debris"
+        },
+        {
+          "name": "Inner Visor",
+          "material": "Cobalt Blue / Aluminized filter lens",
+          "advantage": "Selectively filters intense infrared radiation and glare from furnace openings"
+        },
+        {
+          "name": "Head Harness",
+          "material": "Adjustable ratchet suspension",
+          "advantage": "Secure fit for extended operational periods; distributes weight evenly"
+        },
+        {
+          "name": "Frame",
+          "material": "Reinforced ABS with heat-resistant coating",
+          "advantage": "Lightweight yet robust — built for continuous use in high-heat environments"
+        }
+      ],
+      "usage": "Designed for operators who work in close proximity to furnaces, molten metal, and high-intensity thermal radiation sources. The dual-shield architecture ensures comprehensive face and eye protection in the most demanding smelter and foundry environments.",
+      "lensOptions": "Dual-layer: Outer clear PC + Inner cobalt/athermal filter",
+      "opticalClass": "Class 1",
+      "glassThickness": "Outer PC: 3 mm | Inner filter: 3 mm",
+      "weight": "Approx. 450 g"
+    },
+    "image": "/products/face shield.png",
+    "gallery": [
+      "/products/face shield.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "5",
+    "prodname": "Oswal Furnace Observation Shield",
+    "category": "Smelter/Furnace Safety",
+    "subtitle": "Kiln & Furnace Inspection",
+    "description": "Designed for observing furnace and kiln interiors. Protects against UV, IR and radiant heat while providing an undistorted view during furnace checks.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "highlights": [
+        "Full Face Protection",
+        "Heat Resistant Construction",
+        "Universal Helmet Fit",
+        "Reinforced Structure"
+      ],
+      "keyFeatures": [
+        "Full-face coverage — provides simultaneous eye, face, and chin protection",
+        "Cobalt blue/athermal filter panel attenuates infrared and UV radiation from furnace openings",
+        "Temperature resistant frame for proximity operation near high-heat sources",
+        "Ratchet-adjust head harness for a secure, fatigue-free fit during extended use",
+        "Lightweight design to reduce neck fatigue in long-duration tasks",
+        "Embossed OSWAL marking for product authenticity"
+      ],
+      "applications": [
+        "Furnace observation and process monitoring",
+        "Smelting and casting inspection",
+        "Proximity operation near molten metal",
+        "Kiln operations in ceramic and glass industries",
+        "Monitoring of high-temperature industrial processes"
+      ],
+      "industries": [
+        "Steel Plants",
+        "Foundries",
+        "Glass Manufacturing",
+        "Ceramics",
+        "Aluminium Smelting",
+        "Cement Plants",
+        "Power Plants"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Face Shield Visor",
+          "material": "Aluminized / Cobalt Blue Filter Glass",
+          "advantage": "Full-face IR protection — reflects radiant heat while maintaining clear process visibility"
+        },
+        {
+          "name": "Head Harness",
+          "material": "Adjustable ratchet suspension",
+          "advantage": "Comfortable fit for long shifts; adjusts to all head sizes"
+        },
+        {
+          "name": "Shield Frame",
+          "material": "ABS plastic with heat-resistant coating",
+          "advantage": "Lightweight and robust construction for demanding environments"
+        },
+        {
+          "name": "Chin Guard",
+          "material": "Integrated polycarbonate",
+          "advantage": "Adds additional lower-face protection against spatter and radiant heat"
+        }
+      ],
+      "usage": "The OSWAL Furnace Observation Shield provides comprehensive facial protection for operators working in proximity to intense radiant heat. It replaces point-focus goggles with a full-face solution, ideal for sustained observation work near furnaces, kilns, and smelting operations.",
+      "lensOptions": "Cobalt Blue / Athermal Filter Glass — Full-face visor",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm filter glass panel",
+      "weight": "Approx. 400 g"
+    },
+    "image": "/products/dual face shield.png",
+    "gallery": [
+      "/products/dual face shield.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "6",
+    "prodname": "Oswal Smelter — Helmet Attachment",
+    "category": "Smelter/Furnace Safety",
+    "subtitle": "Cobalt Blue Helmet Attachment",
+    "description": "Cobalt blue glass helmet attachment for smelter workers. Fits standard safety helmets for integrated head and eye protection in metal smelting environments.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "highlights": [
+        "Heat Resistance",
+        "Enhanced Vision",
+        "Adjustable Fit",
+        "Durable Construction"
+      ],
+      "keyFeatures": [
+        "Designed to mount directly onto standard industrial safety helmets",
+        "Integrates eye and face protection with existing head protection in a single unit",
+        "Flip-up mechanism enables rapid transition between observation and normal visibility",
+        "Cobalt blue / athermal filter glass attenuates intense IR radiation from furnaces and molten metal",
+        "Stainless steel pivots for reliable, long-lasting operation in harsh environments",
+        "Eliminates the need for separate goggles — streamlines PPE for furnace operators",
+        "Embossed OSWAL marking for product authenticity"
+      ],
+      "applications": [
+        "Furnace tapping, charging, and observation operations",
+        "Smelter inspection and maintenance",
+        "Molten metal pouring operations",
+        "Use as an integrated PPE solution in steel plants and foundries",
+        "High-temperature casting operations"
+      ],
+      "industries": [
+        "Iron & Steel",
+        "Foundries & Smelters",
+        "Non-Ferrous Metals",
+        "Glass Manufacturing",
+        "Cement Plants",
+        "Aluminum Smelting"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Attachment Bracket",
+          "material": "Reinforced ABS / Steel",
+          "advantage": "Universal mounting bracket — attaches to most standard safety helmets without tools"
+        },
+        {
+          "name": "Filter Visor",
+          "material": "Cobalt Blue / Athermal Filter Glass",
+          "advantage": "Certified IR and UV filtration for furnace and molten metal environments"
+        },
+        {
+          "name": "Pivot Mechanism",
+          "material": "Stainless steel pivot joints",
+          "advantage": "Allows the visor to be flipped up when not in observation mode — hands-free convenience"
+        },
+        {
+          "name": "Visor Frame",
+          "material": "Heat-resistant ABS plastic",
+          "advantage": "Lightweight, robust construction that withstands radiant heat proximity"
+        }
+      ],
+      "usage": "The OSWAL Smelter Helmet Attachment is engineered to integrate seamlessly with standard safety helmets, providing certified eye and face protection without the need for a separate goggle. The flip-up design allows operators to quickly switch between protected observation mode and normal visibility.",
+      "lensOptions": "Cobalt Blue / Athermal Filter Glass (3 mm)",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm",
+      "weight": "Approx. 280 g (shield only, excluding helmet)"
+    },
+    "image": "/products/helmet attachment.png",
+    "gallery": [
+      "/products/helmet attachment.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "7",
+    "prodname": "Oswal Super Flip-Up Welding Goggle",
+    "category": "Welding Goggles",
+    "shade": "8",
+    "subtitle": "Flip-Up Welding Goggles (Red)",
+    "description": "Premium flip-up welding goggles offering dual-lens versatility. Features a clear inner lens for grinding and a flip-down Shade 5 outer lens for welding, built into a comfortable, skin-friendly red PVC frame.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Dual-lens flip-up design: Shade 5 outer lens flips to reveal inner clear lens",
+        "Inner clear lens remains in place when welding lens is flipped — continuous eye protection",
+        "Suitable for torch brazing, spot welding, and furnace observation tasks",
+        "Cellulose Acetate frame in OSWAL signature red — hypoallergenic, heat stable",
+        "Glass Thickness: 3 mm per lens (both lenses)",
+        "Stainless steel flip mechanism for reliable single-hand operation",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "Embossed OSWAL marking for product authenticity",
+        "Perforated side protection mesh for peripheral coverage"
+      ],
+      "components": [
+        {
+          "name": "Outer Shade Lens",
+          "material": "Shade 5 Dark Filter Glass",
+          "advantage": "Blocks intense visible, UV, and IR radiation during welding and brazing operations"
+        },
+        {
+          "name": "Inner Clear Lens",
+          "material": "Clear Toughened Safety Glass",
+          "advantage": "Provides eye and face protection when the outer shade is flipped up — prevents spatter and debris contact"
+        },
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate — Red",
+          "advantage": "OSWAL signature red frame: heat-stable, lightweight, and visually distinctive for quick identification on site"
+        },
+        {
+          "name": "Flip Mechanism",
+          "material": "Stainless steel pivot hinge",
+          "advantage": "Robust, reliable flip-up and lock-down mechanism for single-hand operation"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Secure retention for active welding operations"
+        }
+      ],
+      "industries": [
+        "Automotive",
+        "General Manufacturing",
+        "Maintenance & Repair",
+        "Metal Fabrication",
+        "Railways",
+        "HVAC",
+        "Plumbing"
+      ],
+      "applications": [
+        "Gas welding and torch brazing requiring frequent lens changes",
+        "Spot welding operations alternating between viewing and welding",
+        "Furnace observation tasks requiring shade changes",
+        "Maintenance welding in mixed industrial environments",
+        "Operations requiring both shaded and clear vision in rapid succession"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "opticalClass": "Class 1",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "usage": "The OSWAL Super Flip-Up delivers the ultimate convenience for operators who alternate between welding/brazing and clear-vision tasks. The flip mechanism allows instantaneous transition from Shade 5 protection to clear visibility without removing the goggle — dramatically increasing safety and efficiency in mixed-task environments.",
+      "lensOptions": "Outer: Shade 5 DIN Filter Glass | Inner: Clear Toughened Glass — both 3 mm",
+      "filter": "Shade 5",
+      "glassThickness": "3 mm each lens (outer shade + inner clear)",
+      "weight": "Approx. 120 g"
+    },
+    "image": "/products/flip up.png",
+    "gallery": [
+      "/products/flip up.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "8",
+    "prodname": "Chemical Splash Ultraview Goggles",
+    "category": "Chemical Splash Goggles",
+    "subtitle": "Full Seal — Anti-Fog Indirect Vent",
+    "description": "Fully enclosed indirect-vent chemical splash proof goggles with anti-fog coating. Prevents liquid, vapour and chemical splash ingress. Essential for labs and chemical handling.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980",
+        "EN 166",
+        "ANSI Z87.1"
+      ],
+      "highlights": [
+        "Anti Fog Lens",
+        "Chemical Splash Proof",
+        "Impact Resistant"
+      ],
+      "keyFeatures": [
+        "Full-seal face gasket — complete protection against liquid chemical splash from any direction",
+        "EN 166, ANSI Z87.1, IS 5983 / 1980, and CLI Approved — triple internationally recognised certification",
+        "Panoramic polycarbonate lens for undistorted, wide-field visibility during chemical handling",
+        "Indirect or non-vented design prevents chemical vapour and fine mist ingress",
+        "100% UV protection for outdoor chemical handling environments",
+        "Lightweight and ergonomic for use in pharmaceutical and laboratory environments",
+        "Compatible with prescription glasses (OTS capable)",
+        "Anti-scratch and anti-fog coated lens for sustained operational clarity"
+      ],
+      "applications": [
+        "Acid and alkali handling in chemical plants",
+        "Laboratory chemical dispensing and titration",
+        "Pharmaceutical active ingredient handling",
+        "Battery acid handling in industrial and automotive applications",
+        "Agricultural chemical mixing and spraying",
+        "Electroplating and metal surface treatment",
+        "Chlorine and solvent handling"
+      ],
+      "industries": [
+        "Chemical Processing",
+        "Pharmaceuticals",
+        "Laboratories",
+        "Electroplating",
+        "Battery Manufacturing",
+        "Agriculture",
+        "Oil & Gas Refining",
+        "Textile Processing",
+        "Food & Beverage"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Lens",
+          "material": "Optical-grade Polycarbonate (PC) — chemical resistant",
+          "advantage": "Full-face panoramic clarity with certified resistance to chemical splash, particulates, and UV radiation"
+        },
+        {
+          "name": "Frame Seal",
+          "material": "Soft PVC — direct-seal face gasket",
+          "advantage": "Complete 360° facial seal that prevents any liquid ingress from any direction — critical for splash environments"
+        },
+        {
+          "name": "Ventilation",
+          "material": "Indirect (non-vented) or one-way valve vented",
+          "advantage": "Non-vented version provides complete splash protection; valve-vented version adds comfort in high-activity operations"
+        },
+        {
+          "name": "Headband",
+          "material": "Adjustable elastic",
+          "advantage": "Secure retention to maintain the critical face seal during movement"
+        }
+      ],
+      "usage": "The OSWAL Chemical Splash Ultraview is the definitive choice for environments where the primary hazard is liquid chemical splash. Its full-seal face gasket and certified panoramic polycarbonate lens ensure that no chemical, acid, or alkali can reach the eyes from any angle, while maintaining exceptional optical clarity for precision handling tasks.",
+      "lensOptions": "Clear Polycarbonate — EN 166:2002 certified for chemical splash",
+      "opticalClass": "Class 1 (EN 166)",
+      "glassThickness": "Polycarbonate 3 mm",
+      "weight": "Approx. 80 g"
+    },
+    "image": "/products/chemical splash 01.png",
+    "gallery": [
+      "/products/chemical splash 01.png",
+      "/products/chemical splash 02.png",
+      "/products/chemical splash 03.png",
+      "/products/chemical splash 04.png"
+    ]
+  },
+  {
+    "id": "9",
+    "prodname": "Ultravision Heat Resistant Impact Goggles",
+    "category": "Safety Goggles",
+    "subtitle": "Heat Resistant — Wide Vision",
+    "description": "Ultravision wide-angle impact-resistant goggles designed for hot work environments. Panoramic polycarbonate lens with heat resistance for foundry, welding and industrial use.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Automotive",
+        "General Manufacturing",
+        "Chemical Processing",
+        "Pharmaceuticals",
+        "Construction",
+        "Mining",
+        "Aerospace",
+        "Oil & Gas",
+        "Food Processing"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "High-impact polycarbonate lens — exceptional clarity and mechanical robustness",
+        "Anti-fog coating on inner lens surface for sustained clarity during heat-intensive work",
+        "Indirect ventilation system — prevents fogging without permitting liquid ingress",
+        "Heat-resistant frame construction for proximity to moderate thermal hazards",
+        "100% UV protection for the eyes and surrounding facial tissue",
+        "Over-spectacle compatible — can be worn over prescription glasses",
+        "Certified under IS 5983 / 1980 and CLI Approved",
+        "Adjustable headband for a secure, customised fit"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Lens",
+          "material": "High-Impact Polycarbonate (PC)",
+          "advantage": "Exceptional optical clarity with superior resistance to mechanical impact — rated for medium impact resistance"
+        },
+        {
+          "name": "Frame",
+          "material": "Thermoplastic Rubber (TPR) / PVC",
+          "advantage": "Flexible, chemical-resistant frame that conforms to facial contours for a secure, comfortable seal"
+        },
+        {
+          "name": "Ventilation Ports",
+          "material": "Integrated indirect vents",
+          "advantage": "Prevents fogging during active use without exposing the lens to direct liquid splash"
+        },
+        {
+          "name": "Headband",
+          "material": "Adjustable elastic",
+          "advantage": "Accommodates a wide range of head sizes — secure retention during dynamic tasks"
+        }
+      ],
+      "applications": [
+        "General industrial eye protection",
+        "Heat-intensive manufacturing environments",
+        "Chemical handling with moderate splash risk",
+        "Laboratory and cleanroom use",
+        "Metal finishing and surface treatment",
+        "Construction and engineering field operations"
+      ],
+      "usage": "The OSWAL Ultravision is a versatile, high-performance safety goggle engineered for workers in environments involving impact hazards, heat, and moderate chemical exposure. Its anti-fog, indirect-ventilation design makes it particularly effective for active physical work in warm industrial conditions.",
+      "lensOptions": "Clear Polycarbonate — Anti-fog coating",
+      "opticalClass": "Class 1",
+      "glassThickness": "Polycarbonate 3 mm",
+      "weight": "Approx. 80 g"
+    },
+    "image": "/products/ultravision.png"
+  },
+  {
+    "id": "10",
+    "prodname": "Oswal Peep Hole Cobalt Blue Glass",
+    "category": "Smelter/Furnace Safety",
+    "subtitle": "Cobalt Blue Observation Glass",
+    "description": "Cobalt blue peep hole glass for furnace and kiln observation windows. Blocks harmful infrared and UV while providing a clear view into high-temperature chambers.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "highlights": [
+        "Made in Germany",
+        "1500°C Heat Resistance",
+        "High Optical Clarity",
+        "Industrial Grade Protection"
+      ],
+      "keyFeatures": [
+        "Cobalt blue optical glass — selectively filters excessive infrared and UV radiation from furnace openings",
+        "Glass Thickness: 3 mm (custom thicknesses available on request)",
+        "Precision-ground edges for safe handling and secure mounting in peep hole frames",
+        "Provides clear, optical-quality view of furnace interiors without harmful glare",
+        "Superior heat resistance for continuous high-temperature exposure",
+        "Long service life with scratch-resistant surface",
+        "Used in fixed observation ports, monitoring windows, and portable peep hole frames",
+        "Embossed OSWAL branding available on frame fixtures"
+      ],
+      "applications": [
+        "Fixed peep hole observation ports in furnace walls",
+        "Kiln observation windows in ceramic and glass industries",
+        "Monitoring of molten metal processes in steel plants",
+        "High-temperature process chambers and reaction vessels",
+        "Infrared-shielded observation panels in smelting operations"
+      ],
+      "industries": [
+        "Iron & Steel",
+        "Foundries & Smelters",
+        "Glass Manufacturing",
+        "Ceramics & Kilns",
+        "Non-Ferrous Metals",
+        "Cement Plants",
+        "Chemical Processing",
+        "Power Generation"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Optical Glass",
+          "material": "Cobalt Blue Optical Glass",
+          "advantage": "Precision-manufactured to selectively absorb infrared radiation and intense visible light from furnace openings — provides clear, undistorted process view"
+        },
+        {
+          "name": "Glass Edge",
+          "material": "Ground and polished edges",
+          "advantage": "Safe handling with no sharp edges — secure fit in peep hole frames and fixtures"
+        }
+      ],
+      "usage": "OSWAL Cobalt Blue Peep Hole Glass is a precision optical glass component designed for installation in fixed or portable furnace observation ports. It enables safe, distortion-free monitoring of high-temperature processes by filtering intense infrared and UV radiation from furnace interiors, molten metal, and smelting chambers.",
+      "lensOptions": "Cobalt Blue Optical Glass — custom sizes available",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm (standard) — other thicknesses available on request",
+      "weight": "Varies by dimension"
+    },
+    "image": "/products/peephole glass.png",
+    "gallery": [
+      "/products/peephole glass.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "11",
+    "prodname": "Oswal Supravision White",
+    "category": "Safety Goggles",
+    "subtitle": "Clear Lens for General Protection & Indoor Use",
+    "description": "Oswal Supravision White safety goggles are designed for general industrial use where clear vision is essential. The transparent lens provides natural visibility without color distortion, making it ideal for indoor and standard working environments. Lightweight and durable, it ensures comfort for long working hours.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980",
+        "EN 166",
+        "ANSI Z87.1"
+      ],
+      "highlights": [
+        "100% UV Protection",
+        "High Impact Resistance",
+        "Wide Angle Vision",
+        "Lightweight Design",
+        "Industrial Use"
+      ],
+      "keyFeatures": [
+        "European EN 166 and ANSI Z87.1 certified optical quality — trusted globally",
+        "One-piece wrap-around polycarbonate lens for panoramic, distortion-free vision",
+        "Indirect ventilation prevents fogging while blocking splash and dust ingress",
+        "Flexible PVC frame — skin-safe, chemical resistant, comfortable for all-day wear",
+        "100% UV protection certified",
+        "Compatible with prescription glasses (OTS design)",
+        "Meets IS 5983 / 1980 — approved for Indian industrial standards",
+        "Lightweight construction for fatigue-free extended wear"
+      ],
+      "applications": [
+        "Chemical handling and laboratory operations",
+        "General industrial and manufacturing environments",
+        "Pharmaceutical production and filling operations",
+        "Cleanroom and sterile processing areas",
+        "Mining and mineral processing",
+        "Painting, coating, and surface finishing"
+      ],
+      "industries": [
+        "Pharmaceuticals",
+        "Chemical Processing",
+        "Laboratories",
+        "Food & Beverage",
+        "Automotive",
+        "Oil & Gas",
+        "Construction",
+        "Mining",
+        "Electronics Manufacturing"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Lens",
+          "material": "Optical-grade Polycarbonate (PC)",
+          "advantage": "Superior optical clarity meeting EN 166 Class 1 standards — provides undistorted vision during precision tasks"
+        },
+        {
+          "name": "Frame",
+          "material": "Flexible PVC / Thermoplastic Rubber",
+          "advantage": "Soft, skin-friendly material that creates a comfortable facial seal — resists chemical degradation"
+        },
+        {
+          "name": "Ventilation System",
+          "material": "Indirect ventilation ports",
+          "advantage": "Fog-resistant airflow path that prevents chemical splash and particulate ingress while eliminating lens fogging"
+        },
+        {
+          "name": "Headband",
+          "material": "Adjustable elastic",
+          "advantage": "One-size fits all — secure and comfortable for extended wear"
+        }
+      ],
+      "usage": "OSWAL Supravision White is a premium clear safety goggle engineered to meet the highest international certification standards. Its one-piece panoramic lens, indirect ventilation, and flexible frame make it the benchmark choice for industries where optical clarity, chemical resistance, and all-day comfort are non-negotiable.",
+      "lensOptions": "Clear (Standard) | Tinted variants on request",
+      "opticalClass": "Class 1 (EN 166)",
+      "glassThickness": "Polycarbonate 3 mm",
+      "weight": "Approx. 75 g"
+    },
+    "image": "/products/supravision white.png"
+  },
+  {
+    "id": "12",
+    "prodname": "Supravision Black",
+    "category": "Safety Goggles",
+    "subtitle": "Smoke Grey Lens for Glare Reduction & Outdoor Protection",
+    "description": "Oswal Supravision Black safety goggles are designed for environments with high brightness and glare. The smoke grey lens reduces eye strain and enhances visual comfort while maintaining clear visibility. Lightweight and durable, they are ideal for extended industrial and outdoor use.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980",
+        "EN 166",
+        "ANSI Z87.1"
+      ],
+      "highlights": [
+        "100% UV Protection",
+        "Adjustable Temples",
+        "High Impact Resistance",
+        "Wide Angle Vision",
+        "Lightweight Design"
+      ],
+      "keyFeatures": [
+        "European EN 166 and ANSI Z87.1 certified — internationally recognised quality standard",
+        "Grey-tinted lens provides effective glare reduction for outdoor and high-luminance environments",
+        "Indirect ventilation prevents fogging without exposing the lens to chemical splash",
+        "Flexible PVC frame — robust yet skin-comfortable for extended operations",
+        "100% UV protection for workers in outdoor industrial environments",
+        "Meets IS 5983 / 1980 — CLI Approved for Indian industrial deployment",
+        "Panoramic one-piece lens for undistorted, wide-field vision",
+        "Compatible with prescription glasses (OTS design)"
+      ],
+      "applications": [
+        "Outdoor construction and civil engineering",
+        "Bright workshop environments and welding bays",
+        "Glare-intensive industrial operations",
+        "Chemical handling in high-luminance zones",
+        "Surface finishing and spray painting in bright conditions"
+      ],
+      "industries": [
+        "Construction",
+        "Oil & Gas",
+        "Mining",
+        "Cement Plants",
+        "Glass Manufacturing",
+        "Automotive Painting",
+        "Outdoor Infrastructure"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Lens",
+          "material": "Optical-grade Polycarbonate (PC) — Grey Tinted",
+          "advantage": "Reduces glare and light intensity in bright outdoor or high-luminance indoor environments while maintaining optical Class 1 clarity"
+        },
+        {
+          "name": "Frame",
+          "material": "Black Flexible PVC / Thermoplastic Rubber",
+          "advantage": "Robust and chemical-resistant — provides a reliable face seal in demanding environments"
+        },
+        {
+          "name": "Ventilation System",
+          "material": "Indirect ventilation ports",
+          "advantage": "Anti-fog airflow path without compromising splash protection"
+        },
+        {
+          "name": "Headband",
+          "material": "Adjustable elastic",
+          "advantage": "Universal fit for diverse workforce"
+        }
+      ],
+      "usage": "Supravision Black delivers all the protection of the Supravision White, enhanced with a grey tint for superior glare control. The ideal choice for outdoor industrial workers and those operating in bright or high-luminance environments where unfiltered light causes visual fatigue.",
+      "lensOptions": "Grey Tinted Polycarbonate — Anti-glare, Anti-fog",
+      "opticalClass": "Class 1 (EN 166)",
+      "glassThickness": "Polycarbonate 3 mm",
+      "weight": "Approx. 75 g"
+    },
+    "image": "/products/supravision black.png"
+  },
+  {
+    "id": "13",
+    "prodname": "Oswal Boss — Zero Power Glass",
+    "category": "Spectacle Frames",
+    "subtitle": "Fitted with 0-Power Optical Lenses",
+    "description": "The Oswal Boss frame fitted with non-prescription zero power optical quality lenses. Provides clear vision with basic eye protection for everyday industrial use.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "General Manufacturing",
+        "Automotive",
+        "Construction",
+        "Laboratories",
+        "Pharmaceutical",
+        "Electronics",
+        "Food & Beverage",
+        "Mining"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Zero Power: optically neutral — provides no magnification or distortion",
+        "3 mm toughened safety glass lens — superior impact resistance vs standard spectacle glass",
+        "Cellulose Acetate frame — hypoallergenic, lightweight, premium quality",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "100% UV protection",
+        "Designed for industrial use in environments requiring basic eye impact and UV protection",
+        "Comfortable fit for all-day wear in workshops and manufacturing facilities"
+      ],
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Premium acetate frame — lightweight, hypoallergenic, and dimensionally stable for all-day industrial wear"
+        },
+        {
+          "name": "Lens",
+          "material": "Zero Power Toughened Safety Glass — 3 mm",
+          "advantage": "Optically neutral toughened glass that provides superior impact resistance without any vision distortion — ideal for non-prescription users"
+        },
+        {
+          "name": "Temples",
+          "material": "Cellulose Acetate with flexible hinge",
+          "advantage": "Ergonomically shaped for comfortable all-day retention on the ears without pressure"
+        },
+        {
+          "name": "Nose Bridge",
+          "material": "Integrated acetate or adjustable nose pads",
+          "advantage": "Comfortable, non-slip bridge that distributes the frame weight evenly"
+        }
+      ],
+      "applications": [
+        "General industrial eye protection for non-prescription users",
+        "Workshop and fabrication shop use",
+        "Engineering field operations",
+        "Quality control and inspection tasks",
+        "Laboratory basic eye protection"
+      ],
+      "usage": "OSWAL Boss Zero Power Safety Spectacles deliver certified eye protection in a professional, premium-quality spectacle frame. The zero-power toughened glass lens provides maximum optical clarity with superior impact resistance — the ideal everyday industrial safety spectacle for workers who do not require vision correction.",
+      "lensOptions": "Zero Power Clear Toughened Glass — 3 mm",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 30 g"
+    },
+    "image": "/products/0 power.png",
+    "gallery": [
+      "/products/0 power.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "14",
+    "prodname": "Oswal Boss — Toughened Glass",
+    "category": "Spectacle Frames",
+    "subtitle": "Fitted with Toughened Glass Lenses",
+    "description": "Oswal Boss spectacle frame fitted with toughened glass lenses. Superior impact resistance. Suitable for grinding, metal working and heavy industrial use.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Thermally toughened glass lens — superior scratch and impact resistance vs plastic lenses",
+        "3 mm safety glass thickness — meets IS 5983 / 1980 impact resistance requirements",
+        "Cellulose Acetate frame — premium, hypoallergenic industrial spectacle frame",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "100% UV protection",
+        "Oswal embossed marking for product authenticity",
+        "Designed for workers who prefer glass lenses over polycarbonate for optical clarity and scratch resistance"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Premium industrial-grade acetate — dimensionally stable, hypoallergenic, and chemically resistant"
+        },
+        {
+          "name": "Lens",
+          "material": "Toughened Safety Glass — 3 mm",
+          "advantage": "Thermally toughened glass providing superior impact resistance and scratch resistance versus standard plastic safety lenses"
+        },
+        {
+          "name": "Temples",
+          "material": "Cellulose Acetate with flexible spring hinge",
+          "advantage": "Comfortable, secure retention — accommodates a wide range of head sizes"
+        },
+        {
+          "name": "Nose Bridge",
+          "material": "Integrated acetate bridge with contoured fit",
+          "advantage": "Stable, non-slip retention for all-day comfort"
+        }
+      ],
+      "industries": [
+        "Precision Manufacturing",
+        "Automotive",
+        "Aerospace",
+        "Engineering",
+        "Pharmaceuticals",
+        "Electronics Manufacturing",
+        "Laboratories"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "applications": [
+        "Precision engineering and machining environments",
+        "Quality control and inspection in manufacturing",
+        "Environments where lens scratch resistance is a priority",
+        "General industrial workshops",
+        "Grinding and chipping operations (secondary protection)"
+      ],
+      "usage": "OSWAL Boss Toughened Safety Spectacles are the choice for workers who prioritise optical precision and scratch durability. The thermally toughened glass lens delivers the superior scratch resistance and optical flatness characteristic of glass, all within a certified IS 5983 / 1980 safety spectacle frame.",
+      "lensOptions": "Toughened Clear Safety Glass — 3 mm",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 35 g"
+    },
+    "image": "/products/TOUGHEND.jpg",
+    "gallery": [
+      "/products/TOUGHEND.jpg",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "15",
+    "prodname": "Oswal Boss fitted with grey glasses",
+    "category": "Spectacle Frames",
+    "subtitle": "Fitted with Economy Lenses",
+    "description": "The Oswal Boss frame with economy lenses. Affordable, reliable eye protection for general industrial and factory environments.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Construction",
+        "Infrastructure",
+        "Oil & Gas Field Operations",
+        "Agriculture",
+        "Mining",
+        "Cement Plants",
+        "Outdoor Manufacturing"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Grey tinted toughened glass lens — neutral density reduces glare without colour distortion",
+        "3 mm safety glass thickness — IS 5983 / 1980 compliant impact resistance",
+        "Cellulose Acetate frame — premium, hypoallergenic, industrial-grade construction",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "100% UV protection",
+        "Ideal for bright industrial and outdoor working environments",
+        "OSWAL embossed marking for product authenticity"
+      ],
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Lightweight and dimensionally stable premium acetate frame"
+        },
+        {
+          "name": "Lens",
+          "material": "Grey Tinted Toughened Safety Glass — 3 mm",
+          "advantage": "Grey neutral-density tint reduces overall light intensity without distorting colour perception — ideal for bright outdoor and mixed-light industrial environments"
+        },
+        {
+          "name": "Temples",
+          "material": "Cellulose Acetate with spring hinge",
+          "advantage": "Comfortable all-day retention"
+        },
+        {
+          "name": "Nose Bridge",
+          "material": "Integrated acetate bridge",
+          "advantage": "Stable, comfortable fit"
+        }
+      ],
+      "applications": [
+        "Outdoor construction and infrastructure work",
+        "Welding auxiliary and grinding observation",
+        "High-luminance manufacturing environments",
+        "Site inspection and quality control outdoors",
+        "General industrial use in bright conditions"
+      ],
+      "usage": "OSWAL Boss fitted with grey glasses provides certified eye protection with glare management in bright environments. The grey-tinted toughened glass lens preserves true colour perception while reducing overall light intensity — the ideal safety spectacle for outdoor industrial workers and those in high-luminance workplaces.",
+      "lensOptions": "Grey Tinted Toughened Safety Glass — 3 mm",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 35 g"
+    },
+    "image": "/products/grey economy photo.png",
+    "gallery": [
+      "/products/grey economy photo.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "17",
+    "prodname": "Oswal Boss — Grey Economy Glasses",
+    "category": "Spectacle Frames",
+    "subtitle": "Grey Tinted Economy Lenses",
+    "description": "Oswal Boss fitted with grey tinted economy lenses. Reduces glare while providing standard impact protection. Ideal for outdoor and well-lit industrial environments.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Economy range: high-volume, cost-effective certified safety spectacles",
+        "Grey tinted polycarbonate lens for glare reduction",
+        "IS 5983 / 1980 certified and CLI Approved",
+        "100% UV protection",
+        "Lightweight design for comfortable all-day wear",
+        "Suitable for mass industrial PPE deployment in price-sensitive applications"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Durable ABS Plastic",
+          "advantage": "Cost-effective robust frame material — suitable for high-volume industrial distribution"
+        },
+        {
+          "name": "Lens",
+          "material": "Grey Tinted Polycarbonate — 3 mm",
+          "advantage": "Lightweight impact-resistant polycarbonate with grey tint for glare reduction in outdoor operations"
+        },
+        {
+          "name": "Temples",
+          "material": "ABS with standard hinge",
+          "advantage": "Standard fit with comfortable retention"
+        },
+        {
+          "name": "Nose Bridge",
+          "material": "Integrated fixed bridge",
+          "advantage": "Standard comfortable fit"
+        }
+      ],
+      "industries": [
+        "Construction",
+        "Infrastructure",
+        "Mining",
+        "Agriculture",
+        "Cement Plants",
+        "General Manufacturing"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "applications": [
+        "High-volume industrial PPE deployment",
+        "Outdoor construction site protection",
+        "Visitor safety eyewear for industrial facilities",
+        "General workshop safety in price-sensitive environments"
+      ],
+      "usage": "The OSWAL Boss Grey Economy Safety Spectacles deliver CLI-approved, IS 5983 / 1980 certified eye protection in a cost-optimised format. Ideal for mass PPE distribution in construction sites, visitor protection, and large-scale industrial environments where high volumes are required without compromising regulatory compliance.",
+      "lensOptions": "Grey Tinted Polycarbonate — 3 mm",
+      "opticalClass": "Class 1",
+      "glassThickness": "Polycarbonate 3 mm",
+      "weight": "Approx. 28 g"
+    },
+    "image": "/products/frame details.png",
+    "gallery": [
+      "/products/frame details.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "18",
+    "prodname": "Cup Type Safety Goggles",
+    "category": "Safety Goggles",
+    "subtitle": "Cup Frame — Full Enclosure",
+    "description": "Cup type safety goggles with full enclosure design. Provides all-around eye protection against dust, chips, and flying debris. Comfortable foam seal for secure fit.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Metal Fabrication",
+        "Woodworking",
+        "Mining",
+        "Chemical Processing",
+        "Automotive",
+        "Pharmaceuticals",
+        "Laboratories",
+        "Construction"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Classic deep-cup design — provides individual eye chambers for maximum close-up protection",
+        "High-impact polycarbonate or toughened glass lens for superior impact resistance",
+        "Indirect ventilation prevents fogging and blocks particulate and chemical splash",
+        "Flexible PVC body conforms to facial contours for a reliable peripheral seal",
+        "Compatible with prescription glasses — deep-cup design accommodates spectacle frames",
+        "100% UV protection",
+        "Embossed OSWAL marking for product authenticity"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Lens Cups",
+          "material": "High-impact Polycarbonate or Toughened Glass",
+          "advantage": "Deep-cup design provides superior peripheral protection and secure individual eye chambers"
+        },
+        {
+          "name": "Frame Body",
+          "material": "Flexible PVC",
+          "advantage": "Conformable to diverse facial structures — creates a reliable seal even during dynamic work"
+        },
+        {
+          "name": "Side Vents",
+          "material": "Indirect ventilation mesh",
+          "advantage": "Continuous airflow prevents fogging while blocking particles and splash"
+        },
+        {
+          "name": "Headband",
+          "material": "Adjustable elastic",
+          "advantage": "Secure fit across diverse head sizes"
+        }
+      ],
+      "applications": [
+        "General industrial eye protection against impact and particles",
+        "Chemical handling and splash risk environments",
+        "Metal grinding and cutting operations",
+        "Woodworking and carpentry",
+        "Laboratory operations requiring enclosed eye protection"
+      ],
+      "usage": "The OSWAL Cup Type Safety Goggle is the classic industrial eye protector. Its deep-cup polycarbonate or glass lens construction provides superior close-range protection against flying particles, chips, and chemical splash. The design accommodates prescription spectacles underneath.",
+      "lensOptions": "Clear Polycarbonate | Clear Toughened Glass",
+      "opticalClass": "Class 1",
+      "glassThickness": "Polycarbonate: 3 mm",
+      "weight": "Approx. 90 g"
+    },
+    "image": "/products/cup type.png"
+  },
+  {
+    "id": "19",
+    "prodname": "Box Type Flip-Up Welding Goggle",
+    "category": "Welding Goggles",
+    "subtitle": "Box Frame — Flip-Up Lens",
+    "description": "Box-type flip-up welding goggle. Sturdy box frame with a flip-up welding lens for convenience during inspection. Suitable for gas welding and cutting.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "General Fabrication",
+        "Maintenance & Repair",
+        "Automotive",
+        "Railways",
+        "Shipbuilding",
+        "Boilermaking",
+        "Metal Fabrication"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Box-type frame construction — maximum lateral and peripheral eye protection",
+        "Dual-lens flip-up system: shade lens flips over inner clear lens",
+        "Cellulose Acetate box frame — robust, chemical resistant, lightweight",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "Available in multiple shade options — specify DIN shade on order",
+        "Embossed OSWAL marking for product authenticity",
+        "Inner clear lens provides continuous protection when shade is flipped up"
+      ],
+      "opticalClass": "Class 1",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Outer Shade Lens",
+          "material": "Shade Filter Glass (specify shade on order)",
+          "advantage": "Filters welding radiation during active welding tasks"
+        },
+        {
+          "name": "Inner Clear Lens",
+          "material": "Clear Toughened Safety Glass",
+          "advantage": "Protects eyes from debris and spatter when the shade lens is flipped"
+        },
+        {
+          "name": "Box Frame Body",
+          "material": "Cellulose Acetate",
+          "advantage": "Robust box-style enclosure that provides superior lateral and peripheral eye protection vs standard frame goggles"
+        },
+        {
+          "name": "Flip Mechanism",
+          "material": "Robust stainless steel pivot",
+          "advantage": "Single-hand operable flip-up and lock mechanism"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Secure all-day retention"
+        }
+      ],
+      "applications": [
+        "Gas and electric arc welding in enclosed or cluttered workspaces",
+        "Grinding and welding combination tasks",
+        "Maintenance welding in tight spaces where maximum peripheral protection is required",
+        "Fabrication work alternating between welding and inspection tasks"
+      ],
+      "usage": "The OSWAL Box Type Flip-Up Goggle is engineered for environments where maximum peripheral protection is required alongside the convenience of flip-up shading. The box-frame construction eliminates the lateral exposure gaps characteristic of standard goggles, making it the ideal choice for enclosed fabrication and maintenance welding applications.",
+      "lensOptions": "Outer: Shade filter glass (DIN as specified) | Inner: Clear Toughened Glass",
+      "glassThickness": "3 mm per lens",
+      "weight": "Approx. 130 g"
+    },
+    "image": "/products/flip up.png",
+    "gallery": [
+      "/products/flip up.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "20",
+    "prodname": "Laser Welding Helmet",
+    "category": "Laser Protection",
+    "subtitle": "Auto-Darkening Laser Welding",
+    "description": "Laser welding helmet providing high-level protection against laser radiation. Auto-darkening filter ensures safe, clear vision during and between welding operations.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Electronics Manufacturing",
+        "Automotive",
+        "Medical Devices",
+        "Aerospace",
+        "Defence",
+        "Photonics & Research",
+        "Metal Processing (Laser)"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Full-face laser safety helmet — head, eye, and face protection in a single unit",
+        "Wavelength-specific laser filter visor — specify laser type on order",
+        "Optical Density (OD) rated to applicable safety standards",
+        "ABS or fibreglass shell for robust mechanical protection",
+        "Ratchet-adjust head harness for secure all-day fit",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "Essential for Class 3B and Class 4 laser environments"
+      ],
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Visor",
+          "material": "Laser-attenuating optical filter (specify wavelength on order)",
+          "advantage": "Engineered to attenuate specific laser wavelengths to safe exposure levels per the rated OD (Optical Density)"
+        },
+        {
+          "name": "Helmet Shell",
+          "material": "ABS / Fibreglass reinforced shell",
+          "advantage": "Robust full-head coverage that protects against both laser scatter and mechanical hazards"
+        },
+        {
+          "name": "Head Harness",
+          "material": "Adjustable ratchet suspension",
+          "advantage": "Comfortable, secure fit across all head sizes — appropriate for extended laser operations"
+        },
+        {
+          "name": "Chin Guard",
+          "material": "Integrated PC shield",
+          "advantage": "Additional lower-face protection from reflected laser scatter"
+        }
+      ],
+      "applications": [
+        "Laser welding operations (Nd:YAG, fibre, diode)",
+        "Laser cutting and material processing",
+        "Laser marking and engraving",
+        "Optical research and photonics laboratories",
+        "Medical device and electronics laser manufacturing"
+      ],
+      "usage": "The OSWAL Laser Welding Helmet provides comprehensive head-to-chin protection for operators of Class 3B and Class 4 laser systems. The wavelength-specific filter visor is rated to the appropriate Optical Density to reduce laser radiation to safe exposure levels. Must be specified with laser wavelength and class for correct filter selection.",
+      "lensOptions": "Laser filter visor — wavelength-specific (specify Nd:YAG, CO₂, Diode etc.)",
+      "opticalClass": "Class 1 (per laser wavelength OD rating)",
+      "weight": "Approx. 600 g"
+    },
+    "image": "/products/laser helmet.png"
+  },
+  {
+    "id": "21",
+    "prodname": "Oswal Over-The-Spectacle Goggles",
+    "category": "Safety Goggles",
+    "subtitle": "OTG — Fits Over Prescription Glasses",
+    "description": "Over-the-spectacle (OTG) goggles designed to fit comfortably over regular prescription glasses. Full side protection without compromising vision. For spectacle wearers.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980",
+        "EN 166",
+        "ANSI Z87.1"
+      ],
+      "industries": [
+        "Pharmaceuticals",
+        "Chemical Processing",
+        "Laboratories",
+        "Food & Beverage",
+        "Automotive",
+        "Electronics Manufacturing",
+        "Oil & Gas",
+        "Mining"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Engineered to be worn over most standard prescription and safety spectacles",
+        "Wide-profile lens and oversized frame eliminate protection gaps around prescription glasses",
+        "Indirect ventilation prevents fogging during over-glass wear",
+        "EN 166, ANSI Z87.1, IS 5983 / 1980, and CLI Approved",
+        "100% UV protection for the complete eye area",
+        "Flexible, skin-safe TPR frame — no pressure marks on spectacle arms",
+        "Suitable for pharmaceutical, chemical, and general industrial environments",
+        "Eliminates the need to remove and replace prescription glasses in hazardous areas"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Outer Goggle Lens",
+          "material": "High-impact Polycarbonate (PC)",
+          "advantage": "Wide-panoramic lens covers the entire spectacle frame including side lenses — no gap protection"
+        },
+        {
+          "name": "Frame",
+          "material": "Flexible Thermoplastic (TPR) — oversized OTS profile",
+          "advantage": "Engineered to comfortably sit over most standard spectacle frames without discomfort or pressure"
+        },
+        {
+          "name": "Ventilation System",
+          "material": "Indirect ventilation ports",
+          "advantage": "Fog-resistant airflow that prevents lens misting during over-glass wear"
+        },
+        {
+          "name": "Headband",
+          "material": "Adjustable elastic",
+          "advantage": "Secure fit without disturbing underlying spectacle frame"
+        }
+      ],
+      "applications": [
+        "Use by prescription spectacle wearers in chemical, industrial, and laboratory environments",
+        "Pharmaceutical manufacturing and filling operations",
+        "Chemical handling and laboratory work requiring sealed eye protection",
+        "General industrial PPE for spectacle-wearing workforce",
+        "Cleanroom and sterile processing environments"
+      ],
+      "usage": "OSWAL Over-The-Spectacle Goggles eliminate the safety compromise faced by prescription spectacle wearers in hazardous environments. The oversized profile ensures complete coverage over most spectacle frames, while the indirect ventilation and EN 166-certified polycarbonate lens deliver professional-grade protection without discomfort.",
+      "lensOptions": "Clear Polycarbonate — Anti-fog, 100% UV",
+      "opticalClass": "Class 1 (EN 166)",
+      "glassThickness": "Polycarbonate 3 mm",
+      "weight": "Approx. 90 g"
+    },
+    "image": "/products/safety 1st.png"
+  },
+  {
+    "id": "22",
+    "prodname": "Oswal Toughened Case",
+    "category": "Accessories",
+    "subtitle": "Hard Case for Safety Eyewear",
+    "description": "Durable toughened protective case for storing and transporting OSWAL safety goggles and spectacles. Protects lenses from scratches, dust and impact.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "All Industries — universal storage solution for OSWAL safety eyewear"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Hard ABS shell protects eyewear from crushing, impact, and environmental damage",
+        "Soft inner lining prevents lens and frame scratching in storage",
+        "Secure metal clasp for safe transport on site",
+        "Sized to accommodate most OSWAL safety spectacle and goggle frames",
+        "Maintains the condition and service life of premium safety eyewear",
+        "Embossed OSWAL branding"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Case Shell",
+          "material": "ABS Plastic — hard outer shell",
+          "advantage": "Rigid protection against crushing and impact — keeps eyewear safe during transport and storage"
+        },
+        {
+          "name": "Inner Lining",
+          "material": "Velvet / soft microfibre lining",
+          "advantage": "Prevents lens scratching during storage — keeps optical surfaces pristine"
+        },
+        {
+          "name": "Clasp",
+          "material": "Metal hinge and closure clasp",
+          "advantage": "Secure, reliable closure that prevents accidental opening during transport"
+        }
+      ],
+      "applications": [
+        "Storage and transport of OSWAL safety spectacles and goggles",
+        "Protection of prescription safety eyewear",
+        "Standard issue with OSWAL Boss and premium safety spectacle range",
+        "Field transport case for safety eyewear"
+      ],
+      "usage": "The OSWAL Toughened Case is a premium hard-shell storage and transport case designed to protect OSWAL safety spectacles and goggles from damage during storage, handling, and site transport. It maintains the optical and structural integrity of the eyewear, extending product service life and protecting the user's investment.",
+      "lensOptions": "N/A — storage and transport case",
+      "opticalClass": "N/A",
+      "weight": "Approx. 150 g"
+    },
+    "image": "/products/TOUGHEND.jpg",
+    "gallery": [
+      "/products/TOUGHEND.jpg"
+    ]
+  },
+  {
+    "id": "23",
+    "prodname": "Prescription Safety Goggles",
+    "category": "Safety Goggles",
+    "subtitle": "Custom Prescription Lenses",
+    "description": "Safety goggles fitted with custom prescription lenses. Workers who wear spectacles can have complete IS 5983 compliant eye protection without compromise.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Pharmaceuticals",
+        "Laboratories",
+        "Chemical Processing",
+        "Manufacturing",
+        "Construction",
+        "Oil & Gas",
+        "Mining",
+        "Automotive",
+        "Food & Beverage"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Prescription-corrected safety eyewear — no compromise between vision and protection",
+        "Cellulose Acetate or Nylon frame — lightweight, durable, skin-friendly",
+        "Impact-resistant polycarbonate or toughened glass safety lenses",
+        "Integrated side shields for peripheral protection",
+        "100% UV protection certified",
+        "Meets IS 5983 / 1980 and CLI Approved",
+        "Available in single vision, bifocal, and progressive lens types",
+        "Custom-fabricated to individual prescription — contact OSWAL for ordering"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Prescription Lens",
+          "material": "Optically corrected Polycarbonate or Toughened Glass",
+          "advantage": "Combines vision correction and industrial eye protection in a single certified product — eliminates the need for OTS goggles"
+        },
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate or Nylon (TR90)",
+          "advantage": "Lightweight, flexible, and chemically resistant — engineered for industrial use with integrated safety lens retention"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Integrated or detachable",
+          "advantage": "Provides peripheral protection to meet industrial safety standards"
+        },
+        {
+          "name": "Nose Pads",
+          "material": "Silicone or acetate",
+          "advantage": "Comfortable, non-slip retention during dynamic industrial tasks"
+        }
+      ],
+      "applications": [
+        "Workers requiring vision correction in industrial environments",
+        "Laboratory and cleanroom personnel",
+        "Chemical plant operators with prescription requirements",
+        "Field engineers in construction and infrastructure",
+        "Manufacturing quality control personnel"
+      ],
+      "usage": "OSWAL Prescription Safety Goggles are a custom-fabricated solution for workers who require vision correction without sacrificing certified eye protection. Each pair is produced to the individual's prescription specification and mounted in an IS 5983 / 1980 certified safety frame, combining optimal vision with professional-grade protection.",
+      "lensOptions": "Prescription-corrected Polycarbonate or Toughened Glass — clear or tinted",
+      "opticalClass": "As per prescription + Class 1 optical quality",
+      "glassThickness": "Minimum 3 mm (safety standard) — varies per prescription",
+      "weight": "Approx. 30–50 g (frame only)"
+    },
+    "image": "/products/cobalt bluee goggle.png"
+  },
+  {
+    "id": "24",
+    "prodname": "Laser Safety Goggles",
+    "category": "Laser Protection",
+    "subtitle": "High-OD Laser Eye Protection",
+    "description": "High optical density laser safety goggles providing protection against specific laser wavelengths. Essential for industrial laser cutting, engraving and medical laser environments.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Electronics Manufacturing",
+        "Medical Devices",
+        "Defence",
+        "Research & Development",
+        "Photonics",
+        "Aerospace"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Wavelength-specific laser attenuation — specify laser type and class for correct filter selection",
+        "Optical Density (OD) rated to applicable laser safety standards",
+        "Wrap-around frame construction eliminates peripheral scatter ingress",
+        "Lightweight design for extended precision laser work",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "Available for Nd:YAG, CO₂, Diode, Excimer, and other common laser types"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Lens",
+          "material": "Laser-attenuating filter glass or polycarbonate (wavelength-specific)",
+          "advantage": "Rated to attenuate specific laser wavelengths to safe levels per applicable OD standards"
+        },
+        {
+          "name": "Frame",
+          "material": "Flexible wrap-around nylon or ABS",
+          "advantage": "Wrap-around design prevents laser scatter ingress from any angle"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Solid or filtered side panels",
+          "advantage": "Comprehensive lateral protection against reflected and scattered laser radiation"
+        },
+        {
+          "name": "Headband / Temples",
+          "material": "Adjustable elastic or standard temples",
+          "advantage": "Secure fit during precision laser operations"
+        }
+      ],
+      "applications": [
+        "Laser welding and cutting (operator eyewear)",
+        "Laser marking and engraving",
+        "Medical laser procedures (non-patient)",
+        "Research laser laboratories",
+        "Photonics and optics manufacturing"
+      ],
+      "usage": "OSWAL Laser Safety Goggles are precision protective eyewear for operators of Class 3B and Class 4 laser systems. Each pair must be specified with the laser wavelength and output class to ensure the correct Optical Density filter is supplied. Contact OSWAL for wavelength-specific order guidance.",
+      "lensOptions": "Wavelength-specific laser filter (specify laser type: Nd:YAG, CO₂, Diode, etc.)",
+      "opticalClass": "Rated OD per wavelength",
+      "weight": "Approx. 60–90 g"
+    },
+    "image": "/products/cobalt bluee goggle.png"
+  },
+  {
+    "id": "german-welding-goggles",
+    "prodname": "German Welding Goggles",
+    "category": "Welding Goggles",
+    "image": "/products/46.png",
+    "description": "High quality German-style welding goggles available in shades 4, 5, 6, and 9.",
+    "hasShadeSelector": true,
+    "shades": [
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Premium acetate construction — heat-stable, chemical resistant, lightweight for all-day industrial wear"
+        },
+        {
+          "name": "Lens",
+          "material": "German Toughened Filter Glass (Shade 4/5/6/9)",
+          "advantage": "Precision optical glass manufactured to German quality standards — superior scratch resistance and optical flatness vs polycarbonate alternatives"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Cellulose Acetate with ventilation mesh",
+          "advantage": "Peripheral protection from sparks, spatter, and radiant light"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Adjustable, secure retention for industrial use"
+        }
+      ],
+      "keyFeatures": [
+        "German precision optical filter glass — superior quality and optical flatness",
+        "Available in Shade 4, 5, 6, and 9 — select shade from the product page",
+        "Frame material: Cellulose Acetate — hypoallergenic, heat-stable, industry standard",
+        "Glass Thickness: 3 mm (±0.2 mm) for all shades",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "Perforated side protection mesh for peripheral coverage",
+        "Adjustable side shields — open/closed position",
+        "Embossed OSWAL marking for product authenticity",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Gas Welding (Shade 4/5: up to and above 70 ltrs Acetylene/hour)",
+        "Flame Cutting (Shade 4/5: up to and above 900 ltrs Oxygen/hour)",
+        "Steel, Cast Iron, and Light Alloy Welding",
+        "Arc and MIG/TIG Welding (Shade 9)",
+        "Heavy structural and industrial fabrication"
+      ],
+      "industries": [
+        "Iron & Steel",
+        "Automotive",
+        "Shipbuilding",
+        "Heavy Engineering",
+        "Defense",
+        "Railways",
+        "Power Plants",
+        "Metal Fabrication",
+        "Boilermaking"
+      ],
+      "usage": "OSWAL German Welding Goggles represent the premium tier of the OSWAL welding protection range. Manufactured with precision German optical filter glass, these goggles deliver superior scratch resistance, optical flatness, and protection accuracy across Shades 4, 5, 6, and 9 — covering the full spectrum of gas and arc welding applications.",
+      "lensOptions": "Shade 4 | Shade 5 | Shade 6 | Shade 9 — German Toughened Filter Glass — 3 mm each",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 90–95 g"
+    },
+    "gallery": [
+      "/products/46.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  },
+  {
+    "id": "athermal-welding-goggles",
+    "prodname": "Athermal Welding Goggles",
+    "category": "Welding Goggles",
+    "image": "/products/51.png",
+    "description": "Premium Athermal-style welding goggles available in shades 2, 3, and 11.",
+    "hasShadeSelector": true,
+    "shades": [
+      "2",
+      "3",
+      "11"
+    ],
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate",
+          "advantage": "Dimensionally stable and chemically resistant industrial-grade frame"
+        },
+        {
+          "name": "Lens",
+          "material": "Athermal Toughened Filter Glass (Shade 2/3/11)",
+          "advantage": "Athermal glass selectively attenuates infrared radiation while providing excellent visible-light transmission — superior to standard tinted glass in low-to-high intensity applications"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Cellulose Acetate with ventilation mesh",
+          "advantage": "Peripheral protection from sparks and UV scatter"
+        },
+        {
+          "name": "Headband",
+          "material": "Elastic / Thread (confirm before order)",
+          "advantage": "Universal fit for extended industrial use"
+        }
+      ],
+      "keyFeatures": [
+        "Athermal filter glass: superior infrared attenuation with excellent visible-light clarity",
+        "Available in Shade 2, 3, and 11 — select shade from the product page",
+        "Frame material: Cellulose Acetate — heat-stable, hypoallergenic",
+        "Glass Thickness: 3 mm (±0.2 mm) for all shades",
+        "CLI Approved and IS 5983 / 1980 certified",
+        "Shade 2/3: athermal shades for light brazing, soldering, and gas welding",
+        "Shade 11: maximum athermal shade for high-amperage arc welding",
+        "Embossed OSWAL marking for product authenticity",
+        "Modification available: Thread or Elastic (confirm before supply)"
+      ],
+      "applications": [
+        "Light brazing and soldering (Shade 2/3)",
+        "Gas welding up to 70 ltrs Acetylene/hour (Shade 3)",
+        "High-amperage arc welding — heavy-duty operations (Shade 11)",
+        "Carbon arc gouging (Shade 11)",
+        "Industrial furnace observation tasks (Shade 2/3)"
+      ],
+      "industries": [
+        "General Fabrication",
+        "Steel Plants",
+        "Automotive",
+        "Plumbing & HVAC",
+        "Heavy Engineering",
+        "Aerospace",
+        "Defence Manufacturing"
+      ],
+      "usage": "OSWAL Athermal Welding Goggles provide the athermal optical advantage across three key shade levels: light brazing and soldering (Shade 2/3), and maximum-protection heavy arc welding (Shade 11). Athermal glass delivers superior infrared filtration and clarity versus conventional coloured glass.",
+      "lensOptions": "Shade 2 | Shade 3 | Shade 11 — Athermal Toughened Filter Glass — 3 mm each",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm (±0.2 mm tolerance)",
+      "weight": "Approx. 85–95 g"
+    },
+    "gallery": [
+      "/products/51.png",
+      "/products/oswal make.png",
+      "/products/oswal make 2.png"
+    ]
+  }
+]

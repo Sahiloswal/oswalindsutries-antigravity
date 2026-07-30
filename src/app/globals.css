@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Force white background always — no dark mode */
+:root {
+  --background: #ffffff;
+  --foreground: #333333;
+}
+
+html, body {
+  background: #ffffff !important;
+  color: #333333;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}

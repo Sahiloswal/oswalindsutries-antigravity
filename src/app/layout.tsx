@@ -46,6 +46,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/about" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
                 About Us
               </Link>
+              <Link href="/library" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
+                Library
+              </Link>
               <Link href="/#contact" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
                 Contact
               </Link>
@@ -89,6 +92,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                       <Link href="/products" className="hover:text-[#7AC142] transition-colors">{cat}</Link>
                     </li>
                   ))}
+                  <li>
+                    <Link href="/library" className="hover:text-[#7AC142] transition-colors font-bold text-[#7AC142]">Technical Library →</Link>
+                  </li>
                 </ul>
               </div>
               <div id="about">

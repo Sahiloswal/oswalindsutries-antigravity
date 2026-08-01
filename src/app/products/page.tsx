@@ -50,12 +50,16 @@ export default function ProductsPage() {
 
       // Search filter
       if (searchQuery.trim() !== '') {
-        const query = searchQuery.toLowerCase();
-        const matchesName = p.prodname?.toLowerCase().includes(query);
-        const matchesCat = p.category?.toLowerCase().includes(query);
-        const matchesDesc = p.description?.toLowerCase().includes(query);
-        const matchesInds = p.datasheet?.industries?.some((i: string) => i.toLowerCase().includes(query));
-        if (!matchesName && !matchesCat && !matchesDesc && !matchesInds) return false;
+        const keywords = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
+        const matchesAllKeywords = keywords.every(kw => {
+          const inName = p.prodname?.toLowerCase().includes(kw);
+          const inCat = p.category?.toLowerCase().includes(kw);
+          const inDesc = p.description?.toLowerCase().includes(kw);
+          const inShade = p.shade?.toLowerCase() === kw || p.shade?.toLowerCase().includes(kw);
+          const inInds = p.datasheet?.industries?.some((i: string) => i.toLowerCase().includes(kw));
+          return inName || inCat || inDesc || inShade || inInds;
+        });
+        if (!matchesAllKeywords) return false;
       }
 
       return true;
@@ -66,11 +70,12 @@ export default function ProductsPage() {
   const showBossCard = useMemo(() => {
     if (activeCategory !== 'All' && activeCategory !== 'Spectacle Frames') return false;
     
-    // Check if "Boss" matches search query
+    // Check if search keywords match "Boss" details
     if (searchQuery.trim() !== '') {
-      if (!'oswal boss spectacle frames'.includes(searchQuery.toLowerCase())) {
-        return false;
-      }
+      const keywords = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
+      const bossKeywords = 'oswal boss spectacle frames clear grey acetate';
+      const matchesAllKeywords = keywords.every(kw => bossKeywords.includes(kw));
+      if (!matchesAllKeywords) return false;
     }
 
     // Check industry filter for Boss

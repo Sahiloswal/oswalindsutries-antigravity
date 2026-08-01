@@ -239,7 +239,9 @@ export default function OswalBossPage() {
                 </div>
                 <div>
                   <p className="text-xs font-black uppercase tracking-widest text-gray-400 mb-1">Glass Thickness</p>
-                  <p className="text-base font-bold text-gray-800">3 mm (±0.2 mm)</p>
+                  <p className="text-base font-bold text-gray-800">
+                    {variant.tier.toLowerCase().includes('economy') ? '1 mm' : '3 mm (±0.2 mm)'}
+                  </p>
                 </div>
                 <div>
                   <p className="text-xs font-black uppercase tracking-widest text-gray-400 mb-1">Certification</p>

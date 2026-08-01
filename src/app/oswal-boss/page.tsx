@@ -17,7 +17,7 @@ const BOSS_FAMILIES = [
       {
         tier: 'Economy',
         label: 'Economy White Glass',
-        id: '3',
+        id: '16',
         tag: 'MOST POPULAR',
         tagColor: 'bg-[#7AC142]',
         lensType: 'Economy Clear Glass',

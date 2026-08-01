@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import LeadGenerationGate from '../../../components/LeadGenerationGate';
 
 export default function ProductPageClient({ product }: { product: any }) {
   const gallery: string[] = product.gallery && product.gallery.length > 0
@@ -170,13 +169,18 @@ export default function ProductPageClient({ product }: { product: any }) {
 
             {/* CTA Row */}
             <div className="flex items-center gap-4 flex-wrap">
-              {/* PDF Datasheet via Lead Gate */}
-              <div className="w-full md:w-auto">
-                <LeadGenerationGate 
-                  fileUrl={datasheetUrl} 
-                  fileName={`${product.prodname} Datasheet.pdf`} 
-                />
-              </div>
+              {/* PDF Datasheet */}
+              <Link
+                href={datasheetUrl}
+                target="_blank"
+                className="flex items-center gap-2 border-2 border-[#7AC142] text-[#7AC142] font-bold px-5 py-2.5 text-[12px] uppercase tracking-widest hover:bg-[#7AC142] hover:text-white transition-all duration-200"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                    d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                Download Datasheet
+              </Link>
 
               {/* Enquire */}
               <a

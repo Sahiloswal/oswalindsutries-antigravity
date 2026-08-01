@@ -1882,6 +1882,80 @@
     ]
   },
   {
+    "id": "16",
+    "prodname": "Oswal Boss — Clear Economy Glasses",
+    "category": "Spectacle Frames",
+    "subtitle": "Economy Clear Lenses",
+    "description": "Oswal Boss fitted with clear economy lenses. Cost-effective, reliable eye protection for general indoor industrial and factory environments.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "keyFeatures": [
+        "Economy range: high-volume, cost-effective certified safety spectacles",
+        "Clear glass lens for optimal transmission and clarity",
+        "IS 5983 / 1980 certified and CLI Approved",
+        "100% UV protection",
+        "Lightweight design for comfortable all-day wear",
+        "Suitable for mass industrial PPE deployment in price-sensitive applications"
+      ],
+      "components": [
+        {
+          "name": "Frame",
+          "material": "Durable ABS Plastic",
+          "advantage": "Cost-effective robust frame material — suitable for high-volume industrial distribution"
+        },
+        {
+          "name": "Lens",
+          "material": "Clear Economy Glass — 1 mm",
+          "advantage": "Lightweight impact-resistant glass with high optical clarity for indoor operations"
+        },
+        {
+          "name": "Temples",
+          "material": "ABS with standard hinge",
+          "advantage": "Standard fit with comfortable retention"
+        },
+        {
+          "name": "Nose Bridge",
+          "material": "Integrated fixed bridge",
+          "advantage": "Standard comfortable fit"
+        }
+      ],
+      "industries": [
+        "Construction",
+        "Infrastructure",
+        "Mining",
+        "Agriculture",
+        "Cement Plants",
+        "General Manufacturing"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "frameMaterial": "Cellulose Acetate",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "applications": [
+        "High-volume industrial PPE deployment",
+        "Indoor construction site protection",
+        "Visitor safety eyewear for industrial facilities",
+        "General workshop safety in price-sensitive environments"
+      ],
+      "usage": "The OSWAL Boss Clear Economy Safety Spectacles deliver CLI-approved, IS 5983 / 1980 certified eye protection in a cost-optimised format. Ideal for mass PPE distribution in construction sites, visitor protection, and large-scale industrial environments where high volumes are required without compromising regulatory compliance.",
+      "lensOptions": "Clear Economy Glass — 1 mm",
+      "opticalClass": "Class 1",
+      "glassThickness": "1 mm",
+      "weight": "Approx. 28 g"
+    },
+    "image": "/products/16/0 power.png",
+    "gallery": [
+      "/products/16/0 power.png",
+      "/products/16/oswal make.png",
+      "/products/16/oswal make 2.png"
+    ]
+  },
+  {
     "id": "17",
     "prodname": "Oswal Boss — Grey Economy Glasses",
     "category": "Spectacle Frames",

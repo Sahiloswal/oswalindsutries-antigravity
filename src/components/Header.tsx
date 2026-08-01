@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import LeadGenerationGate from './LeadGenerationGate';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -47,9 +48,16 @@ export default function Header() {
 
           {/* CTA & Mobile Toggle */}
           <div className="flex items-center gap-4">
+            <div className="hidden md:block">
+              <LeadGenerationGate 
+                fileUrl="/catalog" 
+                fileName="OSWAL Master Catalog"
+                buttonText="Download Catalog"
+              />
+            </div>
             <a
               href="mailto:oswaloptical@yahoo.co.in"
-              className="hidden md:inline-block bg-[#7AC142] text-white text-base font-bold uppercase px-8 py-4 rounded hover:bg-gray-800 transition-colors tracking-wider"
+              className="hidden md:inline-block border-2 border-gray-900 text-gray-900 text-base font-bold uppercase px-8 py-[14px] rounded hover:bg-gray-900 hover:text-white transition-all tracking-wider"
             >
               Request Quote
             </a>
@@ -86,6 +94,13 @@ export default function Header() {
             <Link href="/#contact" onClick={() => setMobileMenuOpen(false)} className="text-lg font-black uppercase text-gray-900 py-3 border-b border-gray-100">
               Contact
             </Link>
+            <div className="py-4 border-b border-gray-100">
+              <LeadGenerationGate 
+                fileUrl="/catalog" 
+                fileName="OSWAL Master Catalog"
+                buttonText="Download Catalog"
+              />
+            </div>
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col gap-2">
               <a href="mailto:oswaloptical@yahoo.co.in" className="text-sm font-bold text-[#7AC142]">📧 oswaloptical@yahoo.co.in</a>
               <a href="tel:+919535354312" className="text-sm font-bold text-gray-700">📞 +91 9535354312</a>

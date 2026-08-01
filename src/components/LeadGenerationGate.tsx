@@ -24,11 +24,16 @@ export default function LeadGenerationGate({ fileUrl, fileName, buttonText = 'Do
       const data = await response.json();
       if (data.success) {
         setStatus('success');
-        // Automatically trigger the download
-        const link = document.createElement('a');
-        link.href = fileUrl;
-        link.download = fileName;
-        link.click();
+        if (fileUrl.startsWith('/')) {
+          // If it's a page URL, open in a new tab
+          window.open(fileUrl, '_blank');
+        } else {
+          // Automatically trigger the download
+          const link = document.createElement('a');
+          link.href = fileUrl;
+          link.download = fileName;
+          link.click();
+        }
       } else {
         setStatus('error');
       }
@@ -66,10 +71,11 @@ export default function LeadGenerationGate({ fileUrl, fileName, buttonText = 'Do
                 <p className="text-gray-600 mb-6">Your download should start automatically. If it doesn't, click the button below.</p>
                 <a 
                   href={fileUrl}
-                  download={fileName}
+                  download={!fileUrl.startsWith('/') ? fileName : undefined}
+                  target={fileUrl.startsWith('/') ? '_blank' : undefined}
                   className="inline-block bg-[#7AC142] text-white font-bold px-6 py-3 uppercase tracking-wider text-sm hover:bg-gray-900 transition-colors"
                 >
-                  Download Manually
+                  {fileUrl.startsWith('/') ? 'Open Catalog' : 'Download Manually'}
                 </a>
               </div>
             ) : (

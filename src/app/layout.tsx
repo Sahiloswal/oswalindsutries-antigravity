@@ -3,6 +3,7 @@ import { Lato } from 'next/font/google';
 import './globals.css';
 import Link from 'next/link';
 import ClientMarquee from '../components/ClientMarquee';
+import Header from '../components/Header';
 
 const lato = Lato({ weight: ['400', '700', '900'], subsets: ['latin'], display: 'swap' });
 
@@ -16,53 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={`${lato.className} bg-white text-gray-800 flex flex-col min-h-screen`} style={{ background: '#fff' }}>
 
-        {/* ─── Top Bar ─── */}
-        <div className="print:hidden w-full bg-gray-100 border-b border-gray-200">
-          <div className="w-full px-8 xl:px-16 mx-auto py-2 flex justify-end items-center gap-6 text-sm text-gray-600 font-semibold">
-            <span>📧 oswaloptical@yahoo.co.in</span>
-            <span>📞 +91 9535354312</span>
-            <span>📍 Davanagere, Karnataka</span>
-          </div>
-        </div>
-
-        {/* ─── Main Header ─── */}
-        <header className="print:hidden w-full bg-white border-b border-gray-200 shadow-sm">
-          <div className="w-full px-8 xl:px-16 mx-auto flex items-center justify-between h-[90px]">
-
-            {/* Logo */}
-            <Link href="/" className="flex items-center gap-2" aria-label="OSWAL Industries Home">
-              <div className="flex flex-col leading-none">
-                <span className="text-[48px] font-black tracking-tighter text-gray-900 uppercase">OSWAL</span>
-                <span className="text-[14px] font-black tracking-[0.38em] text-[#7AC142] uppercase mt-1">Industries</span>
-                <span className="text-[12px] font-bold tracking-widest text-gray-500 uppercase mt-1">Since 1983</span>
-              </div>
-            </Link>
-
-            {/* Nav */}
-            <nav className="hidden md:flex items-center gap-10">
-              <Link href="/products" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
-                Products
-              </Link>
-              <Link href="/about" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
-                About Us
-              </Link>
-              <Link href="/library" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
-                Library
-              </Link>
-              <Link href="/#contact" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
-                Contact
-              </Link>
-            </nav>
-
-            {/* CTA */}
-            <a
-              href="mailto:oswaloptical@yahoo.co.in"
-              className="hidden md:inline-block bg-[#7AC142] text-white text-base font-bold uppercase px-8 py-4 rounded hover:bg-gray-800 transition-colors tracking-wider"
-            >
-              Request Quote
-            </a>
-          </div>
-        </header>
+        <Header />
 
         {/* ─── Main Content ─── */}
         <main className="flex-1 w-full print:p-0 print:m-0 bg-white">
@@ -135,6 +90,37 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </svg>
         </a>
 
+        {/* ─── Structured Data (SEO JSON-LD) ─── */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "OSWAL Industries",
+              "image": "https://www.oswalindustries.in/products/13/Oswal%20boss%20white.png",
+              "@id": "https://www.oswalindustries.in/#organization",
+              "url": "https://www.oswalindustries.in",
+              "telephone": "+919535354312",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Davanagere",
+                "addressLocality": "Davanagere",
+                "addressRegion": "Karnataka",
+                "postalCode": "577001",
+                "addressCountry": "IN"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919535354312",
+                "contactType": "sales",
+                "email": "oswaloptical@yahoo.co.in",
+                "areaServed": "IN",
+                "availableLanguage": ["en", "hi", "kn"]
+              }
+            })
+          }}
+        />
       </body>
     </html>
   );

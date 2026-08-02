@@ -74,8 +74,8 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-2/234 din.png",
-      "/products/welding-din-2/oswal make.png",
-      "/products/welding-din-2/oswal make 2.png"
+      "/products/welding-din-2/boss design .jpeg",
+      "/products/welding-din-2/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -152,8 +152,10 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-3/234 din.png",
+      "/products/welding-din-3/boss design .jpeg",
+      "/products/welding-din-3/oswal make 2.png",
       "/products/welding-din-3/oswal make.png",
-      "/products/welding-din-3/oswal make 2.png"
+      "/products/welding-din-3/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -236,8 +238,10 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-4/234 din.png",
+      "/products/welding-din-4/oswal make 2.png",
       "/products/welding-din-4/oswal make.png",
-      "/products/welding-din-4/oswal make 2.png"
+      "/products/welding-din-4/welding.jpeg",
+      "/products/welding-din-4/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -318,8 +322,11 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-5/234 din.png",
+      "/products/welding-din-5/boss design .jpeg",
+      "/products/welding-din-5/oswal make 2.png",
       "/products/welding-din-5/oswal make.png",
-      "/products/welding-din-5/oswal make 2.png"
+      "/products/welding-din-5/welding.jpeg",
+      "/products/welding-din-5/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -398,8 +405,11 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-6/234 din.png",
+      "/products/welding-din-6/boss design .jpeg",
+      "/products/welding-din-6/oswal make 2.png",
       "/products/welding-din-6/oswal make.png",
-      "/products/welding-din-6/oswal make 2.png"
+      "/products/welding-din-6/welding.jpeg",
+      "/products/welding-din-6/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -465,8 +475,11 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-7/234 din.png",
+      "/products/welding-din-7/boss design .jpeg",
+      "/products/welding-din-7/oswal make 2.png",
       "/products/welding-din-7/oswal make.png",
-      "/products/welding-din-7/oswal make 2.png"
+      "/products/welding-din-7/welding.jpeg",
+      "/products/welding-din-7/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -531,8 +544,10 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-8/234 din.png",
+      "/products/welding-din-8/boss design .jpeg",
+      "/products/welding-din-8/oswal make 2.png",
       "/products/welding-din-8/oswal make.png",
-      "/products/welding-din-8/oswal make 2.png"
+      "/products/welding-din-8/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -611,8 +626,10 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-9/234 din.png",
+      "/products/welding-din-9/boss design .jpeg",
+      "/products/welding-din-9/oswal make 2.png",
       "/products/welding-din-9/oswal make.png",
-      "/products/welding-din-9/oswal make 2.png"
+      "/products/welding-din-9/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -677,8 +694,10 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-10/234 din.png",
+      "/products/welding-din-10/boss design .jpeg",
+      "/products/welding-din-10/oswal make 2.png",
       "/products/welding-din-10/oswal make.png",
-      "/products/welding-din-10/oswal make 2.png"
+      "/products/welding-din-10/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -757,8 +776,10 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-11/234 din.png",
+      "/products/welding-din-11/boss design .jpeg",
+      "/products/welding-din-11/oswal make 2.png",
       "/products/welding-din-11/oswal make.png",
-      "/products/welding-din-11/oswal make 2.png"
+      "/products/welding-din-11/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -823,8 +844,10 @@
     "isSubProduct": true,
     "gallery": [
       "/products/welding-din-12/234 din.png",
+      "/products/welding-din-12/boss design .jpeg",
+      "/products/welding-din-12/oswal make 2.png",
       "/products/welding-din-12/oswal make.png",
-      "/products/welding-din-12/oswal make 2.png"
+      "/products/welding-din-12/Welding_filter_lenses_arranged_row_202608021552.png"
     ]
   },
   {
@@ -915,8 +938,8 @@
     ]
   },
   {
-    "id": "4",
-    "prodname": "Oswal Dual Face Shield for Furnace",
+    "id": "dual-face-shield-furnace-blue",
+    "prodname": "Oswal Dual Face Shield for Furnace - Blue",
     "category": "Smelter/Furnace Safety",
     "subtitle": "Dual Layer — Steel Plants & Foundries",
     "description": "Dual-layered furnace face shield. Outer aluminized visor reflects radiant heat; inner cobalt blue glass gives a clear, safe view of furnace interiors. For steel plants, foundries and smelters.",
@@ -991,16 +1014,99 @@
       "glassThickness": "Outer PC: 3 mm | Inner filter: 3 mm",
       "weight": "Approx. 450 g"
     },
-    "image": "/products/dual-face-shield-furnace/face shield.png",
+    "image": "/products/dual-face-shield-furnace-blue/dual face shield.jpeg",
     "gallery": [
-      "/products/dual-face-shield-furnace/face shield.png",
-      "/products/dual-face-shield-furnace/oswal make.png",
-      "/products/dual-face-shield-furnace/oswal make 2.png"
+      "/products/dual-face-shield-furnace-blue/dual face shield.jpeg",
+      "/products/dual-face-shield-furnace-blue/WhatsApp_Image_2026-08-01_at_11.40.57_202608012345.jpeg"
     ]
   },
   {
-    "id": "5",
-    "prodname": "Oswal Furnace Observation Shield",
+    "id": "dual-face-shield-furnace-green",
+    "prodname": "Oswal Dual Face Shield for Furnace - Green",
+    "category": "Smelter/Furnace Safety",
+    "subtitle": "Dual Layer — Steel Plants & Foundries",
+    "description": "Dual-layered furnace face shield. Outer aluminized visor reflects radiant heat; inner cobalt blue glass gives a clear, safe view of furnace interiors. For steel plants, foundries and smelters.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "highlights": [
+        "Heat Protection",
+        "Impact Protection",
+        "Industrial Use",
+        "Full Face Safety",
+        "Clear Visibility",
+        "Industrial Durability"
+      ],
+      "keyFeatures": [
+        "Dual-shield design: simultaneous facial, eye, and neck protection in a single unit",
+        "Full-face coverage from chin to forehead — eliminates exposure gaps",
+        "Outer shield guards against mechanical impact, spatter, and molten droplets",
+        "Inner cobalt/athermal filter lens attenuates infrared radiation from furnace openings",
+        "Temperature resistant construction for proximity to high-heat sources",
+        "Ratchet-adjust head harness for secure, hands-free operation",
+        "Approved for use in steel plants, smelters, and glass furnace environments"
+      ],
+      "applications": [
+        "Furnace tapping and charging operations",
+        "Molten metal pouring and casting",
+        "Proximity work near electric arc furnaces",
+        "High-radiant-heat industrial environments",
+        "Smelter maintenance and inspection tasks"
+      ],
+      "industries": [
+        "Iron & Steel",
+        "Non-Ferrous Smelting",
+        "Foundries",
+        "Glass Manufacturing",
+        "Aluminum Processing",
+        "Copper Smelting",
+        "Power Generation"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Outer Shield",
+          "material": "High-clarity Polycarbonate",
+          "advantage": "Broad-coverage impact and spatter protection — resists mechanical impact from falling debris"
+        },
+        {
+          "name": "Inner Visor",
+          "material": "Cobalt Blue / Aluminized filter lens",
+          "advantage": "Selectively filters intense infrared radiation and glare from furnace openings"
+        },
+        {
+          "name": "Head Harness",
+          "material": "Adjustable ratchet suspension",
+          "advantage": "Secure fit for extended operational periods; distributes weight evenly"
+        },
+        {
+          "name": "Frame",
+          "material": "Reinforced ABS with heat-resistant coating",
+          "advantage": "Lightweight yet robust — built for continuous use in high-heat environments"
+        }
+      ],
+      "usage": "Designed for operators who work in close proximity to furnaces, molten metal, and high-intensity thermal radiation sources. The dual-shield architecture ensures comprehensive face and eye protection in the most demanding smelter and foundry environments.",
+      "lensOptions": "Dual-layer: Outer clear PC + Inner Green filter",
+      "opticalClass": "Class 1",
+      "glassThickness": "Outer PC: 3 mm | Inner filter: 3 mm",
+      "weight": "Approx. 450 g"
+    },
+    "image": "/products/dual-face-shield-furnace-green/green 2- fs -01.jpeg",
+    "gallery": [
+      "/products/dual-face-shield-furnace-green/green 2- fs -01.jpeg",
+      "/products/dual-face-shield-furnace-green/green 2-fs.jpeg",
+      "/products/dual-face-shield-furnace-green/green dual face shield.jpeg"
+    ]
+  },
+  {
+    "id": "furnace-observation-shield-blue",
+    "prodname": "Oswal Furnace Observation Shield - Blue",
     "category": "Smelter/Furnace Safety",
     "subtitle": "Kiln & Furnace Inspection",
     "description": "Designed for observing furnace and kiln interiors. Protects against UV, IR and radiant heat while providing an undistorted view during furnace checks.",
@@ -1072,11 +1178,95 @@
       "glassThickness": "3 mm filter glass panel",
       "weight": "Approx. 400 g"
     },
-    "image": "/products/furnace-observation-shield/dual face shield.png",
+    "image": "/products/furnace-observation-shield-blue/fs 03.jpeg",
     "gallery": [
-      "/products/furnace-observation-shield/dual face shield.png",
-      "/products/furnace-observation-shield/oswal make.png",
-      "/products/furnace-observation-shield/oswal make 2.png"
+      "/products/furnace-observation-shield-blue/fs 03.jpeg",
+      "/products/furnace-observation-shield-blue/fs 04.jpeg",
+      "/products/furnace-observation-shield-blue/fs smelt 02.jpeg",
+      "/products/furnace-observation-shield-blue/furnace shield 101.jpeg"
+    ]
+  },
+  {
+    "id": "furnace-observation-shield-green",
+    "prodname": "Oswal Furnace Observation Shield - Green",
+    "category": "Smelter/Furnace Safety",
+    "subtitle": "Kiln & Furnace Inspection",
+    "description": "Designed for observing furnace and kiln interiors. Protects against UV, IR and radiant heat while providing an undistorted view during furnace checks.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "highlights": [
+        "Full Face Protection",
+        "Heat Resistant Construction",
+        "Universal Helmet Fit",
+        "Reinforced Structure"
+      ],
+      "keyFeatures": [
+        "Full-face coverage — provides simultaneous eye, face, and chin protection",
+        "Cobalt blue/athermal filter panel attenuates infrared and UV radiation from furnace openings",
+        "Temperature resistant frame for proximity operation near high-heat sources",
+        "Ratchet-adjust head harness for a secure, fatigue-free fit during extended use",
+        "Lightweight design to reduce neck fatigue in long-duration tasks",
+        "Embossed OSWAL marking for product authenticity"
+      ],
+      "applications": [
+        "Furnace observation and process monitoring",
+        "Smelting and casting inspection",
+        "Proximity operation near molten metal",
+        "Kiln operations in ceramic and glass industries",
+        "Monitoring of high-temperature industrial processes"
+      ],
+      "industries": [
+        "Steel Plants",
+        "Foundries",
+        "Glass Manufacturing",
+        "Ceramics",
+        "Aluminium Smelting",
+        "Cement Plants",
+        "Power Plants"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Face Shield Visor",
+          "material": "Aluminized / Cobalt Blue Filter Glass",
+          "advantage": "Full-face IR protection — reflects radiant heat while maintaining clear process visibility"
+        },
+        {
+          "name": "Head Harness",
+          "material": "Adjustable ratchet suspension",
+          "advantage": "Comfortable fit for long shifts; adjusts to all head sizes"
+        },
+        {
+          "name": "Shield Frame",
+          "material": "ABS plastic with heat-resistant coating",
+          "advantage": "Lightweight and robust construction for demanding environments"
+        },
+        {
+          "name": "Chin Guard",
+          "material": "Integrated polycarbonate",
+          "advantage": "Adds additional lower-face protection against spatter and radiant heat"
+        }
+      ],
+      "usage": "The OSWAL Furnace Observation Shield provides comprehensive facial protection for operators working in proximity to intense radiant heat. It replaces point-focus goggles with a full-face solution, ideal for sustained observation work near furnaces, kilns, and smelting operations.",
+      "lensOptions": "Green / Athermal Filter Glass — Full-face visor",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm filter glass panel",
+      "weight": "Approx. 400 g"
+    },
+    "image": "/products/furnace-observation-shield-green/green 01  (1).jpeg",
+    "gallery": [
+      "/products/furnace-observation-shield-green/green 01  (1).jpeg",
+      "/products/furnace-observation-shield-green/green 02.jpeg",
+      "/products/furnace-observation-shield-green/green 03.jpeg",
+      "/products/furnace-observation-shield-green/green 04.jpeg",
+      "/products/furnace-observation-shield-green/green 05.jpeg"
     ]
   },
   {
@@ -2534,7 +2724,7 @@
     "id": "german-welding-goggles",
     "prodname": "German Welding Goggles",
     "category": "Welding Goggles",
-    "image": "/products/46.png",
+    "image": "/products/german-welding-goggles/welding .jpeg",
     "description": "High quality German-style welding goggles available in shades 4, 5, 6, and 9.",
     "hasShadeSelector": true,
     "shades": [
@@ -2612,16 +2802,16 @@
       "weight": "Approx. 90–95 g"
     },
     "gallery": [
-      "/products/46.png",
-      "/products/german-welding-goggles/oswal make.png",
-      "/products/german-welding-goggles/oswal make 2.png"
+      "/products/german-welding-goggles/welding .jpeg",
+      "/products/german-welding-goggles/welding.jpeg",
+      "/products/german-welding-goggles/Welding_lenses_protect_eyes_visual_202608021709.jpeg"
     ]
   },
   {
     "id": "athermal-welding-goggles",
     "prodname": "Athermal Welding Goggles",
     "category": "Welding Goggles",
-    "image": "/products/athermal-welding-goggles/51.png",
+    "image": "/products/athermal-welding-goggles/11 din athermal.jpeg",
     "description": "Premium Athermal-style welding goggles available in shades 2, 3, and 11.",
     "hasShadeSelector": true,
     "shades": [
@@ -2696,9 +2886,79 @@
       "weight": "Approx. 85–95 g"
     },
     "gallery": [
-      "/products/athermal-welding-goggles/51.png",
-      "/products/athermal-welding-goggles/oswal make.png",
-      "/products/athermal-welding-goggles/oswal make 2.png"
+      "/products/athermal-welding-goggles/11 din athermal.jpeg",
+      "/products/athermal-welding-goggles/11 din.png"
+    ]
+  },
+  {
+    "id": "oswal-leather-supervisor",
+    "prodname": "OSWAL Smelter Supervisor Observation Shield",
+    "category": "Smelter/Furnace Safety",
+    "subtitle": "Heavy-Duty Leather Viewing Aid",
+    "description": "Specialized high-temperature viewing aid for supervisors and engineers inspecting furnaces and molten metal operations. Manufactured from heavy-duty heat-resistant leather, hand stitched for rigidity and durability.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "highlights": [
+        "Heat-resistant Leather",
+        "Hand Stitched",
+        "Replaceable Lenses",
+        "High Optical Clarity",
+        "Lightweight Ergonomic Design"
+      ],
+      "keyFeatures": [
+        "Overall Size: 195 × 80 mm",
+        "Viewing Holes: 2 × 55 mm diameter",
+        "Leather: Heat-resistant stiff leather, hand stitched",
+        "Lens: German Cobalt Blue Glass (standard); Optional German Green Glass",
+        "Lens Thickness: 3 mm / 4 mm / 5 mm",
+        "Exclusive product manufactured by Oswal Industries in India"
+      ],
+      "applications": [
+        "Furnace observation and process monitoring",
+        "Smelting and casting inspection",
+        "Proximity operation near molten metal",
+        "Monitoring of high-temperature industrial processes"
+      ],
+      "industries": [
+        "Steel plants",
+        "Foundries",
+        "Aluminium and copper smelters",
+        "Blast furnaces",
+        "Induction furnaces",
+        "Rolling mills",
+        "Glass plants and heat treatment facilities"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Shelf Life: Up to 36 months (recommended storage in original manufacturer cartons at ambient temperature 0°C to +30°C).",
+      "cleaning": "Clean the lens using a dry, lint-free soft cloth. Do not use solvents or abrasives.",
+      "impactResistance": "Yes (CLI Approved)",
+      "modifications": "German Green Glass (optional)",
+      "components": [
+        {
+          "name": "Body",
+          "material": "Heat-resistant stiff leather",
+          "advantage": "Rigid, durable, and highly heat-resistant"
+        },
+        {
+          "name": "Lenses",
+          "material": "German Cobalt Blue Glass (Standard)",
+          "advantage": "High optical clarity for inspecting molten metals"
+        }
+      ],
+      "usage": "Specialized viewing aid designed for supervisors and engineers inspecting high-temperature furnaces and molten metal operations.",
+      "lensOptions": "German Cobalt Blue Glass (standard); Optional German Green Glass",
+      "opticalClass": "Class 1",
+      "glassThickness": "3 mm / 4 mm / 5 mm",
+      "weight": "Lightweight"
+    },
+    "image": "/products/oswal-leather-supervisor/leater 1010.jpeg",
+    "gallery": [
+      "/products/oswal-leather-supervisor/leater 1010.jpeg",
+      "/products/oswal-leather-supervisor/leather 02.jpeg",
+      "/products/oswal-leather-supervisor/leather.jpeg"
     ]
   }
 ]

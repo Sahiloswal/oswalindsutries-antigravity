@@ -1,32 +1,31 @@
 const fs = require('fs');
+const path = require('path');
 
-const products = JSON.parse(fs.readFileSync('src/products.json', 'utf8'));
+const productsFile = path.join(__dirname, 'src', 'products.json');
+let products = JSON.parse(fs.readFileSync(productsFile, 'utf8'));
+
+const productsDir = path.join(__dirname, 'public', 'products');
 
 products.forEach(p => {
-  // 1. Relink toughened goggles
-  if (p.prodname.toLowerCase().includes('tough')) {
-    p.image = '/products/TOUGHEND.jpg';
-    if (!p.gallery) p.gallery = [];
-    if (!p.gallery.includes('/products/TOUGHEND.jpg')) {
-      p.gallery = ['/products/TOUGHEND.jpg', ...p.gallery.filter(img => img !== '/products/toughened case.png')];
+  const folderPath = path.join(productsDir, p.id);
+  
+  if (fs.existsSync(folderPath)) {
+    const files = fs.readdirSync(folderPath).filter(f => f.match(/\.(png|jpe?g)$/i));
+    if (files.length > 0) {
+      // Sort to have consistent main image if possible, or just pick first
+      // Some folders might have something like "boss design .jpeg" which is generic, 
+      // but let's just pick the first one that is NOT "boss design .jpeg" if possible
+      let mainFile = files.find(f => !f.toLowerCase().includes('boss design')) || files[0];
+      
+      p.image = `/products/${p.id}/${mainFile}`;
+      p.gallery = files.map(f => `/products/${p.id}/${f}`);
+    } else {
+      console.log(`No images found for ${p.id}`);
     }
-  }
-
-  // 2. Add oswal make 1 & 2 to welding goggles, spectacle frames, furnace goggles
-  const targetCategories = ['Welding Goggles', 'Spectacle Frames', 'Smelter/Furnace Safety'];
-  if (targetCategories.includes(p.category)) {
-    if (!p.gallery) {
-      p.gallery = [p.image]; // initialize gallery with main image if empty
-    }
-    const newImages = ['/products/oswal make.png', '/products/oswal make 2.png'];
-    
-    newImages.forEach(img => {
-      if (!p.gallery.includes(img)) {
-        p.gallery.push(img);
-      }
-    });
+  } else {
+    console.log(`Folder not found for ${p.id}`);
   }
 });
 
-fs.writeFileSync('src/products.json', JSON.stringify(products, null, 2));
-console.log('Successfully updated product images in products.json!');
+fs.writeFileSync(productsFile, JSON.stringify(products, null, 2));
+console.log("Updated images and galleries for all products based on folder contents.");

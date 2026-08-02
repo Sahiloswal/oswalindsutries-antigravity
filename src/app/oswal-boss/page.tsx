@@ -12,12 +12,12 @@ const BOSS_FAMILIES = [
     bg: 'bg-white',
     borderActive: 'border-[#7AC142]',
     description: 'The OSWAL Boss frame with clear lenses — three tiers to suit every deployment scale and budget. Same CLI-approved frame, different lens grades.',
-    image: '/products/0 power.png',
+    image: '/products/oswal-boss-toughened-glass/0 power is 5983.jpeg',
     variants: [
       {
         tier: 'Economy',
         label: 'Economy White Glass',
-        id: '16',
+        id: 'oswal-boss-clear-economy',
         tag: 'MOST POPULAR',
         tagColor: 'bg-[#7AC142]',
         lensType: 'Economy Clear Glass',
@@ -28,7 +28,7 @@ const BOSS_FAMILIES = [
       {
         tier: 'Zero Power',
         label: '0 Power Glass',
-        id: '13',
+        id: 'oswal-boss-zero-power',
         tag: 'RECOMMENDED',
         tagColor: 'bg-blue-600',
         lensType: 'Zero Power Optical Glass',
@@ -39,7 +39,7 @@ const BOSS_FAMILIES = [
       {
         tier: 'Toughened',
         label: 'Toughened 0 Power Glass',
-        id: '14',
+        id: 'oswal-boss-toughened-glass',
         tag: 'PREMIUM',
         tagColor: 'bg-gray-800',
         lensType: 'Toughened Zero Power Safety Glass',
@@ -57,12 +57,12 @@ const BOSS_FAMILIES = [
     bg: 'bg-gray-50',
     borderActive: 'border-gray-600',
     description: 'The OSWAL Boss frame with grey tinted lenses — reduces glare and eye strain in bright or outdoor industrial environments. Three lens tiers available.',
-    image: '/products/grey economy photo.png',
+    image: '/products/oswal-boss-grey-glasses/grey.jpeg',
     variants: [
       {
         tier: 'Economy',
         label: 'Economy Grey Glass',
-        id: '17',
+        id: 'oswal-boss-grey-economy',
         tag: 'MOST POPULAR',
         tagColor: 'bg-[#7AC142]',
         lensType: 'Economy Grey Tinted Glass',
@@ -73,7 +73,7 @@ const BOSS_FAMILIES = [
       {
         tier: 'Zero Power',
         label: '0 Power Grey Glass',
-        id: '15',
+        id: 'oswal-boss-grey-glasses',
         tag: 'RECOMMENDED',
         tagColor: 'bg-blue-600',
         lensType: 'Zero Power Grey Optical Glass',
@@ -84,7 +84,7 @@ const BOSS_FAMILIES = [
       {
         tier: 'Toughened Grey',
         label: 'Toughened Grey Glass',
-        id: '15',
+        id: 'oswal-boss-grey-glasses', // wait, is there a toughened grey glass?
         tag: 'PREMIUM',
         tagColor: 'bg-gray-800',
         lensType: 'Toughened Grey Safety Glass',

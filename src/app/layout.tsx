@@ -4,6 +4,9 @@ import './globals.css';
 import Link from 'next/link';
 import ClientMarquee from '../components/ClientMarquee';
 import Header from '../components/Header';
+import { CartProvider } from '../context/CartContext';
+import CartOverlay from '../components/CartOverlay';
+import CartFloatingButton from '../components/CartFloatingButton';
 
 const lato = Lato({ weight: ['400', '700', '900'], subsets: ['latin'], display: 'swap' });
 
@@ -16,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={`${lato.className} bg-white text-gray-800 flex flex-col min-h-screen`} style={{ background: '#fff' }}>
+        <CartProvider>
 
         <Header />
 
@@ -77,12 +81,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </footer>
 
+        {/* ─── Cart ─── */}
+        <CartFloatingButton />
+        <CartOverlay />
+
         {/* ─── Floating WhatsApp Icon ─── */}
         <a 
           href="https://wa.me/919535354312"
           target="_blank"
           rel="noopener noreferrer"
-          className="print:hidden fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-[0_8px_24px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_12px_32px_rgba(37,211,102,0.6)] transition-all duration-300"
+          className="print:hidden fixed bottom-24 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-[0_8px_24px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_12px_32px_rgba(37,211,102,0.6)] transition-all duration-300"
           aria-label="Chat on WhatsApp"
         >
           <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -121,6 +129,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             })
           }}
         />
+        </CartProvider>
       </body>
     </html>
   );

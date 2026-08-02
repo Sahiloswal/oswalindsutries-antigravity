@@ -1265,8 +1265,6 @@
     "gallery": [
       "/products/furnace-observation-shield-green/green 01  (1).jpeg",
       "/products/furnace-observation-shield-green/green 02.jpeg",
-      "/products/furnace-observation-shield-green/green 03.jpeg",
-      "/products/furnace-observation-shield-green/green 04.jpeg",
       "/products/furnace-observation-shield-green/green 05.jpeg"
     ]
   },
@@ -1840,8 +1838,10 @@
       "glassThickness": "Polycarbonate 3 mm",
       "weight": "Approx. 75 g"
     },
-    "image": "/products/supravision-black/supravision black.png",
+    "image": "/products/supravision-black/supra black 02.jpeg",
     "gallery": [
+      "/products/supravision-black/supra black 02.jpeg",
+      "/products/supravision-black/supra black.jpeg",
       "/products/supravision-black/supravision black.png"
     ]
   },
@@ -1916,11 +1916,11 @@
       "glassThickness": "3 mm (±0.2 mm tolerance)",
       "weight": "Approx. 30 g"
     },
-    "image": "/products/oswal-boss-zero-power/0 power is 5983.jpeg",
+    "image": "/products/oswal-boss-zero-power/0.png",
     "gallery": [
-      "/products/oswal-boss-zero-power/0 power is 5983.jpeg",
-      "/products/oswal-boss-zero-power/0 power.png",
-      "/products/oswal-boss-zero-power/boss design .jpeg"
+      "/products/oswal-boss-zero-power/0.png",
+      "/products/oswal-boss-zero-power/boss design .jpeg",
+      "/products/oswal-boss-zero-power/is5983.jpeg"
     ]
   },
   {
@@ -2072,8 +2072,8 @@
     },
     "image": "/products/oswal-boss-grey-glasses/grey.jpeg",
     "gallery": [
-      "/products/oswal-boss-grey-glasses/boss design .jpeg",
-      "/products/oswal-boss-grey-glasses/grey.jpeg"
+      "/products/oswal-boss-grey-glasses/grey.jpeg",
+      "/products/oswal-boss-grey-glasses/zboss design.jpeg"
     ]
   },
   {
@@ -2217,11 +2217,10 @@
       "glassThickness": "1 mm",
       "weight": "Approx. 28 g"
     },
-    "image": "/products/oswal-boss-grey-economy/frame details.png",
+    "image": "/products/oswal-boss-grey-economy/grey.jpeg",
     "gallery": [
-      "/products/oswal-boss-grey-economy/boss design .jpeg",
-      "/products/oswal-boss-grey-economy/frame details.png",
-      "/products/oswal-boss-grey-economy/grey.jpeg"
+      "/products/oswal-boss-grey-economy/grey.jpeg",
+      "/products/oswal-boss-grey-economy/zboss design.jpeg"
     ]
   },
   {
@@ -2747,7 +2746,7 @@
     "id": "german-welding-goggles",
     "prodname": "German Welding Goggles",
     "category": "Welding Goggles",
-    "image": "/products/german-welding-goggles/welding .jpeg",
+    "image": "/products/german-welding-goggles/01.jpeg",
     "description": "High quality German-style welding goggles available in shades 4, 5, 6, and 9.",
     "hasShadeSelector": true,
     "shades": [
@@ -2825,8 +2824,8 @@
       "weight": "Approx. 90–95 g"
     },
     "gallery": [
+      "/products/german-welding-goggles/01.jpeg",
       "/products/german-welding-goggles/welding .jpeg",
-      "/products/german-welding-goggles/welding.jpeg",
       "/products/german-welding-goggles/Welding_lenses_protect_eyes_visual_202608021709.jpeg"
     ]
   },

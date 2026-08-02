@@ -1,27 +1,49 @@
 @media print {
   @page {
     size: A4;
-    margin: 1.5cm;
+    margin: 1.2cm 1.5cm;
   }
-  
+
   html, body {
     margin: 0;
     padding: 0;
     width: 210mm;
-    height: 297mm;
     background-color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
-  
-  .page-break {
-    page-break-after: always;
-    break-after: page;
-  }
-  
+
+  /* Hide on-screen only elements */
   .no-print {
     display: none !important;
   }
+
+  /* Prevent any individual product card from being split across pages */
+  .catalog-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Keep the catalog header together */
+  .catalog-header {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Grid: force 4 columns for print */
+  .catalog-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 0.6cm !important;
+  }
+
+  /* Ensure images are visible in PDF */
+  img {
+    max-width: 100% !important;
+  }
 }
 
+/* Screen only — page-break divider styling */
 .page-break {
   border-bottom: 2px dashed #e2e8f0;
   padding-bottom: 3rem;
@@ -33,5 +55,7 @@
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
+    page-break-after: always;
+    break-after: page;
   }
 }

@@ -21,7 +21,7 @@ export default function CatalogPage() {
       <div className="mx-auto max-w-[1100px] px-6 py-10 print:px-[1cm] print:py-[1cm] print:max-w-none">
 
         {/* ── Cover Header ── */}
-        <div className="text-center mb-10 pb-8 border-b-2 border-gray-200">
+        <div className="catalog-header text-center mb-10 pb-8 border-b-2 border-gray-200">
           <p className="text-[11px] font-bold tracking-[0.35em] text-[#7AC142] uppercase mb-2">Industrial Safety Eyewear Since 1983</p>
           <h1 className="text-[56px] font-black tracking-tighter text-gray-900 leading-none">OSWAL</h1>
           <p className="text-sm font-bold tracking-[0.5em] text-gray-400 uppercase mt-1 mb-4">INDUSTRIES</p>
@@ -37,7 +37,7 @@ export default function CatalogPage() {
         </div>
 
         {/* ── Product Grid ── */}
-        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 print:grid-cols-4 print:gap-4">
+        <div className="catalog-grid grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 print:grid-cols-4 print:gap-4">
           {catalogProducts.map((p, index) => {
             const serialNumber = String(index + 1).padStart(2, '0');
             const certs = p.datasheet?.certifications ?? ['CLI Approved'];
@@ -45,7 +45,7 @@ export default function CatalogPage() {
             return (
               <div
                 key={p.id}
-                className="bg-white border border-gray-200 flex flex-col hover:shadow-lg hover:border-gray-400 transition-all duration-200 group relative"
+                className="catalog-card bg-white border border-gray-200 flex flex-col hover:shadow-lg hover:border-gray-400 transition-all duration-200 group relative"
               >
                 {/* Serial Badge */}
                 <div className="absolute top-2 left-2 bg-gray-900 text-white text-[10px] font-black px-2 py-0.5 z-10 tracking-widest">
@@ -80,7 +80,9 @@ export default function CatalogPage() {
                       </span>
                     ))}
                   </div>
-                  <AddToCartButton id={p.id} prodname={p.prodname} />
+                  <div className="no-print">
+                    <AddToCartButton id={p.id} prodname={p.prodname} />
+                  </div>
                 </div>
               </div>
             );

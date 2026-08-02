@@ -851,7 +851,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "furnace-observation-goggles",
     "prodname": "Furnace Observation Goggles",
     "category": "Smelter/Furnace Safety",
     "subtitle": "Cobalt Blue Glass — Heat & IR Protection",
@@ -930,11 +930,12 @@
       "glassThickness": "3 mm (±0.2 mm tolerance)",
       "weight": "Approx. 120 g"
     },
-    "image": "/products/furnace-observation-goggles/cobalt bluee goggle.png",
+    "image": "/products/furnace-observation-goggles/cb blue.jpeg",
     "gallery": [
+      "/products/furnace-observation-goggles/cb blue.jpeg",
       "/products/furnace-observation-goggles/cobalt bluee goggle.png",
-      "/products/furnace-observation-goggles/oswal make.png",
-      "/products/furnace-observation-goggles/oswal make 2.png"
+      "/products/furnace-observation-goggles/oswal make 2.png",
+      "/products/furnace-observation-goggles/oswal make.png"
     ]
   },
   {
@@ -1270,7 +1271,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "smelter-helmet-attachment",
     "prodname": "Oswal Smelter — Helmet Attachment",
     "category": "Smelter/Furnace Safety",
     "subtitle": "Cobalt Blue Helmet Attachment",
@@ -1345,13 +1346,11 @@
     },
     "image": "/products/smelter-helmet-attachment/helmet attachment.png",
     "gallery": [
-      "/products/smelter-helmet-attachment/helmet attachment.png",
-      "/products/smelter-helmet-attachment/oswal make.png",
-      "/products/smelter-helmet-attachment/oswal make 2.png"
+      "/products/smelter-helmet-attachment/helmet attachment.png"
     ]
   },
   {
-    "id": "7",
+    "id": "super-flip-up-welding-goggle",
     "prodname": "Oswal Super Flip-Up Welding Goggle",
     "category": "Welding Goggles",
     "shade": "8",
@@ -1429,15 +1428,15 @@
       "glassThickness": "3 mm each lens (outer shade + inner clear)",
       "weight": "Approx. 120 g"
     },
-    "image": "/products/super-flip-up-welding-goggle/flip up.png",
+    "image": "/products/super-flip-up-welding-goggle/fliip up 1011.jpeg",
     "gallery": [
-      "/products/super-flip-up-welding-goggle/flip up.png",
-      "/products/super-flip-up-welding-goggle/oswal make.png",
-      "/products/super-flip-up-welding-goggle/oswal make 2.png"
+      "/products/super-flip-up-welding-goggle/fliip up 1011.jpeg",
+      "/products/super-flip-up-welding-goggle/flip up boss.jpeg",
+      "/products/super-flip-up-welding-goggle/fu 02.jpeg"
     ]
   },
   {
-    "id": "8",
+    "id": "chemical-splash-ultraview-goggles",
     "prodname": "Chemical Splash Ultraview Goggles",
     "category": "Chemical Splash Goggles",
     "subtitle": "Full Seal — Anti-Fog Indirect Vent",
@@ -1526,7 +1525,7 @@
     ]
   },
   {
-    "id": "9",
+    "id": "ultravision-heat-resistant-goggles",
     "prodname": "Ultravision Heat Resistant Impact Goggles",
     "category": "Safety Goggles",
     "subtitle": "Heat Resistant — Wide Vision",
@@ -1598,10 +1597,13 @@
       "glassThickness": "Polycarbonate 3 mm",
       "weight": "Approx. 80 g"
     },
-    "image": "/products/ultravision-heat-resistant-goggles/ultravision.png"
+    "image": "/products/ultravision-heat-resistant-goggles/ultravision.png",
+    "gallery": [
+      "/products/ultravision-heat-resistant-goggles/ultravision.png"
+    ]
   },
   {
-    "id": "10",
+    "id": "peep-hole-cobalt-blue-glass",
     "prodname": "Oswal Peep Hole Cobalt Blue Glass",
     "category": "Smelter/Furnace Safety",
     "subtitle": "Cobalt Blue Observation Glass",
@@ -1669,13 +1671,11 @@
     },
     "image": "/products/peep-hole-cobalt-blue-glass/peephole glass.png",
     "gallery": [
-      "/products/peep-hole-cobalt-blue-glass/peephole glass.png",
-      "/products/peep-hole-cobalt-blue-glass/oswal make.png",
-      "/products/peep-hole-cobalt-blue-glass/oswal make 2.png"
+      "/products/peep-hole-cobalt-blue-glass/peephole glass.png"
     ]
   },
   {
-    "id": "11",
+    "id": "supravision-white",
     "prodname": "Oswal Supravision White",
     "category": "Safety Goggles",
     "subtitle": "Clear Lens for General Protection & Indoor Use",
@@ -1756,10 +1756,13 @@
       "glassThickness": "Polycarbonate 3 mm",
       "weight": "Approx. 75 g"
     },
-    "image": "/products/supravision-white/supravision white.png"
+    "image": "/products/supravision-white/supravision white.png",
+    "gallery": [
+      "/products/supravision-white/supravision white.png"
+    ]
   },
   {
-    "id": "12",
+    "id": "supravision-black",
     "prodname": "Supravision Black",
     "category": "Safety Goggles",
     "subtitle": "Smoke Grey Lens for Glare Reduction & Outdoor Protection",
@@ -1837,10 +1840,13 @@
       "glassThickness": "Polycarbonate 3 mm",
       "weight": "Approx. 75 g"
     },
-    "image": "/products/supravision-black/supravision black.png"
+    "image": "/products/supravision-black/supravision black.png",
+    "gallery": [
+      "/products/supravision-black/supravision black.png"
+    ]
   },
   {
-    "id": "13",
+    "id": "oswal-boss-zero-power",
     "prodname": "Oswal Boss — Zero Power Glass",
     "category": "Spectacle Frames",
     "subtitle": "Fitted with 0-Power Optical Lenses",
@@ -1910,15 +1916,15 @@
       "glassThickness": "3 mm (±0.2 mm tolerance)",
       "weight": "Approx. 30 g"
     },
-    "image": "/products/oswal-boss-zero-power/0 power.png",
+    "image": "/products/oswal-boss-zero-power/0 power is 5983.jpeg",
     "gallery": [
+      "/products/oswal-boss-zero-power/0 power is 5983.jpeg",
       "/products/oswal-boss-zero-power/0 power.png",
-      "/products/oswal-boss-zero-power/oswal make.png",
-      "/products/oswal-boss-zero-power/oswal make 2.png"
+      "/products/oswal-boss-zero-power/boss design .jpeg"
     ]
   },
   {
-    "id": "14",
+    "id": "oswal-boss-toughened-glass",
     "prodname": "Oswal Boss — Toughened Glass",
     "category": "Spectacle Frames",
     "subtitle": "Fitted with Toughened Glass Lenses",
@@ -1987,15 +1993,15 @@
       "glassThickness": "3 mm (±0.2 mm tolerance)",
       "weight": "Approx. 35 g"
     },
-    "image": "/products/oswal-boss-toughened-glass/TOUGHEND.jpg",
+    "image": "/products/oswal-boss-toughened-glass/0 power is 5983.jpeg",
     "gallery": [
-      "/products/oswal-boss-toughened-glass/TOUGHEND.jpg",
-      "/products/oswal-boss-toughened-glass/oswal make.png",
-      "/products/oswal-boss-toughened-glass/oswal make 2.png"
+      "/products/oswal-boss-toughened-glass/0 power is 5983.jpeg",
+      "/products/oswal-boss-toughened-glass/boss design .jpeg",
+      "/products/oswal-boss-toughened-glass/TOUGHEND.jpg"
     ]
   },
   {
-    "id": "15",
+    "id": "oswal-boss-grey-glasses",
     "prodname": "Oswal Boss fitted with grey glasses",
     "category": "Spectacle Frames",
     "subtitle": "Fitted with Economy Lenses",
@@ -2064,15 +2070,14 @@
       "glassThickness": "3 mm (±0.2 mm tolerance)",
       "weight": "Approx. 35 g"
     },
-    "image": "/products/grey economy photo.png",
+    "image": "/products/oswal-boss-grey-glasses/grey.jpeg",
     "gallery": [
-      "/products/grey economy photo.png",
-      "/products/oswal-boss-grey-glasses/oswal make.png",
-      "/products/oswal-boss-grey-glasses/oswal make 2.png"
+      "/products/oswal-boss-grey-glasses/boss design .jpeg",
+      "/products/oswal-boss-grey-glasses/grey.jpeg"
     ]
   },
   {
-    "id": "16",
+    "id": "oswal-boss-clear-economy",
     "prodname": "Oswal Boss — Clear Economy Glasses",
     "category": "Spectacle Frames",
     "subtitle": "Economy Clear Lenses",
@@ -2141,12 +2146,12 @@
     "image": "/products/oswal-boss-clear-economy/0 power.png",
     "gallery": [
       "/products/oswal-boss-clear-economy/0 power.png",
-      "/products/oswal-boss-clear-economy/oswal make.png",
-      "/products/oswal-boss-clear-economy/oswal make 2.png"
+      "/products/oswal-boss-clear-economy/boss design .jpeg",
+      "/products/oswal-boss-clear-economy/eco.jpeg"
     ]
   },
   {
-    "id": "17",
+    "id": "oswal-boss-grey-economy",
     "prodname": "Oswal Boss — Grey Economy Glasses",
     "category": "Spectacle Frames",
     "subtitle": "Grey Tinted Economy Lenses",
@@ -2214,13 +2219,13 @@
     },
     "image": "/products/oswal-boss-grey-economy/frame details.png",
     "gallery": [
+      "/products/oswal-boss-grey-economy/boss design .jpeg",
       "/products/oswal-boss-grey-economy/frame details.png",
-      "/products/oswal-boss-grey-economy/oswal make.png",
-      "/products/oswal-boss-grey-economy/oswal make 2.png"
+      "/products/oswal-boss-grey-economy/grey.jpeg"
     ]
   },
   {
-    "id": "18",
+    "id": "cup-type-safety-goggles",
     "prodname": "Cup Type Safety Goggles",
     "category": "Safety Goggles",
     "subtitle": "Cup Frame — Full Enclosure",
@@ -2289,10 +2294,13 @@
       "glassThickness": "Polycarbonate: 3 mm",
       "weight": "Approx. 90 g"
     },
-    "image": "/products/cup-type-safety-goggles/cup type.png"
+    "image": "/products/cup-type-safety-goggles/cup type.png",
+    "gallery": [
+      "/products/cup-type-safety-goggles/cup type.png"
+    ]
   },
   {
-    "id": "19",
+    "id": "box-type-flip-up-goggle",
     "prodname": "Box Type Flip-Up Welding Goggle",
     "category": "Welding Goggles",
     "subtitle": "Box Frame — Flip-Up Lens",
@@ -2365,15 +2373,19 @@
       "glassThickness": "3 mm per lens",
       "weight": "Approx. 130 g"
     },
-    "image": "/products/box-type-flip-up-goggle/flip up.png",
+    "image": "/products/box-type-flip-up-goggle/412iQl+TwGL._SL1000_.jpg",
     "gallery": [
-      "/products/box-type-flip-up-goggle/flip up.png",
-      "/products/box-type-flip-up-goggle/oswal make.png",
-      "/products/box-type-flip-up-goggle/oswal make 2.png"
+      "/products/box-type-flip-up-goggle/412iQl+TwGL._SL1000_.jpg",
+      "/products/box-type-flip-up-goggle/414lSjugHeL._SX522_.jpg",
+      "/products/box-type-flip-up-goggle/41Cpwuhk+BL._SX522_.jpg",
+      "/products/box-type-flip-up-goggle/41qwE5+Mp8L.jpg",
+      "/products/box-type-flip-up-goggle/41Tx1YKXG0L.jpg",
+      "/products/box-type-flip-up-goggle/bix type.jpg",
+      "/products/box-type-flip-up-goggle/bt2.jpg"
     ]
   },
   {
-    "id": "20",
+    "id": "laser-welding-helmet",
     "prodname": "Laser Welding Helmet",
     "category": "Laser Protection",
     "subtitle": "Auto-Darkening Laser Welding",
@@ -2441,10 +2453,13 @@
       "opticalClass": "Class 1 (per laser wavelength OD rating)",
       "weight": "Approx. 600 g"
     },
-    "image": "/products/laser-welding-helmet/laser helmet.png"
+    "image": "/products/laser-welding-helmet/laser helmet.png",
+    "gallery": [
+      "/products/laser-welding-helmet/laser helmet.png"
+    ]
   },
   {
-    "id": "21",
+    "id": "over-spectacle-goggles",
     "prodname": "Oswal Over-The-Spectacle Goggles",
     "category": "Safety Goggles",
     "subtitle": "OTG — Fits Over Prescription Glasses",
@@ -2516,10 +2531,15 @@
       "glassThickness": "Polycarbonate 3 mm",
       "weight": "Approx. 90 g"
     },
-    "image": "/products/over-spectacle-goggles/safety 1st.png"
+    "image": "/products/over-spectacle-goggles/safety 1 01.jpeg",
+    "gallery": [
+      "/products/over-spectacle-goggles/safety 1 01.jpeg",
+      "/products/over-spectacle-goggles/safety 1 02.jpeg",
+      "/products/over-spectacle-goggles/safety 1st.png"
+    ]
   },
   {
-    "id": "22",
+    "id": "toughened-case",
     "prodname": "Oswal Toughened Case",
     "category": "Accessories",
     "subtitle": "Hard Case for Safety Eyewear",
@@ -2573,13 +2593,13 @@
       "opticalClass": "N/A",
       "weight": "Approx. 150 g"
     },
-    "image": "/products/toughened-case/TOUGHEND.jpg",
+    "image": "/products/toughened-case/case.jpeg",
     "gallery": [
-      "/products/toughened-case/TOUGHEND.jpg"
+      "/products/toughened-case/case.jpeg"
     ]
   },
   {
-    "id": "23",
+    "id": "prescription-safety-goggles",
     "prodname": "Prescription Safety Goggles",
     "category": "Safety Goggles",
     "subtitle": "Custom Prescription Lenses",
@@ -2653,7 +2673,7 @@
     "image": "/products/prescription-safety-goggles/cobalt bluee goggle.png"
   },
   {
-    "id": "24",
+    "id": "laser-safety-goggles",
     "prodname": "Laser Safety Goggles",
     "category": "Laser Protection",
     "subtitle": "High-OD Laser Eye Protection",
@@ -2718,7 +2738,10 @@
       "opticalClass": "Rated OD per wavelength",
       "weight": "Approx. 60–90 g"
     },
-    "image": "/products/laser-safety-goggles/cobalt bluee goggle.png"
+    "image": "/products/laser-safety-goggles/cobalt bluee goggle.png",
+    "gallery": [
+      "/products/laser-safety-goggles/cobalt bluee goggle.png"
+    ]
   },
   {
     "id": "german-welding-goggles",

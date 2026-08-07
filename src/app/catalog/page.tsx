@@ -15,10 +15,15 @@ export default function CatalogPage() {
           <h1 className="text-base font-black uppercase text-gray-800 tracking-tight">OSWAL Master Catalog</h1>
           <p className="text-[11px] text-gray-500">{catalogProducts.length} products — Print or save as PDF</p>
         </div>
-        <PrintButton />
+        <PrintButton 
+          elementId="catalog-container" 
+          filename="OSWAL_Master_Catalog.pdf" 
+          label="Download PDF" 
+          className="bg-gray-800 hover:bg-black text-white px-5 py-2 rounded-lg shadow-sm print:hidden transition-colors flex items-center gap-2 font-bold text-[11px] uppercase tracking-wide"
+        />
       </div>
 
-      <div className="mx-auto max-w-[1100px] px-6 py-10 print:px-[1cm] print:py-[1cm] print:max-w-none">
+      <div id="catalog-container" className="mx-auto max-w-[1100px] px-6 py-10 print:px-[1cm] print:py-[1cm] print:max-w-none bg-white">
 
         {/* ── Cover Header ── */}
         <div className="catalog-header text-center mb-10 pb-8 border-b-2 border-gray-200">
@@ -37,7 +42,7 @@ export default function CatalogPage() {
         </div>
 
         {/* ── Product Grid ── */}
-        <div className="catalog-grid grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 print:grid-cols-4 print:gap-4">
+        <div id="catalog-content" className="catalog-grid grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-12 print:grid-cols-4 print:gap-x-6 print:gap-y-10">
           {catalogProducts.map((p, index) => {
             const serialNumber = String(index + 1).padStart(2, '0');
             const certs = p.datasheet?.certifications ?? ['CLI Approved'];
@@ -45,42 +50,43 @@ export default function CatalogPage() {
             return (
               <div
                 key={p.id}
-                className="catalog-card bg-white border border-gray-200 flex flex-col hover:shadow-lg hover:border-gray-400 transition-all duration-200 group relative"
+                className="catalog-card flex flex-col group relative bg-white"
               >
-                {/* Serial Badge */}
-                <div className="absolute top-2 left-2 bg-gray-900 text-white text-[10px] font-black px-2 py-0.5 z-10 tracking-widest">
-                  {serialNumber}
-                </div>
-
-                {/* Image */}
-                <div className="bg-gray-50 flex items-center justify-center overflow-hidden" style={{ height: '200px' }}>
+                {/* Image Area - Clean White Background */}
+                <div className="relative flex items-center justify-center overflow-hidden mb-4" style={{ height: '220px' }}>
+                  {/* Subtle Serial Number */}
+                  <div className="absolute top-0 left-0 text-gray-300 text-3xl font-black opacity-40 select-none z-10 transition-opacity group-hover:opacity-100 group-hover:text-[#7AC142]">
+                    {serialNumber}
+                  </div>
+                  
                   {p.image ? (
                     <img
                       src={p.image}
                       alt={p.prodname}
-                      className="object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
-                      style={{ maxHeight: '180px', maxWidth: '90%', padding: '8px' }}
+                      className="object-contain w-full h-full p-2 transition-transform duration-500 group-hover:scale-110"
                     />
                   ) : (
                     <div className="text-gray-300 text-[10px] font-bold uppercase tracking-widest text-center px-4">Image Coming Soon</div>
                   )}
                 </div>
 
-                {/* Info */}
-                <div className="flex flex-col flex-1 p-3 border-t border-gray-100">
-                  <p className="text-[9px] font-black tracking-[0.2em] text-[#7AC142] uppercase mb-1">{p.category}</p>
-                  <h2 className="text-[12px] font-black uppercase tracking-tight text-gray-900 leading-tight mb-1 flex-1">{p.prodname}</h2>
+                {/* Typography & Info */}
+                <div className="flex flex-col flex-1">
+                  <p className="text-[10px] font-black tracking-[0.2em] text-[#7AC142] uppercase mb-1.5">{p.category}</p>
+                  <h2 className="text-[14px] font-black uppercase tracking-tight text-gray-900 leading-snug mb-1.5">{p.prodname}</h2>
                   {p.subtitle && (
-                    <p className="text-[10px] text-gray-400 font-semibold leading-tight mb-2">{p.subtitle}</p>
+                    <p className="text-[11px] text-gray-500 font-medium leading-snug mb-3">{p.subtitle}</p>
                   )}
-                  <div className="flex flex-wrap gap-1 mt-2 mb-3">
+                  
+                  <div className="flex flex-wrap gap-2 mt-auto mb-4">
                     {certs.slice(0, 2).map((cert, ci) => (
-                      <span key={ci} className="text-[8px] font-bold text-gray-500 bg-gray-100 px-1.5 py-0.5 uppercase tracking-wide">
+                      <span key={ci} className="text-[9px] font-bold text-gray-600 border-b border-gray-300 pb-0.5 uppercase tracking-wider">
                         {cert}
                       </span>
                     ))}
                   </div>
-                  <div className="no-print">
+
+                  <div className="no-print mt-auto border-t border-gray-100 pt-3">
                     <AddToCartButton id={p.id} prodname={p.prodname} />
                   </div>
                 </div>

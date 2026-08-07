@@ -2598,80 +2598,6 @@
     ]
   },
   {
-    "id": "prescription-safety-goggles",
-    "prodname": "Prescription Safety Goggles",
-    "category": "Safety Goggles",
-    "subtitle": "Custom Prescription Lenses",
-    "description": "Safety goggles fitted with custom prescription lenses. Workers who wear spectacles can have complete IS 5983 compliant eye protection without compromise.",
-    "datasheet": {
-      "certifications": [
-        "CLI Approved",
-        "IS 5983 / 1980"
-      ],
-      "industries": [
-        "Pharmaceuticals",
-        "Laboratories",
-        "Chemical Processing",
-        "Manufacturing",
-        "Construction",
-        "Oil & Gas",
-        "Mining",
-        "Automotive",
-        "Food & Beverage"
-      ],
-      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
-      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
-      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
-      "impactResistance": "Yes (CLI Approved)",
-      "keyFeatures": [
-        "Prescription-corrected safety eyewear — no compromise between vision and protection",
-        "Cellulose Acetate or Nylon frame — lightweight, durable, skin-friendly",
-        "Impact-resistant polycarbonate or toughened glass safety lenses",
-        "Integrated side shields for peripheral protection",
-        "100% UV protection certified",
-        "Meets IS 5983 / 1980 and CLI Approved",
-        "Available in single vision, bifocal, and progressive lens types",
-        "Custom-fabricated to individual prescription — contact OSWAL for ordering"
-      ],
-      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
-      "components": [
-        {
-          "name": "Prescription Lens",
-          "material": "Optically corrected Polycarbonate or Toughened Glass",
-          "advantage": "Combines vision correction and industrial eye protection in a single certified product — eliminates the need for OTS goggles"
-        },
-        {
-          "name": "Frame",
-          "material": "Cellulose Acetate or Nylon (TR90)",
-          "advantage": "Lightweight, flexible, and chemically resistant — engineered for industrial use with integrated safety lens retention"
-        },
-        {
-          "name": "Side Shields",
-          "material": "Integrated or detachable",
-          "advantage": "Provides peripheral protection to meet industrial safety standards"
-        },
-        {
-          "name": "Nose Pads",
-          "material": "Silicone or acetate",
-          "advantage": "Comfortable, non-slip retention during dynamic industrial tasks"
-        }
-      ],
-      "applications": [
-        "Workers requiring vision correction in industrial environments",
-        "Laboratory and cleanroom personnel",
-        "Chemical plant operators with prescription requirements",
-        "Field engineers in construction and infrastructure",
-        "Manufacturing quality control personnel"
-      ],
-      "usage": "OSWAL Prescription Safety Goggles are a custom-fabricated solution for workers who require vision correction without sacrificing certified eye protection. Each pair is produced to the individual's prescription specification and mounted in an IS 5983 / 1980 certified safety frame, combining optimal vision with professional-grade protection.",
-      "lensOptions": "Prescription-corrected Polycarbonate or Toughened Glass — clear or tinted",
-      "opticalClass": "As per prescription + Class 1 optical quality",
-      "glassThickness": "Minimum 3 mm (safety standard) — varies per prescription",
-      "weight": "Approx. 30–50 g (frame only)"
-    },
-    "image": "/products/prescription-safety-goggles/cobalt bluee goggle.png"
-  },
-  {
     "id": "laser-safety-goggles",
     "prodname": "Laser Safety Goggles",
     "category": "Laser Protection",
@@ -2981,6 +2907,242 @@
       "/products/oswal-leather-supervisor/leater 1010.jpeg",
       "/products/oswal-leather-supervisor/leather 02.jpeg",
       "/products/oswal-leather-supervisor/leather.jpeg"
+    ]
+  },
+  {
+    "id": "prescription-safety-goggles-blue",
+    "prodname": "Prescription Safety Goggles - Blue",
+    "category": "Safety Goggles",
+    "subtitle": "Model 2371 - Blue Frame",
+    "description": "Safety goggles fitted with custom prescription lenses. Workers who wear spectacles can have complete IS 5983 compliant eye protection without compromise.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Pharmaceuticals",
+        "Laboratories",
+        "Chemical Processing",
+        "Manufacturing",
+        "Construction",
+        "Oil & Gas",
+        "Mining",
+        "Automotive",
+        "Food & Beverage"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Prescription-corrected safety eyewear — no compromise between vision and protection",
+        "Cellulose Acetate or Nylon frame — lightweight, durable, skin-friendly",
+        "Impact-resistant polycarbonate or toughened glass safety lenses",
+        "Integrated side shields for peripheral protection",
+        "100% UV protection certified",
+        "Meets IS 5983 / 1980 and CLI Approved",
+        "Available in single vision, bifocal, and progressive lens types",
+        "Custom-fabricated to individual prescription — contact OSWAL for ordering"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Prescription Lens",
+          "material": "Optically corrected Polycarbonate or Toughened Glass",
+          "advantage": "Combines vision correction and industrial eye protection in a single certified product — eliminates the need for OTS goggles"
+        },
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate or Nylon (TR90)",
+          "advantage": "Lightweight, flexible, and chemically resistant — engineered for industrial use with integrated safety lens retention"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Integrated or detachable",
+          "advantage": "Provides peripheral protection to meet industrial safety standards"
+        },
+        {
+          "name": "Nose Pads",
+          "material": "Silicone or acetate",
+          "advantage": "Comfortable, non-slip retention during dynamic industrial tasks"
+        }
+      ],
+      "applications": [
+        "Workers requiring vision correction in industrial environments",
+        "Laboratory and cleanroom personnel",
+        "Chemical plant operators with prescription requirements",
+        "Field engineers in construction and infrastructure",
+        "Manufacturing quality control personnel"
+      ],
+      "usage": "OSWAL Prescription Safety Goggles are a custom-fabricated solution for workers who require vision correction without sacrificing certified eye protection. Each pair is produced to the individual's prescription specification and mounted in an IS 5983 / 1980 certified safety frame, combining optimal vision with professional-grade protection.",
+      "lensOptions": "Prescription-corrected Polycarbonate or Toughened Glass — clear or tinted",
+      "opticalClass": "As per prescription + Class 1 optical quality",
+      "glassThickness": "Minimum 3 mm (safety standard) — varies per prescription",
+      "weight": "Approx. 30–50 g (frame only)"
+    },
+    "image": "/products/prescription-safety-goggles-blue/01.jpeg",
+    "gallery": [
+      "/products/prescription-safety-goggles-blue/01.jpeg",
+      "/products/prescription-safety-goggles-blue/02.jpeg",
+      "/products/prescription-safety-goggles-blue/03.jpeg",
+      "/products/prescription-safety-goggles-blue/04.jpeg"
+    ]
+  },
+  {
+    "id": "prescription-safety-goggles-brown",
+    "prodname": "Prescription Safety Goggles - Brown",
+    "category": "Safety Goggles",
+    "subtitle": "Model 2371 - Brown Frame",
+    "description": "Safety goggles fitted with custom prescription lenses. Workers who wear spectacles can have complete IS 5983 compliant eye protection without compromise.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Pharmaceuticals",
+        "Laboratories",
+        "Chemical Processing",
+        "Manufacturing",
+        "Construction",
+        "Oil & Gas",
+        "Mining",
+        "Automotive",
+        "Food & Beverage"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Prescription-corrected safety eyewear — no compromise between vision and protection",
+        "Cellulose Acetate or Nylon frame — lightweight, durable, skin-friendly",
+        "Impact-resistant polycarbonate or toughened glass safety lenses",
+        "Integrated side shields for peripheral protection",
+        "100% UV protection certified",
+        "Meets IS 5983 / 1980 and CLI Approved",
+        "Available in single vision, bifocal, and progressive lens types",
+        "Custom-fabricated to individual prescription — contact OSWAL for ordering"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Prescription Lens",
+          "material": "Optically corrected Polycarbonate or Toughened Glass",
+          "advantage": "Combines vision correction and industrial eye protection in a single certified product — eliminates the need for OTS goggles"
+        },
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate or Nylon (TR90)",
+          "advantage": "Lightweight, flexible, and chemically resistant — engineered for industrial use with integrated safety lens retention"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Integrated or detachable",
+          "advantage": "Provides peripheral protection to meet industrial safety standards"
+        },
+        {
+          "name": "Nose Pads",
+          "material": "Silicone or acetate",
+          "advantage": "Comfortable, non-slip retention during dynamic industrial tasks"
+        }
+      ],
+      "applications": [
+        "Workers requiring vision correction in industrial environments",
+        "Laboratory and cleanroom personnel",
+        "Chemical plant operators with prescription requirements",
+        "Field engineers in construction and infrastructure",
+        "Manufacturing quality control personnel"
+      ],
+      "usage": "OSWAL Prescription Safety Goggles are a custom-fabricated solution for workers who require vision correction without sacrificing certified eye protection. Each pair is produced to the individual's prescription specification and mounted in an IS 5983 / 1980 certified safety frame, combining optimal vision with professional-grade protection.",
+      "lensOptions": "Prescription-corrected Polycarbonate or Toughened Glass — clear or tinted",
+      "opticalClass": "As per prescription + Class 1 optical quality",
+      "glassThickness": "Minimum 3 mm (safety standard) — varies per prescription",
+      "weight": "Approx. 30–50 g (frame only)"
+    },
+    "image": "/products/prescription-safety-goggles-brown/01 b.jpeg",
+    "gallery": [
+      "/products/prescription-safety-goggles-brown/01 b.jpeg"
+    ]
+  },
+  {
+    "id": "prescription-safety-goggles-yellow",
+    "prodname": "Prescription Safety Goggles - Yellow",
+    "category": "Safety Goggles",
+    "subtitle": "Model 2371 - Yellow Frame",
+    "description": "Safety goggles fitted with custom prescription lenses. Workers who wear spectacles can have complete IS 5983 compliant eye protection without compromise.",
+    "datasheet": {
+      "certifications": [
+        "CLI Approved",
+        "IS 5983 / 1980"
+      ],
+      "industries": [
+        "Pharmaceuticals",
+        "Laboratories",
+        "Chemical Processing",
+        "Manufacturing",
+        "Construction",
+        "Oil & Gas",
+        "Mining",
+        "Automotive",
+        "Food & Beverage"
+      ],
+      "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
+      "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
+      "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
+      "impactResistance": "Yes (CLI Approved)",
+      "keyFeatures": [
+        "Prescription-corrected safety eyewear — no compromise between vision and protection",
+        "Cellulose Acetate or Nylon frame — lightweight, durable, skin-friendly",
+        "Impact-resistant polycarbonate or toughened glass safety lenses",
+        "Integrated side shields for peripheral protection",
+        "100% UV protection certified",
+        "Meets IS 5983 / 1980 and CLI Approved",
+        "Available in single vision, bifocal, and progressive lens types",
+        "Custom-fabricated to individual prescription — contact OSWAL for ordering"
+      ],
+      "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
+      "components": [
+        {
+          "name": "Prescription Lens",
+          "material": "Optically corrected Polycarbonate or Toughened Glass",
+          "advantage": "Combines vision correction and industrial eye protection in a single certified product — eliminates the need for OTS goggles"
+        },
+        {
+          "name": "Frame",
+          "material": "Cellulose Acetate or Nylon (TR90)",
+          "advantage": "Lightweight, flexible, and chemically resistant — engineered for industrial use with integrated safety lens retention"
+        },
+        {
+          "name": "Side Shields",
+          "material": "Integrated or detachable",
+          "advantage": "Provides peripheral protection to meet industrial safety standards"
+        },
+        {
+          "name": "Nose Pads",
+          "material": "Silicone or acetate",
+          "advantage": "Comfortable, non-slip retention during dynamic industrial tasks"
+        }
+      ],
+      "applications": [
+        "Workers requiring vision correction in industrial environments",
+        "Laboratory and cleanroom personnel",
+        "Chemical plant operators with prescription requirements",
+        "Field engineers in construction and infrastructure",
+        "Manufacturing quality control personnel"
+      ],
+      "usage": "OSWAL Prescription Safety Goggles are a custom-fabricated solution for workers who require vision correction without sacrificing certified eye protection. Each pair is produced to the individual's prescription specification and mounted in an IS 5983 / 1980 certified safety frame, combining optimal vision with professional-grade protection.",
+      "lensOptions": "Prescription-corrected Polycarbonate or Toughened Glass — clear or tinted",
+      "opticalClass": "As per prescription + Class 1 optical quality",
+      "glassThickness": "Minimum 3 mm (safety standard) — varies per prescription",
+      "weight": "Approx. 30–50 g (frame only)"
+    },
+    "image": "/products/prescription-safety-goggles-yellow/01.jpeg",
+    "gallery": [
+      "/products/prescription-safety-goggles-yellow/01.jpeg",
+      "/products/prescription-safety-goggles-yellow/02.jpeg",
+      "/products/prescription-safety-goggles-yellow/03.jpeg"
     ]
   }
 ]

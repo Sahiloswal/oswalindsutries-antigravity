@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const productUrls = productsData.map((p) => ({
     url: `${BASE_URL}/product/${p.id}`,
     lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
+    changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
 
@@ -15,26 +15,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: BASE_URL,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'weekly' as const,
       priority: 1.0,
     },
     {
       url: `${BASE_URL}/products`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'weekly' as const,
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/about`,
+      url: `${BASE_URL}/catalog`,
       lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
+      changeFrequency: 'monthly' as const,
+      priority: 0.85,
     },
     {
       url: `${BASE_URL}/library`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
     },
     ...productUrls,
   ];

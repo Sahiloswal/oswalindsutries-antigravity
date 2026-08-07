@@ -1,5 +1,17 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import productsData from '../products.json';
+
+export const metadata: Metadata = {
+  title: 'OSWAL Industries | Safety Goggles, Welding Goggles & Industrial Eye Protection Manufacturer India',
+  description: 'OSWAL Industries is a leading manufacturer of safety goggles, welding goggles, industrial goggles, furnace face shields, and chemical splash goggles in India since 1983. IS 5983 & CE certified PPE eyewear.',
+  keywords: [
+    'safety goggles manufacturer india', 'welding goggles', 'industrial safety goggles', 'oswal industries',
+    'oswal safety goggles', 'industrial goggles india', 'furnace goggles', 'chemical splash goggles',
+    'IS 5983 safety goggles', 'PPE eyewear india', 'medical goggles', 'laser safety goggles',
+    'eye protection equipment', 'safety eyewear manufacturer davanagere', 'polycarbonate safety goggles'
+  ],
+};
 
 export default function Home() {
   // Select top featured products for the homepage
@@ -25,10 +37,10 @@ export default function Home() {
             Protecting Vision Since 1983
           </div>
           <h1 className="text-5xl md:text-7xl font-black text-white uppercase tracking-tight leading-tight mb-6">
-            Industrial Grade <br/> <span className="text-[#7AC142]">Safety Eyewear</span>
+            Safety Goggles &amp; <br/> <span className="text-[#7AC142]">Welding Protection</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-2xl max-w-[800px] mb-12 leading-relaxed font-light">
-            Engineered for extreme environments. Trusted by India's leading steel, manufacturing, and railway sectors. CLI Approved & IS 5983 / 1980 compliant.
+            India's trusted manufacturer of industrial safety goggles, welding goggles, furnace face shields and chemical splash goggles since 1983. IS 5983 &amp; CE certified. CLI Approved.
           </p>
           <div className="flex gap-6">
             <Link href="/products" className="bg-[#7AC142] text-white font-bold uppercase tracking-widest text-base px-10 py-5 rounded hover:bg-white hover:text-[#7AC142] transition-colors shadow-lg">
@@ -50,10 +62,10 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
-            { name: "Welding Protection", icon: "🔥", desc: "DIN 4 to 12 shade filters for heavy welding.", link: "/products?cat=Welding Goggles" },
-            { name: "Furnace Safety", icon: "🏭", desc: "Extreme heat & IR protection for smelters.", link: "/products?cat=Smelter/Furnace Safety" },
-            { name: "Chemical Splash", icon: "🧪", desc: "Complete seal against hazardous liquids.", link: "/products?cat=Chemical Splash Goggles" },
-            { name: "General Safety", icon: "👓", desc: "Impact resistant polycarbonate spectacles.", link: "/products?cat=Safety Goggles" },
+            { name: "Welding Goggles", icon: "🔥", desc: "DIN 4–12 shade welding goggles for MIG, TIG, arc & gas welding. IS 5983 certified.", link: "/products?cat=Welding Goggles" },
+            { name: "Furnace & Smelter", icon: "🏭", desc: "Extreme heat & IR protection safety goggles for foundries, steel plants & smelters.", link: "/products?cat=Smelter/Furnace Safety" },
+            { name: "Chemical Splash", icon: "🧪", desc: "Industrial safety goggles with complete seal against acids, alkalis & hazardous liquids.", link: "/products?cat=Chemical Splash Goggles" },
+            { name: "Safety Goggles", icon: "👓", desc: "Polycarbonate industrial safety goggles for general eye protection. CLI & IS certified.", link: "/products?cat=Safety Goggles" },
           ].map((cat, i) => (
             <Link href={cat.link} key={i} className="group bg-gray-50 border border-gray-100 p-10 rounded hover:bg-white hover:shadow-xl transition-all duration-300">
               <div className="text-5xl mb-8 grayscale group-hover:grayscale-0 transition-all">{cat.icon}</div>
@@ -94,6 +106,36 @@ export default function Home() {
                     {p.prodname}
                   </h3>
                 </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SEO KEYWORD SECTION (visible content for Google) ─── */}
+      <section className="py-20 w-full px-8 xl:px-16 mx-auto bg-white border-t border-gray-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-black uppercase tracking-tight text-gray-900 mb-6">Safety Goggles &amp; Industrial Eye Protection Manufacturer in India</h2>
+          <p className="text-gray-600 text-lg leading-relaxed mb-6">
+            <strong>OSWAL Industries</strong> is one of India's foremost manufacturers of certified <strong>safety goggles</strong>, <strong>welding goggles</strong>, and <strong>industrial eye protection equipment</strong>. Established in 1983, our range of IS 5983 and CE certified safety eyewear is trusted across steel plants, chemical facilities, pharmaceutical labs, railways, and construction sites throughout India.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+            {[
+              ['Safety Goggles', '/products?cat=Safety Goggles'],
+              ['Welding Goggles', '/products?cat=Welding Goggles'],
+              ['Industrial Goggles', '/products?cat=Safety Goggles'],
+              ['Medical Goggles', '/products?cat=Safety Goggles'],
+              ['Furnace Goggles', '/products?cat=Smelter/Furnace Safety'],
+              ['Chemical Splash Goggles', '/products?cat=Chemical Splash Goggles'],
+              ['Laser Safety Goggles', '/products?cat=Laser Protection'],
+              ['Prescription Safety Goggles', '/products?cat=Spectacle Frames'],
+            ].map(([label, href]) => (
+              <Link
+                key={label}
+                href={href}
+                className="text-sm font-semibold text-[#7AC142] hover:text-gray-800 transition-colors border border-gray-200 px-4 py-3 rounded hover:border-[#7AC142] text-center"
+              >
+                {label}
               </Link>
             ))}
           </div>

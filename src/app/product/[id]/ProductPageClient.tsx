@@ -19,6 +19,28 @@ export default function ProductPageClient({ product }: { product: any }) {
 
   return (
     <div className="bg-white min-h-screen">
+      {/* ─── Structured Data (SEO JSON-LD) ─── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": product.prodname,
+            "image": gallery,
+            "description": product.description || `OSWAL ${product.prodname} - ${product.category}`,
+            "brand": {
+              "@type": "Brand",
+              "name": "OSWAL Industries"
+            },
+            "category": product.category,
+            "manufacturer": {
+              "@type": "Organization",
+              "name": "OSWAL Industries"
+            }
+          })
+        }}
+      />
       <div className="max-w-[1400px] mx-auto px-6 py-12">
 
         {/* Top Controls: Back Button & Breadcrumb */}

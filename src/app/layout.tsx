@@ -11,8 +11,38 @@ import CartFloatingButton from '../components/CartFloatingButton';
 const lato = Lato({ weight: ['400', '700', '900'], subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  title: 'OSWAL Industries — Safety Eyewear Manufacturer',
-  description: 'Manufacturer of industrial safety spectacles, welding goggles, furnace face shields and eye protection equipment since 1983. Davanagere, Karnataka.',
+  metadataBase: new URL('https://www.oswalindustries.in'),
+  title: {
+    default: 'OSWAL Industries | Industrial Safety Goggles & Welding Protection Manufacturer',
+    template: '%s | OSWAL Industries'
+  },
+  description: 'Leading manufacturer of industrial safety goggles, welding goggles, furnace face shields, chemical splash goggles, and medical eye protection equipment in India since 1983. IS 5983 & CE certified.',
+  keywords: ['safety goggles', 'welding goggles', 'industrial goggles', 'medical goggles', 'oswal industries', 'oswal safety goggles', 'furnace goggles', 'chemical splash goggles', 'safety eyewear manufacturer india', 'PPE eye protection', 'laser safety goggles'],
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://www.oswalindustries.in',
+    siteName: 'OSWAL Industries',
+    title: 'OSWAL Industries | Safety Goggles & Welding Protection Manufacturer',
+    description: 'Leading manufacturer of industrial safety goggles, welding goggles, furnace face shields, chemical splash goggles, and medical eye protection equipment in India since 1983.',
+    images: [
+      {
+        url: '/products/13/Oswal%20boss%20white.png',
+        width: 800,
+        height: 600,
+        alt: 'OSWAL Safety Goggles',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'OSWAL Industries | Safety Goggles Manufacturer',
+    description: 'Manufacturer of IS & CE certified safety goggles, welding protection, and industrial eyewear in India.',
+    images: ['/products/13/Oswal%20boss%20white.png'],
+  },
+  alternates: {
+    canonical: 'https://www.oswalindustries.in',
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -102,31 +132,66 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "OSWAL Industries",
-              "image": "https://www.oswalindustries.in/products/13/Oswal%20boss%20white.png",
-              "@id": "https://www.oswalindustries.in/#organization",
-              "url": "https://www.oswalindustries.in",
-              "telephone": "+919535354312",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Davanagere",
-                "addressLocality": "Davanagere",
-                "addressRegion": "Karnataka",
-                "postalCode": "577001",
-                "addressCountry": "IN"
-              },
-              "contactPoint": {
-                "@type": "ContactPoint",
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": ["LocalBusiness", "Organization"],
+                "name": "OSWAL Industries",
+                "alternateName": ["OSWAL Safety Goggles", "Oswal Industries Davanagere"],
+                "description": "Leading manufacturer of industrial safety goggles, welding goggles, furnace face shields, chemical splash goggles and safety eyewear in India since 1983. IS 5983 & CE certified.",
+                "image": "https://www.oswalindustries.in/products/13/Oswal%20boss%20white.png",
+                "@id": "https://www.oswalindustries.in/#organization",
+                "url": "https://www.oswalindustries.in",
                 "telephone": "+919535354312",
-                "contactType": "sales",
                 "email": "oswaloptical@yahoo.co.in",
-                "areaServed": "IN",
-                "availableLanguage": ["en", "hi", "kn"]
+                "foundingDate": "1983",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Davanagere",
+                  "addressLocality": "Davanagere",
+                  "addressRegion": "Karnataka",
+                  "postalCode": "577001",
+                  "addressCountry": "IN"
+                },
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": "14.4644",
+                  "longitude": "75.9218"
+                },
+                "contactPoint": {
+                  "@type": "ContactPoint",
+                  "telephone": "+919535354312",
+                  "contactType": "sales",
+                  "email": "oswaloptical@yahoo.co.in",
+                  "areaServed": "IN",
+                  "availableLanguage": ["en", "hi", "kn"]
+                },
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "OSWAL Safety Eyewear Catalog",
+                  "itemListElement": [
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Safety Goggles" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Welding Goggles" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Industrial Goggles" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Furnace Face Shields" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Chemical Splash Goggles" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Laser Safety Goggles" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Prescription Safety Goggles" } }
+                  ]
+                }
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "OSWAL Industries",
+                "url": "https://www.oswalindustries.in",
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://www.oswalindustries.in/products?q={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                }
               }
-            })
+            ])
           }}
         />
         </CartProvider>

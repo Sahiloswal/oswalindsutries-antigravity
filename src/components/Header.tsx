@@ -18,7 +18,7 @@ export default function Header() {
       </div>
 
       {/* ─── Main Header ─── */}
-      <header className="print:hidden w-full bg-white border-b border-gray-200 shadow-sm relative z-50">
+      <header className="print:hidden w-full bg-white/80 backdrop-blur-md border-b border-gray-100 shadow-sm relative z-50 sticky top-0 transition-all duration-300">
         <div className="w-full px-4 md:px-8 xl:px-16 mx-auto flex items-center justify-between h-[70px] md:h-[90px]">
 
           {/* Logo */}
@@ -32,16 +32,16 @@ export default function Header() {
 
           {/* Nav (Desktop) */}
           <nav className="hidden md:flex items-center gap-10">
-            <Link href="/products" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
+            <Link href="/products" className="text-sm font-bold uppercase tracking-widest text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
               Products
             </Link>
-            <Link href="/about" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
+            <Link href="/about" className="text-sm font-bold uppercase tracking-widest text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
               About Us
             </Link>
-            <Link href="/library" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
+            <Link href="/library" className="text-sm font-bold uppercase tracking-widest text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
               Library
             </Link>
-            <Link href="/#contact" className="text-lg font-bold uppercase text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
+            <Link href="/#contact" className="text-sm font-bold uppercase tracking-widest text-gray-700 hover:text-[#7AC142] transition-colors py-2 border-b-2 border-transparent hover:border-[#7AC142]">
               Contact
             </Link>
           </nav>
@@ -57,7 +57,7 @@ export default function Header() {
             </div>
             <a
               href="mailto:oswaloptical@yahoo.co.in"
-              className="hidden md:inline-block border-2 border-gray-900 text-gray-900 text-base font-bold uppercase px-8 py-[14px] rounded hover:bg-gray-900 hover:text-white transition-all tracking-wider"
+              className="hidden md:inline-block border-2 border-gray-900 text-gray-900 text-xs md:text-sm font-bold uppercase px-6 md:px-8 py-3 rounded hover:bg-gray-900 hover:text-white transition-all tracking-widest"
             >
               Request Quote
             </a>

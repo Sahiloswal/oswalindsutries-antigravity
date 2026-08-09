@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Lato } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import './globals.css';
 import Link from 'next/link';
 import ClientMarquee from '../components/ClientMarquee';
@@ -7,8 +7,9 @@ import Header from '../components/Header';
 import { CartProvider } from '../context/CartContext';
 import CartOverlay from '../components/CartOverlay';
 import CartFloatingButton from '../components/CartFloatingButton';
+import MobileBottomNav from '../components/MobileBottomNav';
 
-const lato = Lato({ weight: ['400', '700', '900'], subsets: ['latin'], display: 'swap' });
+const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.oswalindustries.in'),
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${lato.className} bg-white text-gray-800 flex flex-col min-h-screen`} style={{ background: '#fff' }}>
+      <body className={`${inter.className} bg-white text-gray-800 flex flex-col min-h-screen pb-[70px] md:pb-0`} style={{ background: '#fff' }}>
         <CartProvider>
 
         <Header />
@@ -114,6 +115,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* ─── Cart ─── */}
         <CartFloatingButton />
         <CartOverlay />
+        <MobileBottomNav />
 
         {/* ─── Floating WhatsApp Icon ─── */}
         <a 

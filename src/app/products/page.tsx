@@ -207,7 +207,7 @@ export default function ProductsPage() {
               >
                 <div className="relative w-full aspect-square flex items-center justify-center overflow-hidden bg-white p-6">
                   <img
-                    src="/products/13/Oswal%20boss%20white.png"
+                    src="/products/oswal-boss-clear-economy/boss design .jpeg"
                     alt="OSWAL Boss"
                     className="w-full h-full object-contain mix-blend-multiply transition-transform duration-400 group-hover:scale-105"
                   />

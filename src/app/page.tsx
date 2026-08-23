@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           <div className="w-full md:w-2/5 flex justify-center md:justify-end relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-[#7AC142]/20 to-transparent rounded-full blur-3xl opacity-50 scale-150"></div>
-            <img src="/products/13/Oswal%20boss%20white.png" alt="OSWAL Boss Safety Goggle" className="relative z-10 w-full max-w-[400px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700 ease-out" />
+            <img src="/products/oswal-boss-clear-economy/boss design .jpeg" alt="OSWAL Boss Safety Goggle" className="relative z-10 w-full max-w-[400px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700 ease-out rounded-2xl" />
           </div>
         </div>
       </section>
@@ -179,6 +179,36 @@ export default function Home() {
               <span className="font-bold uppercase text-xs tracking-widest group-hover:text-[#7AC142]">Dust / Impact</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* ─── YOUTUBE VIDEO SECTION ─── */}
+      <section className="py-16 md:py-24 w-full px-6 md:px-8 xl:px-16 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-sm font-bold text-[#7AC142] uppercase tracking-[0.3em] mb-4">See Us In Action</h2>
+            <h3 className="text-3xl md:text-4xl font-black text-gray-900 uppercase tracking-tight">OSWAL Safety Eyewear</h3>
+            <p className="mt-4 text-gray-500 text-base md:text-lg max-w-xl mx-auto">Watch our product demonstrations and industrial applications.</p>
+          </div>
+          <div className="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-gray-900" style={{ paddingBottom: '56.25%' }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed?listType=user_uploads&list=OSWAL+Industries"
+              title="OSWAL Industries Safety Goggles"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              loading="lazy"
+            />
+            {/* Placeholder shown when no video URL is set */}
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-gray-900 z-10 pointer-events-none" id="yt-placeholder">
+              <svg className="w-20 h-20 text-[#7AC142] mb-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              <p className="text-xl font-bold uppercase tracking-widest">Video Coming Soon</p>
+              <p className="text-gray-400 text-sm mt-2">Upload your YouTube video URL to display here</p>
+            </div>
+          </div>
+          <p className="text-center text-gray-400 text-sm mt-6">
+            Subscribe to our channel for product demonstrations and safety guides.
+          </p>
         </div>
       </section>
 

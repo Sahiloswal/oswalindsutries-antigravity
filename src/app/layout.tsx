@@ -102,12 +102,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <svg className="w-6 h-6 text-[#7AC142] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                     <span>oswaloptical@yahoo.co.in</span>
                   </li>
+                  <li className="flex items-start gap-4 pt-4 border-t border-gray-800">
+                    <svg className="w-6 h-6 text-[#7AC142] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                    <div>
+                      <span className="block text-xs uppercase tracking-widest text-gray-500 mb-1 font-bold">GST No.</span>
+                      <span className="font-mono font-bold text-white tracking-wider">29AAFPO7702C1ZT</span>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
 
-            <div className="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500 font-medium">
-              © {new Date().getFullYear()} OSWAL Industries, Davanagere. All rights reserved.
+            <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500 font-medium">
+              <span>© {new Date().getFullYear()} OSWAL Industries, Davanagere. All rights reserved.</span>
+              <span className="flex items-center gap-2">GST: <span className="font-mono text-gray-400">29AAFPO7702C1ZT</span></span>
             </div>
           </div>
         </footer>

@@ -53,14 +53,18 @@ export default function LeadGenerationGate({ fileUrl, fileName, buttonText = 'Do
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-gray-900/80 backdrop-blur-sm p-4">
-          <div className="bg-white max-w-md w-full p-8 relative shadow-2xl">
-            <button 
-              onClick={() => setIsOpen(false)}
-              className="absolute top-4 right-4 text-gray-400 hover:text-gray-900 focus:outline-none"
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"/></svg>
-            </button>
+        <div className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center bg-gray-900/80 backdrop-blur-sm p-0 sm:p-4">
+          <div className="bg-white w-full sm:max-w-md sm:w-full sm:rounded-2xl rounded-t-2xl relative shadow-2xl overflow-y-auto max-h-[92dvh] sm:max-h-[90vh]">
+            <div className="sticky top-0 bg-white z-10 flex items-center justify-between px-6 pt-5 pb-3 border-b border-gray-100">
+              <h3 className="text-lg font-black text-gray-900 uppercase tracking-tight">Download Catalog</h3>
+              <button 
+                onClick={() => setIsOpen(false)}
+                className="text-gray-400 hover:text-gray-900 focus:outline-none p-1 rounded-full hover:bg-gray-100 transition-colors"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"/></svg>
+              </button>
+            </div>
+            <div className="px-6 pb-8 pt-4">
 
             {status === 'success' ? (
               <div className="text-center py-8">
@@ -80,27 +84,26 @@ export default function LeadGenerationGate({ fileUrl, fileName, buttonText = 'Do
               </div>
             ) : (
               <div>
-                <h3 className="text-2xl font-black text-gray-900 mb-2 uppercase tracking-tight leading-tight">Download Datasheet</h3>
-                <p className="text-sm text-gray-500 mb-6">Please provide your contact details to access the complete technical specifications.</p>
+                <p className="text-sm text-gray-500 mb-6">Please provide your contact details to access the complete technical specifications and catalog.</p>
                 
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <input type="hidden" name="downloaded_file" value={fileName} />
                   
                   <div>
                     <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Full Name *</label>
-                    <input type="text" name="name" required className="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142]" />
+                    <input type="text" name="name" required className="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142] rounded" />
                   </div>
                   <div>
                     <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">WhatsApp Number *</label>
-                    <input type="tel" name="whatsapp" required className="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142]" />
+                    <input type="tel" name="whatsapp" required className="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142] rounded" />
                   </div>
                   <div>
                     <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Email Address *</label>
-                    <input type="email" name="email" required className="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142]" />
+                    <input type="email" name="email" required className="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142] rounded" />
                   </div>
                   <div>
                     <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Company Name</label>
-                    <input type="text" name="company" className="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142]" />
+                    <input type="text" name="company" className="w-full bg-gray-50 border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142] rounded" />
                   </div>
                   
                   {status === 'error' && (
@@ -110,13 +113,14 @@ export default function LeadGenerationGate({ fileUrl, fileName, buttonText = 'Do
                   <button 
                     type="submit" 
                     disabled={status === 'submitting'}
-                    className="w-full bg-[#7AC142] text-white font-black text-sm uppercase tracking-widest py-4 mt-6 hover:bg-gray-900 transition-colors disabled:opacity-50"
+                    className="w-full bg-[#7AC142] text-white font-black text-sm uppercase tracking-widest py-4 mt-2 rounded hover:bg-gray-900 transition-colors disabled:opacity-50"
                   >
-                    {status === 'submitting' ? 'Processing...' : 'Access Datasheet'}
+                    {status === 'submitting' ? 'Processing...' : 'Access Catalog'}
                   </button>
                 </form>
               </div>
             )}
+            </div>
           </div>
         </div>
       )}

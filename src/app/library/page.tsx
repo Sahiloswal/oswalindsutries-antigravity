@@ -2,20 +2,22 @@ import Link from 'next/link';
 
 const ARTICLES = [
   {
-    slug: 'is-5983-explained',
-    title: 'IS 5983 / 1980 — The Complete Guide to India\'s Industrial Eye Protection Standard',
-    category: 'Standards & Certifications',
-    readTime: '8 min read',
-    date: 'July 2025',
-    description: 'Everything procurement officers, safety engineers, and industrial buyers need to know about IS 5983 / 1980 — the Bureau of Indian Standards specification for industrial safety goggles.',
-  },
-  {
     slug: 'furnace-smelter-eye-protection',
     title: 'Furnace & Smelter Eye Protection — Complete Industrial Guide',
     category: 'Industry Applications',
     readTime: '10 min read',
     date: 'July 2025',
     description: 'How to select the right eye protection for furnace observation, smelting operations, and high-temperature industrial environments. Covers hazards, standards, and recommended products.',
+    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1200',
+  },
+  {
+    slug: 'is-5983-explained',
+    title: 'IS 5983 / 1980 — The Complete Guide to India\'s Industrial Eye Protection Standard',
+    category: 'Standards & Certifications',
+    readTime: '8 min read',
+    date: 'July 2025',
+    description: 'Everything procurement officers, safety engineers, and industrial buyers need to know about IS 5983 / 1980 — the Bureau of Indian Standards specification for industrial safety goggles.',
+    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200',
   },
 ];
 
@@ -77,131 +79,160 @@ const COMING_SOON = [
 
 export default function TechnicalLibraryPage() {
   return (
-    <div className="w-full bg-white font-sans">
+    <div className="w-full bg-white font-sans overflow-hidden">
 
-      {/* ── Hero - Industrial Corporate Style ── */}
-      <div className="w-full bg-[#111] text-white border-b-4 border-[#7AC142]">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 xl:px-20 py-20 md:py-32">
+      {/* ── Hero - Edge to Edge Geometric ── */}
+      <div className="relative w-full bg-[#0a0a0a] text-white border-b-4 border-[#7AC142]">
+        {/* Geometric Background */}
+        <div className="absolute inset-0 overflow-hidden opacity-20 pointer-events-none">
+          <svg className="absolute w-full h-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="hex-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                <path d="M20 0L40 10L40 30L20 40L0 30L0 10Z" fill="none" stroke="#7AC142" strokeWidth="0.5"/>
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#hex-pattern)" />
+          </svg>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-transparent to-[#0a0a0a]"></div>
+        </div>
+
+        <div className="relative z-10 w-full px-6 md:px-12 xl:px-24 py-24 md:py-32">
           <div className="flex items-center gap-3 mb-8">
-            <span className="w-8 h-[2px] bg-[#7AC142]"></span>
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-300">Technical Resources</span>
+            <span className="w-12 h-[2px] bg-[#7AC142]"></span>
+            <span className="text-sm font-bold uppercase tracking-[0.3em] text-[#7AC142]">Technical Resources</span>
           </div>
           
-          <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 max-w-4xl">
-            Knowledge Center
+          <h1 className="text-5xl md:text-7xl xl:text-8xl font-black tracking-tighter mb-8 max-w-5xl uppercase leading-none">
+            Knowledge <br/> Center.
           </h1>
           
-          <p className="text-lg md:text-xl text-gray-400 max-w-3xl leading-relaxed mb-12">
+          <p className="text-xl md:text-2xl text-gray-400 max-w-4xl leading-relaxed mb-16 font-light">
             Authoritative documentation, safety standards, and technical application guides engineered for procurement officers and industrial safety professionals.
           </p>
 
-          <div className="flex flex-wrap gap-x-12 gap-y-6 pt-8 border-t border-gray-800">
+          <div className="flex flex-wrap gap-x-16 gap-y-8 pt-10 border-t border-gray-800/60 max-w-5xl">
             <div>
-              <p className="text-3xl font-light text-white">{ARTICLES.length}</p>
-              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mt-1">Technical Guides</p>
+              <p className="text-4xl font-light text-white">{ARTICLES.length}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mt-2">Technical Guides</p>
             </div>
             <div>
-              <p className="text-3xl font-light text-white">{EXTERNAL_RESOURCES.length}</p>
-              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mt-1">Safety References</p>
+              <p className="text-4xl font-light text-white">{EXTERNAL_RESOURCES.length}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mt-2">Safety References</p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* ── Published Articles - Sharp & Technical ── */}
-      <div className="w-full bg-white">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 xl:px-20 py-20">
-          
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 border-b border-gray-200 pb-6 gap-6">
+      {/* ── Published Articles - Full Width Split Layout ── */}
+      <div className="w-full bg-white relative">
+        {/* Subtle dot pattern background to separate text from whitespace */}
+        <div className="absolute inset-0 pointer-events-none opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(#000 2px, transparent 2px)', backgroundSize: '30px 30px' }}></div>
+
+        <div className="relative z-10 w-full px-6 md:px-12 xl:px-24 py-24">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight">Featured Publications</h2>
-              <p className="text-gray-500 mt-2">In-depth technical guides for industrial eye protection.</p>
+              <h2 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tighter uppercase">Featured Publications</h2>
+              <div className="h-1 w-24 bg-[#7AC142] mt-6"></div>
             </div>
-            <Link href="#coming-soon" className="text-sm font-bold uppercase tracking-widest text-[#7AC142] hover:text-gray-900 transition-colors">
-              View Upcoming Topics &rarr;
+            <Link href="#coming-soon" className="text-sm font-bold uppercase tracking-[0.2em] text-[#7AC142] hover:text-gray-900 transition-colors flex items-center gap-2">
+              View Upcoming Topics 
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
-            {ARTICLES.map((article) => (
-              <Link
-                key={article.slug}
-                href={`/library/${article.slug}`}
-                className="group flex flex-col"
-              >
-                {/* Image Placeholder / Graphic Header */}
-                <div className="w-full h-48 bg-gray-100 border border-gray-200 relative overflow-hidden mb-6 flex items-center justify-center group-hover:border-gray-400 transition-colors">
-                  <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-                  <span className="text-gray-300 font-mono text-sm tracking-widest uppercase">Document Ref: {article.slug.substring(0,8)}</span>
-                  <div className="absolute top-0 left-0 w-1 h-full bg-[#7AC142] scale-y-0 group-hover:scale-y-100 transition-transform origin-top"></div>
-                </div>
-
-                <div className="flex items-center gap-4 mb-4">
-                  <span className="bg-gray-900 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1">
-                    {article.category}
-                  </span>
-                  <span className="text-xs font-mono text-gray-500">
-                    {article.date}
-                  </span>
-                </div>
-
-                <h3 className="text-2xl font-bold text-gray-900 leading-tight mb-3 group-hover:text-[#7AC142] transition-colors">
-                  {article.title}
-                </h3>
+          <div className="flex flex-col gap-16">
+            {ARTICLES.map((article, idx) => (
+              <div key={article.slug} className={`flex flex-col ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'} bg-white border border-gray-200 shadow-2xl shadow-gray-200/50 group overflow-hidden`}>
                 
-                <p className="text-gray-600 leading-relaxed mb-6 flex-1">
-                  {article.description}
-                </p>
-
-                <div className="flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gray-900">
-                  Read Documentation
-                  <svg className="w-4 h-4 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                {/* Image Section */}
+                <div className="w-full lg:w-1/2 relative min-h-[300px] lg:min-h-[500px] overflow-hidden bg-gray-900">
+                  <img src={article.image} alt={article.title} className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-700 ease-out" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent"></div>
+                  <div className="absolute bottom-6 left-6 right-6">
+                    <span className="bg-[#7AC142] text-white text-[10px] font-bold uppercase tracking-[0.2em] px-4 py-2 shadow-lg">
+                      {article.category}
+                    </span>
+                  </div>
                 </div>
-              </Link>
+
+                {/* Content Section */}
+                <div className="w-full lg:w-1/2 p-8 md:p-16 flex flex-col justify-center bg-white relative">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-gray-50 rounded-bl-full -z-10 transition-transform group-hover:scale-110"></div>
+                  
+                  <div className="flex items-center gap-4 mb-6 text-xs font-mono text-gray-400 uppercase tracking-widest border-b border-gray-100 pb-4">
+                    <span>{article.date}</span>
+                    <span className="w-1.5 h-1.5 bg-[#7AC142] rotate-45"></span>
+                    <span>{article.readTime}</span>
+                  </div>
+
+                  <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-[1.1] mb-6 uppercase tracking-tight group-hover:text-[#7AC142] transition-colors">
+                    {article.title}
+                  </h3>
+                  
+                  <p className="text-lg text-gray-600 leading-relaxed mb-10">
+                    {article.description}
+                  </p>
+
+                  <Link href={`/library/${article.slug}`} className="inline-flex items-center gap-3 text-sm font-bold uppercase tracking-[0.2em] text-white bg-gray-900 px-8 py-4 w-fit hover:bg-[#7AC142] transition-colors">
+                    Read Documentation
+                    <svg className="w-5 h-5 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                  </Link>
+                </div>
+
+              </div>
             ))}
           </div>
         </div>
       </div>
 
-      {/* ── External Resources - Enterprise Grid ── */}
-      <div className="w-full bg-gray-50 border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 xl:px-20 py-20">
+      {/* ── External Resources - Industrial Grid ── */}
+      <div className="relative w-full bg-gray-50 border-t border-gray-200">
+        {/* Slanted background geometry */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute -top-64 -right-64 w-[1000px] h-[1000px] bg-white opacity-50 transform rotate-45"></div>
+          <div className="absolute -bottom-64 -left-64 w-[800px] h-[800px] bg-gray-100 opacity-50 transform rotate-45"></div>
+        </div>
+
+        <div className="relative z-10 w-full px-6 md:px-12 xl:px-24 py-24">
           
-          <div className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 tracking-tight">Authoritative References</h2>
-            <p className="text-gray-500 mt-2 max-w-2xl">Official regulatory bodies, standards associations, and research institutions governing industrial occupational safety.</p>
+          <div className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tighter uppercase">Authoritative References</h2>
+            <div className="h-1 w-24 bg-blue-600 mt-6 mb-6"></div>
+            <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">Official regulatory bodies, standards associations, and research institutions governing industrial occupational safety globally.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border-t border-l border-gray-200 bg-white">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {EXTERNAL_RESOURCES.map((res, index) => (
               <a
                 key={res.url}
                 href={res.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group border-r border-b border-gray-200 p-8 hover:bg-gray-50 transition-colors flex flex-col h-full relative"
+                className="group bg-white border border-gray-200 p-10 hover:-translate-y-2 transition-transform duration-300 shadow-xl shadow-gray-200/20 flex flex-col h-full relative overflow-hidden"
               >
-                {/* Hover accent */}
-                <div className="absolute top-0 left-0 w-full h-1 bg-[#7AC142] opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                {/* Top border accent */}
+                <div className="absolute top-0 left-0 w-full h-1.5 bg-gray-900 group-hover:bg-blue-600 transition-colors"></div>
                 
-                <span className="text-[10px] font-bold uppercase tracking-widest text-[#7AC142] mb-4 block">
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 mb-6 block">
                   {res.category}
                 </span>
                 
-                <h3 className="font-bold text-gray-900 text-lg mb-3 pr-6">
+                <h3 className="font-black text-gray-900 text-2xl mb-4 pr-8 uppercase tracking-tight leading-snug">
                   {res.name}
-                  <svg className="w-4 h-4 text-gray-300 absolute top-8 right-8 group-hover:text-gray-900 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-gray-300 absolute top-10 right-10 group-hover:text-blue-600 transition-colors transform group-hover:translate-x-1 group-hover:-translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                   </svg>
                 </h3>
                 
-                <p className="text-sm text-gray-600 leading-relaxed flex-1 mb-6">
+                <p className="text-base text-gray-600 leading-relaxed flex-1 mb-8">
                   {res.desc}
                 </p>
                 
-                <div className="flex items-center gap-2">
-                  <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
-                  <span className="text-xs font-mono text-gray-500 group-hover:text-gray-900 transition-colors">{res.domain}</span>
+                <div className="flex items-center gap-3 pt-6 border-t border-gray-100">
+                  <div className="w-8 h-8 bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-blue-50 transition-colors">
+                    <svg className="w-4 h-4 text-gray-400 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+                  </div>
+                  <span className="text-sm font-bold tracking-widest uppercase text-gray-500 group-hover:text-blue-600 transition-colors">{res.domain}</span>
                 </div>
               </a>
             ))}
@@ -209,25 +240,33 @@ export default function TechnicalLibraryPage() {
         </div>
       </div>
 
-      {/* ── Coming Soon - Data Table Style ── */}
-      <div id="coming-soon" className="w-full bg-white border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 xl:px-20 py-20">
+      {/* ── Coming Soon - Technical Matrix ── */}
+      <div id="coming-soon" className="w-full bg-[#111] text-white border-t border-gray-800 relative">
+        {/* Subtle grid pattern */}
+        <div className="absolute inset-0 opacity-10 pointer-events-none" style={{ backgroundImage: 'linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
+        
+        <div className="relative z-10 w-full px-6 md:px-12 xl:px-24 py-24">
           
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 tracking-tight">Upcoming Publications</h2>
-            <p className="text-gray-500 mt-2">Documentation currently in review by our technical team.</p>
+          <div className="mb-16">
+            <h2 className="text-4xl md:text-5xl font-black text-white tracking-tighter uppercase">Upcoming Documentation</h2>
+            <div className="h-1 w-24 bg-gray-600 mt-6"></div>
           </div>
 
-          <div className="border border-gray-200">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-800 border border-gray-800">
             {COMING_SOON.map((title, i) => (
-              <div key={title} className={`flex flex-col sm:flex-row sm:items-center justify-between p-4 px-6 ${i !== COMING_SOON.length - 1 ? 'border-b border-gray-200' : ''} hover:bg-gray-50`}>
-                <div className="flex items-center gap-4">
-                  <span className="text-gray-300 font-mono text-sm">{(i + 1).toString().padStart(2, '0')}</span>
-                  <span className="font-medium text-gray-800">{title}</span>
+              <div key={title} className="bg-[#111] p-8 hover:bg-[#1a1a1a] transition-colors group">
+                <div className="flex items-center justify-between mb-6">
+                  <span className="text-gray-600 font-mono text-lg font-bold">{(i + 1).toString().padStart(2, '0')}</span>
+                  <span className="w-2 h-2 bg-gray-800 group-hover:bg-[#7AC142] transition-colors rounded-full"></span>
                 </div>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-2 sm:mt-0 bg-gray-100 px-3 py-1 self-start sm:self-auto">
-                  In Draft
-                </span>
+                <h4 className="font-bold text-gray-300 text-lg leading-snug group-hover:text-white transition-colors">
+                  {title}
+                </h4>
+                <div className="mt-8">
+                  <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-600 border border-gray-800 px-3 py-1.5">
+                    Status: Draft
+                  </span>
+                </div>
               </div>
             ))}
           </div>

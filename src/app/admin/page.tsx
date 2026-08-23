@@ -1,5 +1,5 @@
 'use client';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 export default function AdminPage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -11,10 +11,10 @@ export default function AdminPage() {
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
   const [shade, setShade] = useState('');
-  const [features, setFeatures] = useState(''); // root features
+  const [features, setFeatures] = useState(''); 
   const [imageName, setImageName] = useState('');
   
-  // Datasheet State (Simplified for form)
+  // Datasheet State
   const [certifications, setCertifications] = useState('CLI Approved\\nIS 5983 / 1980');
   const [applications, setApplications] = useState('');
   const [industries, setIndustries] = useState('');
@@ -30,7 +30,7 @@ export default function AdminPage() {
       setIsAuthenticated(true);
       setError('');
     } else {
-      setError('Incorrect password');
+      setError('AUTHORIZATION FAILED');
     }
   };
 
@@ -51,7 +51,7 @@ export default function AdminPage() {
       features: parseLines(features),
       datasheet: {
         certifications: parseLines(certifications),
-        keyFeatures: parseLines(features), // Using root features as key features
+        keyFeatures: parseLines(features),
         applications: parseLines(applications),
         industries: parseLines(industries),
         packaging: packaging,
@@ -68,7 +68,6 @@ export default function AdminPage() {
 
   const handleImport = () => {
     try {
-      // Remove trailing comma if they copied with it
       const cleanStr = importJsonStr.trim().replace(/,$/, '');
       const parsed = JSON.parse(cleanStr);
       
@@ -78,7 +77,6 @@ export default function AdminPage() {
       setShade(parsed.shade || '');
       setFeatures(parsed.features ? parsed.features.join('\\n') : '');
       
-      // Handle image name extraction
       if (parsed.image) {
         const parts = parsed.image.split('/');
         setImageName(parts[parts.length - 1]);
@@ -92,38 +90,47 @@ export default function AdminPage() {
         setStorage(parsed.datasheet.storage || '');
       }
       
-      alert('Product imported successfully! You can now edit the fields.');
+      alert('RECORD IMPORTED. Ready for modification.');
       setImportJsonStr('');
     } catch (e) {
-      alert('Invalid JSON format. Please ensure you pasted the exact JSON block for a single product.');
+      alert('SYNTAX ERROR: Invalid JSON payload.');
     }
   };
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(generatedJson);
-    alert('Copied to clipboard! Paste this into your src/products.json file.');
+    alert('COPIED TO CLIPBOARD. Awaiting manual deployment to products.json.');
   };
 
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
-        <div className="max-w-md w-full bg-white p-8 rounded-2xl shadow-xl border border-gray-100">
-          <div className="text-center mb-8">
-            <h1 className="text-3xl font-black text-gray-900 uppercase tracking-tight">Admin Login</h1>
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4 font-sans">
+        <div className="w-full max-w-md bg-white border-t-4 border-[#7AC142] shadow-sm p-8">
+          <div className="mb-8">
+            <div className="flex items-center gap-2 mb-4">
+              <span className="w-3 h-3 bg-[#7AC142]"></span>
+              <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">System Gateway</span>
+            </div>
+            <h1 className="text-2xl font-bold text-gray-900 tracking-tight">Admin Authentication</h1>
           </div>
+          
           <form onSubmit={handleLogin} className="space-y-6">
             <div>
+              <label className="block text-xs font-bold text-gray-900 uppercase tracking-widest mb-2">Access Key</label>
               <input 
                 type="password" 
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full bg-gray-50 border border-gray-200 p-4 rounded text-lg focus:outline-none focus:border-[#7AC142] focus:ring-1 focus:ring-[#7AC142]"
-                placeholder="Enter password"
+                className="w-full bg-white border border-gray-300 p-3 text-sm focus:outline-none focus:border-gray-900 focus:ring-0 transition-colors"
+                placeholder="Enter security key"
               />
             </div>
-            {error && <p className="text-red-500 text-xs font-bold uppercase tracking-widest">{error}</p>}
-            <button type="submit" className="w-full bg-gray-900 text-white font-black text-sm uppercase tracking-widest py-4 rounded hover:bg-[#7AC142] transition-colors">
-              Access Dashboard
+            {error && <p className="text-red-600 text-xs font-bold uppercase tracking-widest bg-red-50 p-2 border-l-2 border-red-600">{error}</p>}
+            <button 
+              type="submit"
+              className="w-full bg-gray-900 text-white font-bold text-xs uppercase tracking-[0.2em] py-4 hover:bg-[#7AC142] transition-colors"
+            >
+              Initialize Session
             </button>
           </form>
         </div>
@@ -132,53 +139,69 @@ export default function AdminPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-20">
-      <div className="bg-gray-900 text-white pt-8 pb-32 px-6">
-        <div className="max-w-5xl mx-auto flex items-center justify-between">
-          <div>
-            <h1 className="text-3xl font-black uppercase tracking-tight">Product Manager</h1>
-            <p className="text-gray-400 mt-2 text-sm">Add or edit products and their datasheets</p>
+    <div className="min-h-screen bg-gray-100 pb-20 font-sans">
+      {/* Top Corporate Nav */}
+      <div className="bg-[#111] text-white py-6 px-6 border-b-4 border-[#7AC142]">
+        <div className="max-w-6xl mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <span className="w-4 h-4 bg-[#7AC142]"></span>
+            <div>
+              <h1 className="text-xl font-bold tracking-tight leading-none mb-1">Product Data Center</h1>
+              <p className="text-gray-400 text-xs font-mono uppercase">OSWAL Industries // Admin.Portal</p>
+            </div>
           </div>
-          <button onClick={() => setIsAuthenticated(false)} className="text-xs font-bold uppercase tracking-widest text-gray-400 hover:text-white">Logout</button>
+          <button 
+            onClick={() => setIsAuthenticated(false)}
+            className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400 hover:text-white transition-colors"
+          >
+            Terminate Session
+          </button>
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-6 -mt-20 space-y-8">
+      <div className="max-w-6xl mx-auto px-6 mt-8 space-y-6">
         
         {/* ── Import Existing ── */}
-        <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8">
-          <h2 className="text-xl font-black text-gray-900 uppercase tracking-tight mb-4">Edit Existing Product</h2>
-          <p className="text-sm text-gray-500 mb-4">Want to edit an existing product? Copy its JSON block from <code className="bg-gray-100 px-1 rounded">src/products.json</code> and paste it here to auto-fill the form below.</p>
-          <div className="flex gap-4">
+        <div className="bg-white border border-gray-200 p-6 shadow-sm">
+          <div className="flex items-center gap-3 mb-4">
+            <span className="w-2 h-2 bg-blue-500"></span>
+            <h2 className="text-sm font-bold text-gray-900 uppercase tracking-widest">Modification Protocol (Import)</h2>
+          </div>
+          <p className="text-sm text-gray-600 mb-4">Paste existing product JSON block below to load its parameters into the generation form.</p>
+          <div className="flex flex-col sm:flex-row gap-4">
             <textarea 
               value={importJsonStr} 
               onChange={(e) => setImportJsonStr(e.target.value)}
-              className="flex-1 border border-gray-200 rounded p-3 font-mono text-xs focus:outline-none focus:border-[#7AC142]"
+              className="flex-1 border border-gray-300 p-3 font-mono text-xs focus:outline-none focus:border-gray-900 bg-gray-50"
               rows={3}
               placeholder='{\n  "id": "...",\n  "prodname": "..."\n}'
             />
-            <button onClick={handleImport} className="bg-gray-900 text-white px-6 font-bold uppercase text-xs rounded hover:bg-[#7AC142] transition-colors whitespace-nowrap">
-              Load Product
+            <button onClick={handleImport} className="bg-blue-600 text-white px-8 py-3 font-bold uppercase text-[10px] tracking-widest hover:bg-blue-700 transition-colors whitespace-nowrap h-fit">
+              Load Parameters
             </button>
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            
-            {/* ── Form ── */}
-            <div>
-              <h2 className="text-xl font-black text-gray-900 uppercase tracking-tight mb-6 border-b border-gray-100 pb-4">Product Details & Datasheet</h2>
-              <form onSubmit={handleGenerate} className="space-y-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          
+          {/* ── Form ── */}
+          <div className="bg-white border border-gray-200 p-6 shadow-sm">
+            <div className="flex items-center gap-3 mb-6 pb-4 border-b border-gray-100">
+              <span className="w-2 h-2 bg-[#7AC142]"></span>
+              <h2 className="text-sm font-bold text-gray-900 uppercase tracking-widest">Data Entry</h2>
+            </div>
+
+            <form onSubmit={handleGenerate} className="space-y-4">
+              <div>
+                <label className="block text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-1">Product Name *</label>
+                <input type="text" required value={productName} onChange={(e) => setProductName(e.target.value)} className="w-full border border-gray-300 p-2.5 text-sm focus:outline-none focus:border-gray-900 bg-gray-50" />
+              </div>
+              
+              <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Product Name *</label>
-                  <input type="text" required value={productName} onChange={(e) => setProductName(e.target.value)} className="w-full border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] rounded" />
-                </div>
-                
-                <div>
-                  <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Category *</label>
-                  <select required value={category} onChange={(e) => setCategory(e.target.value)} className="w-full border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] rounded bg-white">
-                    <option value="">Select a category...</option>
+                  <label className="block text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-1">Category *</label>
+                  <select required value={category} onChange={(e) => setCategory(e.target.value)} className="w-full border border-gray-300 p-2.5 text-sm focus:outline-none focus:border-gray-900 bg-gray-50">
+                    <option value="">Select...</option>
                     <option value="Spectacle Frames">Spectacle Frames</option>
                     <option value="Welding Goggles">Welding Goggles</option>
                     <option value="Furnace Goggles">Furnace Goggles</option>
@@ -187,87 +210,92 @@ export default function AdminPage() {
                     <option value="Face Shields">Face Shields</option>
                   </select>
                 </div>
-
                 <div>
-                  <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Description *</label>
-                  <textarea required value={description} onChange={(e) => setDescription(e.target.value)} rows={3} className="w-full border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] rounded" />
+                  <label className="block text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-1">Shade (Optional)</label>
+                  <input type="text" value={shade} onChange={(e) => setShade(e.target.value)} className="w-full border border-gray-300 p-2.5 text-sm focus:outline-none focus:border-gray-900 bg-gray-50" placeholder="e.g. 5" />
                 </div>
+              </div>
 
-                <div>
-                  <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Shade (Optional)</label>
-                  <input type="text" value={shade} onChange={(e) => setShade(e.target.value)} className="w-full border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] rounded" />
-                </div>
+              <div>
+                <label className="block text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-1">General Description *</label>
+                <textarea required value={description} onChange={(e) => setDescription(e.target.value)} rows={3} className="w-full border border-gray-300 p-2.5 text-sm focus:outline-none focus:border-gray-900 bg-gray-50" />
+              </div>
 
-                <div>
-                  <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Features (One per line)</label>
-                  <textarea value={features} onChange={(e) => setFeatures(e.target.value)} rows={4} className="w-full border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] rounded" />
-                </div>
+              <div>
+                <label className="block text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-1">Key Features (One per line)</label>
+                <textarea value={features} onChange={(e) => setFeatures(e.target.value)} rows={4} className="w-full border border-gray-300 p-2.5 text-sm focus:outline-none focus:border-gray-900 bg-gray-50" />
+              </div>
 
-                {/* Datasheet fields */}
-                <div className="pt-4 border-t border-gray-100">
-                  <h3 className="font-bold text-[#7AC142] uppercase text-xs tracking-widest mb-4">Datasheet Information</h3>
-                  
-                  <div className="space-y-4">
-                    <div>
-                      <label className="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Applications (One per line)</label>
-                      <textarea value={applications} onChange={(e) => setApplications(e.target.value)} rows={3} className="w-full border border-gray-200 p-2 text-sm focus:outline-none focus:border-[#7AC142] rounded bg-gray-50" />
-                    </div>
-                    <div>
-                      <label className="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Industries (One per line)</label>
-                      <textarea value={industries} onChange={(e) => setIndustries(e.target.value)} rows={3} className="w-full border border-gray-200 p-2 text-sm focus:outline-none focus:border-[#7AC142] rounded bg-gray-50" />
-                    </div>
-                    <div>
-                      <label className="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Certifications (One per line)</label>
-                      <textarea value={certifications} onChange={(e) => setCertifications(e.target.value)} rows={2} className="w-full border border-gray-200 p-2 text-sm focus:outline-none focus:border-[#7AC142] rounded bg-gray-50" />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="pt-4 border-t border-gray-100">
-                  <label className="block text-xs font-bold text-gray-700 uppercase tracking-widest mb-1">Image Filename</label>
-                  <input type="text" value={imageName} onChange={(e) => setImageName(e.target.value)} className="w-full border border-gray-200 p-3 text-sm focus:outline-none focus:border-[#7AC142] rounded" placeholder="e.g. boss-clear.jpg" />
-                  <p className="text-[10px] text-gray-500 mt-1">First, upload this image to the 'public/products' folder in your code.</p>
-                </div>
-
-                <button type="submit" className="w-full bg-[#7AC142] text-white font-black text-sm uppercase tracking-widest py-4 mt-4 rounded hover:bg-gray-900 transition-colors">
-                  Generate JSON Code
-                </button>
-              </form>
-            </div>
-
-            {/* ── Result ── */}
-            <div>
-              <h2 className="text-xl font-black text-gray-900 uppercase tracking-tight mb-6 border-b border-gray-100 pb-4">Generated Code</h2>
-              
-              {generatedJson ? (
+              {/* Datasheet block */}
+              <div className="bg-gray-50 border border-gray-200 p-4 mt-6">
+                <h3 className="font-bold text-gray-900 uppercase text-[10px] tracking-widest mb-4">Datasheet Specifications</h3>
                 <div className="space-y-4">
-                  <div className="bg-gray-900 text-green-400 p-4 rounded-xl font-mono text-xs overflow-x-auto whitespace-pre relative max-h-[600px] overflow-y-auto">
-                    {generatedJson}
+                  <div>
+                    <label className="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Applications (One per line)</label>
+                    <textarea value={applications} onChange={(e) => setApplications(e.target.value)} rows={3} className="w-full border border-gray-300 p-2 text-sm focus:outline-none focus:border-gray-900 bg-white" />
                   </div>
-                  
-                  <div className="bg-blue-50 border border-blue-100 rounded-xl p-6">
-                    <h3 className="font-bold text-blue-900 uppercase tracking-widest text-xs mb-3">How to use this code:</h3>
-                    <ul className="list-disc pl-4 space-y-2 text-sm text-blue-800">
-                      <li><strong>For a NEW product:</strong> Paste this at the top of <code className="bg-white px-1 py-0.5 rounded">src/products.json</code> (after the first <code className="bg-white px-1 py-0.5 rounded">[</code>)</li>
-                      <li><strong>To EDIT a product:</strong> Find the old JSON block in the file and replace it entirely with this new one.</li>
-                    </ul>
+                  <div>
+                    <label className="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Industries (One per line)</label>
+                    <textarea value={industries} onChange={(e) => setIndustries(e.target.value)} rows={3} className="w-full border border-gray-300 p-2 text-sm focus:outline-none focus:border-gray-900 bg-white" />
                   </div>
+                  <div>
+                    <label className="block text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1">Certifications (One per line)</label>
+                    <textarea value={certifications} onChange={(e) => setCertifications(e.target.value)} rows={2} className="w-full border border-gray-300 p-2 text-sm focus:outline-none focus:border-gray-900 bg-white" />
+                  </div>
+                </div>
+              </div>
 
-                  <button 
-                    onClick={copyToClipboard}
-                    className="w-full bg-gray-100 text-gray-900 font-black text-sm uppercase tracking-widest py-4 rounded border border-gray-200 hover:bg-gray-200 transition-colors flex items-center justify-center gap-2"
-                  >
-                    Copy Code
-                  </button>
+              <div className="pt-2">
+                <label className="block text-[10px] font-bold text-gray-900 uppercase tracking-widest mb-1">Image Filename</label>
+                <div className="flex gap-2">
+                  <span className="bg-gray-100 border border-gray-300 p-2.5 text-sm text-gray-500">/products/</span>
+                  <input type="text" value={imageName} onChange={(e) => setImageName(e.target.value)} className="flex-1 border border-gray-300 p-2.5 text-sm focus:outline-none focus:border-gray-900 bg-gray-50" placeholder="image.png" />
                 </div>
-              ) : (
-                <div className="h-full border-2 border-dashed border-gray-200 rounded-xl flex flex-col items-center justify-center p-8 text-center min-h-[300px]">
-                  <p className="text-gray-400 font-medium">Fill out the form and click Generate to create the product code.</p>
-                </div>
-              )}
+              </div>
+
+              <button type="submit" className="w-full bg-[#7AC142] text-white font-bold text-[10px] uppercase tracking-[0.2em] py-4 mt-6 hover:bg-gray-900 transition-colors">
+                Execute Generation
+              </button>
+            </form>
+          </div>
+
+          {/* ── Result ── */}
+          <div className="bg-gray-900 border border-gray-800 p-6 shadow-sm flex flex-col">
+            <div className="flex items-center gap-3 mb-6 pb-4 border-b border-gray-800">
+              <span className="w-2 h-2 bg-yellow-400"></span>
+              <h2 className="text-sm font-bold text-white uppercase tracking-widest">Output Terminal</h2>
             </div>
             
+            {generatedJson ? (
+              <div className="flex flex-col flex-1">
+                
+                <div className="bg-[#0a0a0a] border border-gray-800 p-4 font-mono text-xs text-green-400 overflow-y-auto max-h-[500px] mb-4 whitespace-pre custom-scrollbar">
+                  {generatedJson}
+                </div>
+                
+                <div className="bg-gray-800 p-4 border border-gray-700 mb-4 text-gray-300 text-xs leading-relaxed">
+                  <p className="font-bold text-white uppercase tracking-widest mb-2 text-[10px]">Deployment Instructions:</p>
+                  1. Copy the payload below.<br/>
+                  2. Open <code className="text-yellow-400 bg-black px-1">src/products.json</code>.<br/>
+                  3. If <strong>NEW</strong>, paste after the opening <code className="text-yellow-400 bg-black px-1">[</code> bracket.<br/>
+                  4. If <strong>UPDATE</strong>, overwrite the existing product block.
+                </div>
+
+                <button 
+                  onClick={copyToClipboard}
+                  className="mt-auto w-full bg-white text-gray-900 font-bold text-[10px] uppercase tracking-[0.2em] py-4 hover:bg-gray-200 transition-colors"
+                >
+                  Copy Payload to Clipboard
+                </button>
+              </div>
+            ) : (
+              <div className="flex-1 flex flex-col items-center justify-center text-center p-8 opacity-50">
+                <svg className="w-12 h-12 text-gray-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M8 9l3 3-3 3m5 0h3M4 17a2 2 0 100-4 2 2 0 000 4zm16-4a2 2 0 100-4 2 2 0 000 4z"/></svg>
+                <p className="text-gray-400 font-mono text-xs uppercase">Awaiting compilation request...</p>
+              </div>
+            )}
           </div>
+          
         </div>
       </div>
     </div>

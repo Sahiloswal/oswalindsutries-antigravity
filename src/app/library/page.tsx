@@ -5,21 +5,17 @@ const ARTICLES = [
     slug: 'is-5983-explained',
     title: 'IS 5983 / 1980 — The Complete Guide to India\'s Industrial Eye Protection Standard',
     category: 'Standards & Certifications',
-    categoryColor: 'bg-blue-50 text-blue-700 border-blue-200',
     readTime: '8 min read',
     date: 'July 2025',
     description: 'Everything procurement officers, safety engineers, and industrial buyers need to know about IS 5983 / 1980 — the Bureau of Indian Standards specification for industrial safety goggles.',
-    icon: '📋',
   },
   {
     slug: 'furnace-smelter-eye-protection',
     title: 'Furnace & Smelter Eye Protection — Complete Industrial Guide',
     category: 'Industry Applications',
-    categoryColor: 'bg-orange-50 text-orange-700 border-orange-200',
     readTime: '10 min read',
     date: 'July 2025',
     description: 'How to select the right eye protection for furnace observation, smelting operations, and high-temperature industrial environments. Covers hazards, standards, and recommended products.',
-    icon: '🔥',
   },
 ];
 
@@ -29,48 +25,42 @@ const EXTERNAL_RESOURCES = [
     desc: 'Official IS 5983 standards and certification authority for industrial safety eyewear in India.',
     url: 'https://www.bis.gov.in',
     domain: 'bis.gov.in',
-    badge: 'Government',
-    badgeColor: 'bg-blue-100 text-blue-800',
+    category: 'Government Standard',
   },
   {
     name: 'DGFASLI — Factory Safety Directorate',
     desc: 'Directorate General Factory Advice Service & Labour Institutes — India\'s workplace safety regulations.',
     url: 'https://dgfasli.gov.in',
     domain: 'dgfasli.gov.in',
-    badge: 'Government',
-    badgeColor: 'bg-blue-100 text-blue-800',
+    category: 'Regulatory Body',
   },
   {
     name: 'OSHA Eye & Face Protection',
     desc: 'U.S. Occupational Safety & Health Administration standards for industrial eye and face protection.',
     url: 'https://www.osha.gov/eye-face-protection',
     domain: 'osha.gov',
-    badge: 'International',
-    badgeColor: 'bg-green-100 text-green-800',
+    category: 'International Standard',
   },
   {
     name: 'NIOSH — Workplace Eye Safety',
     desc: 'National Institute for Occupational Safety & Health — research and recommendations on eye protection.',
     url: 'https://www.cdc.gov/niosh',
     domain: 'cdc.gov/niosh',
-    badge: 'Research',
-    badgeColor: 'bg-purple-100 text-purple-800',
+    category: 'Research & Guidelines',
   },
   {
     name: 'NSC — National Safety Council',
     desc: 'Eye safety statistics, training resources, and best practices for industrial workplaces.',
     url: 'https://www.nsc.org',
     domain: 'nsc.org',
-    badge: 'International',
-    badgeColor: 'bg-green-100 text-green-800',
+    category: 'Safety Council',
   },
   {
     name: 'ISEA — Eye & Face Protection Standards',
     desc: 'International Safety Equipment Association — standards development for PPE including eye protection.',
     url: 'https://safetyequipment.org',
     domain: 'safetyequipment.org',
-    badge: 'Standards',
-    badgeColor: 'bg-yellow-100 text-yellow-800',
+    category: 'Industry Association',
   },
 ];
 
@@ -87,69 +77,85 @@ const COMING_SOON = [
 
 export default function TechnicalLibraryPage() {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white font-sans">
 
-      {/* ── Hero ── */}
-      <div className="w-full bg-gray-900 px-6 md:px-8 xl:px-20 py-16 md:py-24">
-        <div className="max-w-7xl mx-auto">
-          <div className="inline-flex items-center gap-2 bg-[#7AC142]/10 border border-[#7AC142]/30 text-[#7AC142] text-xs font-bold uppercase tracking-widest px-4 py-2 rounded-full mb-6">
-            <span className="w-2 h-2 rounded-full bg-[#7AC142]"></span>
-            OSWAL Industries — Since 1983
+      {/* ── Hero - Industrial Corporate Style ── */}
+      <div className="w-full bg-[#111] text-white border-b-4 border-[#7AC142]">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 xl:px-20 py-20 md:py-32">
+          <div className="flex items-center gap-3 mb-8">
+            <span className="w-8 h-[2px] bg-[#7AC142]"></span>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-300">Technical Resources</span>
           </div>
-          <h1 className="text-4xl sm:text-5xl xl:text-7xl font-black text-white uppercase tracking-tight leading-none mb-6">
-            Technical <span className="text-[#7AC142]">Library</span>
+          
+          <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 max-w-4xl">
+            Knowledge Center
           </h1>
-          <p className="text-gray-400 text-lg md:text-xl max-w-3xl leading-relaxed">
-            Technical articles, safety standards, industry applications, and product knowledge from four decades of manufacturing industrial safety eyewear.
+          
+          <p className="text-lg md:text-xl text-gray-400 max-w-3xl leading-relaxed mb-12">
+            Authoritative documentation, safety standards, and technical application guides engineered for procurement officers and industrial safety professionals.
           </p>
-          <div className="flex flex-wrap gap-6 mt-10 text-sm text-gray-500 font-medium">
-            <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#7AC142]"></span>{ARTICLES.length} Published Articles</span>
-            <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-gray-500"></span>{COMING_SOON.length} Coming Soon</span>
-            <span className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>{EXTERNAL_RESOURCES.length} External Resources</span>
+
+          <div className="flex flex-wrap gap-x-12 gap-y-6 pt-8 border-t border-gray-800">
+            <div>
+              <p className="text-3xl font-light text-white">{ARTICLES.length}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mt-1">Technical Guides</p>
+            </div>
+            <div>
+              <p className="text-3xl font-light text-white">{EXTERNAL_RESOURCES.length}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mt-1">Safety References</p>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* ── Published Articles ── */}
-      <div className="w-full px-6 md:px-8 xl:px-20 py-16 md:py-24 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-4 mb-12">
-            <div className="w-1 h-8 bg-[#7AC142] rounded-full"></div>
-            <p className="text-xs font-black uppercase tracking-widest text-gray-400">Published Articles</p>
+      {/* ── Published Articles - Sharp & Technical ── */}
+      <div className="w-full bg-white">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 xl:px-20 py-20">
+          
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 border-b border-gray-200 pb-6 gap-6">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 tracking-tight">Featured Publications</h2>
+              <p className="text-gray-500 mt-2">In-depth technical guides for industrial eye protection.</p>
+            </div>
+            <Link href="#coming-soon" className="text-sm font-bold uppercase tracking-widest text-[#7AC142] hover:text-gray-900 transition-colors">
+              View Upcoming Topics &rarr;
+            </Link>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
             {ARTICLES.map((article) => (
               <Link
                 key={article.slug}
                 href={`/library/${article.slug}`}
-                className="group relative bg-white border border-gray-100 rounded-2xl overflow-hidden hover:border-[#7AC142] hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
+                className="group flex flex-col"
               >
-                {/* Top accent bar */}
-                <div className="h-1.5 w-full bg-gray-100 group-hover:bg-[#7AC142] transition-colors duration-300"></div>
-                <div className="p-8 md:p-10 flex flex-col flex-1">
-                  <div className="flex items-start justify-between gap-4 mb-6">
-                    <span className={`text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full border ${article.categoryColor}`}>
-                      {article.category}
-                    </span>
-                    <span className="text-4xl">{article.icon}</span>
-                  </div>
-                  <h2 className="text-2xl md:text-3xl font-black text-gray-900 uppercase tracking-tight leading-snug mb-4 group-hover:text-[#7AC142] transition-colors duration-300">
-                    {article.title}
-                  </h2>
-                  <p className="text-gray-500 leading-relaxed mb-8 flex-1 text-base">
-                    {article.description}
-                  </p>
-                  <div className="flex items-center justify-between pt-6 border-t border-gray-100">
-                    <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-gray-400">
-                      <span>{article.readTime}</span>
-                      <span className="w-1 h-1 bg-gray-300 rounded-full" />
-                      <span>{article.date}</span>
-                    </div>
-                    <span className="flex items-center gap-2 text-sm font-bold text-[#7AC142] group-hover:gap-3 transition-all duration-300">
-                      Read Article
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-                    </span>
-                  </div>
+                {/* Image Placeholder / Graphic Header */}
+                <div className="w-full h-48 bg-gray-100 border border-gray-200 relative overflow-hidden mb-6 flex items-center justify-center group-hover:border-gray-400 transition-colors">
+                  <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
+                  <span className="text-gray-300 font-mono text-sm tracking-widest uppercase">Document Ref: {article.slug.substring(0,8)}</span>
+                  <div className="absolute top-0 left-0 w-1 h-full bg-[#7AC142] scale-y-0 group-hover:scale-y-100 transition-transform origin-top"></div>
+                </div>
+
+                <div className="flex items-center gap-4 mb-4">
+                  <span className="bg-gray-900 text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1">
+                    {article.category}
+                  </span>
+                  <span className="text-xs font-mono text-gray-500">
+                    {article.date}
+                  </span>
+                </div>
+
+                <h3 className="text-2xl font-bold text-gray-900 leading-tight mb-3 group-hover:text-[#7AC142] transition-colors">
+                  {article.title}
+                </h3>
+                
+                <p className="text-gray-600 leading-relaxed mb-6 flex-1">
+                  {article.description}
+                </p>
+
+                <div className="flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gray-900">
+                  Read Documentation
+                  <svg className="w-4 h-4 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </div>
               </Link>
             ))}
@@ -157,64 +163,75 @@ export default function TechnicalLibraryPage() {
         </div>
       </div>
 
-      {/* ── External Resources ── */}
-      <div className="w-full px-6 md:px-8 xl:px-20 py-16 md:py-24 bg-gray-50 border-t border-gray-100">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-4 mb-4">
-            <div className="w-1 h-8 bg-blue-500 rounded-full"></div>
-            <p className="text-xs font-black uppercase tracking-widest text-gray-400">External Resources</p>
+      {/* ── External Resources - Enterprise Grid ── */}
+      <div className="w-full bg-gray-50 border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 xl:px-20 py-20">
+          
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 tracking-tight">Authoritative References</h2>
+            <p className="text-gray-500 mt-2 max-w-2xl">Official regulatory bodies, standards associations, and research institutions governing industrial occupational safety.</p>
           </div>
-          <h2 className="text-3xl md:text-4xl font-black uppercase tracking-tight text-gray-900 mb-4">
-            Authoritative Safety References
-          </h2>
-          <p className="text-gray-500 max-w-2xl mb-12 text-base leading-relaxed">
-            Curated links to official standards bodies, government safety agencies, and research institutions that form the foundation of industrial eye protection globally.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {EXTERNAL_RESOURCES.map((res) => (
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border-t border-l border-gray-200 bg-white">
+            {EXTERNAL_RESOURCES.map((res, index) => (
               <a
                 key={res.url}
                 href={res.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-white border border-gray-100 rounded-xl p-6 hover:border-blue-200 hover:shadow-lg transition-all duration-300 flex flex-col"
+                className="group border-r border-b border-gray-200 p-8 hover:bg-gray-50 transition-colors flex flex-col h-full relative"
               >
-                <div className="flex items-start justify-between mb-4">
-                  <span className={`text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-full ${res.badgeColor}`}>
-                    {res.badge}
-                  </span>
-                  <svg className="w-4 h-4 text-gray-300 group-hover:text-blue-400 transition-colors flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {/* Hover accent */}
+                <div className="absolute top-0 left-0 w-full h-1 bg-[#7AC142] opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                
+                <span className="text-[10px] font-bold uppercase tracking-widest text-[#7AC142] mb-4 block">
+                  {res.category}
+                </span>
+                
+                <h3 className="font-bold text-gray-900 text-lg mb-3 pr-6">
+                  {res.name}
+                  <svg className="w-4 h-4 text-gray-300 absolute top-8 right-8 group-hover:text-gray-900 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                   </svg>
-                </div>
-                <h3 className="font-black text-gray-900 text-base mb-2 group-hover:text-blue-700 transition-colors leading-snug">
-                  {res.name}
                 </h3>
-                <p className="text-sm text-gray-500 leading-relaxed flex-1 mb-4">{res.desc}</p>
-                <span className="text-xs text-gray-400 font-mono">{res.domain}</span>
+                
+                <p className="text-sm text-gray-600 leading-relaxed flex-1 mb-6">
+                  {res.desc}
+                </p>
+                
+                <div className="flex items-center gap-2">
+                  <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+                  <span className="text-xs font-mono text-gray-500 group-hover:text-gray-900 transition-colors">{res.domain}</span>
+                </div>
               </a>
             ))}
           </div>
         </div>
       </div>
 
-      {/* ── Coming Soon ── */}
-      <div className="w-full px-6 md:px-8 xl:px-20 py-16 md:py-24 bg-white border-t border-gray-100">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-4 mb-12">
-            <div className="w-1 h-8 bg-gray-300 rounded-full"></div>
-            <p className="text-xs font-black uppercase tracking-widest text-gray-400">Coming Soon</p>
+      {/* ── Coming Soon - Data Table Style ── */}
+      <div id="coming-soon" className="w-full bg-white border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-6 md:px-8 xl:px-20 py-20">
+          
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 tracking-tight">Upcoming Publications</h2>
+            <p className="text-gray-500 mt-2">Documentation currently in review by our technical team.</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {COMING_SOON.map((title) => (
-              <div key={title} className="bg-gray-50 border border-dashed border-gray-200 rounded-xl p-6 opacity-70">
-                <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center mb-4">
-                  <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/></svg>
+
+          <div className="border border-gray-200">
+            {COMING_SOON.map((title, i) => (
+              <div key={title} className={`flex flex-col sm:flex-row sm:items-center justify-between p-4 px-6 ${i !== COMING_SOON.length - 1 ? 'border-b border-gray-200' : ''} hover:bg-gray-50`}>
+                <div className="flex items-center gap-4">
+                  <span className="text-gray-300 font-mono text-sm">{(i + 1).toString().padStart(2, '0')}</span>
+                  <span className="font-medium text-gray-800">{title}</span>
                 </div>
-                <p className="text-sm font-bold text-gray-600 uppercase leading-snug">{title}</p>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mt-2 sm:mt-0 bg-gray-100 px-3 py-1 self-start sm:self-auto">
+                  In Draft
+                </span>
               </div>
             ))}
           </div>
+
         </div>
       </div>
 

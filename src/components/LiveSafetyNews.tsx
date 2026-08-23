@@ -18,8 +18,8 @@ export default async function LiveSafetyNews() {
     const parser = new Parser({
       headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
     });
-    // Fetching from UN Global Health & Workplace Safety News
-    const feed = await parser.parseURL('https://news.un.org/feed/subscribe/en/news/topic/health/feed/rss.xml');
+    // Fetching from Google News India (Industrial & Occupational Safety)
+    const feed = await parser.parseURL('https://news.google.com/rss/search?q=%22industrial+safety%22+OR+%22occupational+safety%22+india&hl=en-IN&gl=IN&ceid=IN:en');
     
     // Get top 4 news items
     items = feed.items.slice(0, 4).map(item => ({

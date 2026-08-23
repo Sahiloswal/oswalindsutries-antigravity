@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import LiveSafetyNews from '@/components/LiveSafetyNews';
 
 const ARTICLES = [
   {
@@ -240,39 +241,8 @@ export default function TechnicalLibraryPage() {
         </div>
       </div>
 
-      {/* ── Coming Soon - Technical Matrix ── */}
-      <div id="coming-soon" className="w-full bg-[#111] text-white border-t border-gray-800 relative">
-        {/* Subtle grid pattern */}
-        <div className="absolute inset-0 opacity-10 pointer-events-none" style={{ backgroundImage: 'linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
-        
-        <div className="relative z-10 w-full px-6 md:px-12 xl:px-24 py-24">
-          
-          <div className="mb-16">
-            <h2 className="text-4xl md:text-5xl font-black text-white tracking-tighter uppercase">Upcoming Documentation</h2>
-            <div className="h-1 w-24 bg-gray-600 mt-6"></div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-800 border border-gray-800">
-            {COMING_SOON.map((title, i) => (
-              <div key={title} className="bg-[#111] p-8 hover:bg-[#1a1a1a] transition-colors group">
-                <div className="flex items-center justify-between mb-6">
-                  <span className="text-gray-600 font-mono text-lg font-bold">{(i + 1).toString().padStart(2, '0')}</span>
-                  <span className="w-2 h-2 bg-gray-800 group-hover:bg-[#7AC142] transition-colors rounded-full"></span>
-                </div>
-                <h4 className="font-bold text-gray-300 text-lg leading-snug group-hover:text-white transition-colors">
-                  {title}
-                </h4>
-                <div className="mt-8">
-                  <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-600 border border-gray-800 px-3 py-1.5">
-                    Status: Draft
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-
-        </div>
-      </div>
+      {/* ── Live News & Expos ── */}
+      <LiveSafetyNews />
 
     </div>
   );

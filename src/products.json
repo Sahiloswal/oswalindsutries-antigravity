@@ -2997,5 +2997,101 @@
       "/products/prescription-safety-goggles-yellow/02.jpeg",
       "/products/prescription-safety-goggles-yellow/03.jpeg"
     ]
+  },
+  {
+    "id": "chemical-splash-proof-sg001",
+    "prodname": "Chemical Splash Proof Safety Goggle",
+    "category": "Chemical & Dust Protection",
+    "subtitle": "SG 001 — Full Seal, Over-Spectacle, Chemical & Dust Goggle",
+    "description": "General-purpose protective eyewear designed for industrial and workplace safety with wraparound full-seal coverage. Features anti-fog, anti-scratch polycarbonate lens, ventilated PVC frame, and adjustable elastic headband. Suitable for wearing over prescription spectacles. Certified to EN 166:2002.",
+    "datasheet": {
+      "certifications": [
+        "EN 166:2002 — Personal Eye-Protection",
+        "EC Type-Examination Certificate No. 1002 (EUROCERT)"
+      ],
+      "keyFeatures": [
+        "Full-seal wraparound PVC frame — no gaps for splash or dust ingress",
+        "Polycarbonate (PC) clear lens — impact resistant, anti-fog, anti-scratch",
+        "Ventilated design (Polypropylene vents) — prevents lens fogging in humid environments",
+        "Adjustable elastic headband — secure all-day fit for any head size",
+        "Compatible with prescription spectacles — designed to fit over existing glasses",
+        "Integrated side protection — 180° peripheral coverage",
+        "Dust protection: Large Dust Particles — PASS",
+        "Chemical protection: Liquid Droplets & Splashes — PASS",
+        "Tested for Molten Metal & Hot Solids — PASS",
+        "Low Energy Impact (F rating) — PASS",
+        "Medium Energy Impact (B rating) — PASS"
+      ],
+      "applications": [
+        "Chemical handling and liquid splash environments",
+        "Laboratory and research facilities",
+        "Pharmaceutical manufacturing",
+        "Paint spraying and coating operations",
+        "General dust and particulate protection",
+        "Construction and masonry work",
+        "Agricultural chemical operations",
+        "Food processing — splash hazard zones"
+      ],
+      "components": [
+        {
+          "name": "Lens",
+          "material": "Polycarbonate (PC) — Clear, Non-Filtering",
+          "advantage": "Impact resistant, anti-fog, anti-scratch — maintains clarity in chemical and humid environments"
+        },
+        {
+          "name": "Frame",
+          "material": "PVC (Polyvinyl Chloride)",
+          "advantage": "Chemical resistant, flexible full-seal — prevents splash ingress from all angles"
+        },
+        {
+          "name": "Nose Bridge",
+          "material": "PVC",
+          "advantage": "Soft, skin-safe seal — comfortable even during extended wear"
+        },
+        {
+          "name": "Side Protection",
+          "material": "PVC",
+          "advantage": "Integrated — no secondary side shields needed"
+        },
+        {
+          "name": "Ventilation",
+          "material": "Polypropylene (PP) indirect vents",
+          "advantage": "Prevents fogging while blocking direct liquid and dust ingress"
+        },
+        {
+          "name": "Headband",
+          "material": "Adjustable Elastic",
+          "advantage": "Universal fit — adjusts for all head sizes, compatible over helmets and prescription eyewear"
+        }
+      ],
+      "industries": [
+        "Chemical Processing",
+        "Pharmaceuticals",
+        "Laboratories & Research",
+        "Paint & Coatings",
+        "Construction",
+        "Agriculture & Pesticides",
+        "Food & Beverage Processing",
+        "General Manufacturing"
+      ],
+      "packaging": "Available in bulk — contact for carton quantities",
+      "storage": "Store in a cool, dry place away from direct sunlight and solvents. Keep in original packaging. Suitable storage temperature: 0°C to +35°C.",
+      "cleaning": "Wipe lens with a soft, damp, lint-free cloth. Do not use abrasive cleaners or solvents on the polycarbonate lens as this will damage the anti-fog and anti-scratch coating.",
+      "impactResistance": "Yes — Low Energy Impact (F) & Medium Energy Impact (B) — EN 166:2002",
+      "opticalClass": "Clear (non-filtering) — Class 1 optical quality",
+      "filter": "None (clear lens — optical/impact protection only)",
+      "frameMaterial": "PVC",
+      "modifications": "Available with different lens tints on request — confirm before order",
+      "usage": "Ideal for workers handling liquid chemicals, corrosive substances, dust, and particulates. The full-seal wraparound PVC frame ensures no direct splash path reaches the eye. Suitable for over-spectacle use. Not a substitute for full face shield protection in high-pressure jet or acid splash environments.",
+      "lensOptions": "Clear Polycarbonate (standard) — tinted variants on request",
+      "weight": "Approx. 90 g"
+    },
+    "image": "/products/chemical splash proof/chemical 01.jpeg",
+    "gallery": [
+      "/products/chemical splash proof/chemical 01.jpeg",
+      "/products/chemical splash proof/chemical 02.jpeg",
+      "/products/chemical splash proof/chemical 003.jpeg",
+      "/products/chemical splash proof/chemical 04.jpeg"
+    ]
   }
 ]

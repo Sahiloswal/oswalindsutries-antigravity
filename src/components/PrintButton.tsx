@@ -30,7 +30,8 @@ export default function PrintButton({ elementId, filename = "OSWAL_Datasheet.pdf
           filename:     filename,
           image:        { type: 'jpeg' as const, quality: 0.98 },
           html2canvas:  { scale: 2, useCORS: true },
-          jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+          jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' },
+          pagebreak:    { mode: ['css', 'legacy'], avoid: ['tr', '.avoid-break'] }
         } as any;
         
         await html2pdf().set(opt).from(element).save();

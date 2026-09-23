@@ -196,7 +196,7 @@ export default async function DatasheetPage({ params }: { params: Promise<{ id: 
       {/* ── 2-Column Bottom ── */}
       <div className="flex gap-5 mb-10">
         <div className="w-1/2">
-          <table className="w-full text-[12px] border border-gray-200 h-full">
+          <table className="avoid-break w-full text-[12px] border border-gray-200 h-full">
             <thead>
               <tr className="bg-gray-900 text-white"><th className="text-left font-bold py-1.5 px-3">KEY FEATURES</th></tr>
             </thead>
@@ -222,7 +222,7 @@ export default async function DatasheetPage({ params }: { params: Promise<{ id: 
         </div>
 
         <div className="w-1/2 flex flex-col gap-4">
-          <table className="w-full text-[12px] border border-gray-200">
+          <table className="avoid-break w-full text-[12px] border border-gray-200">
             <thead>
               <tr className="bg-gray-900 text-white"><th className="text-left font-bold py-1.5 px-3">STORAGE</th></tr>
             </thead>
@@ -231,7 +231,7 @@ export default async function DatasheetPage({ params }: { params: Promise<{ id: 
             </tbody>
           </table>
 
-          <div className="flex gap-4 flex-1">
+          <div className="flex gap-4 flex-1 avoid-break">
             <table className="w-[60%] text-[12px] border border-gray-200">
               <thead>
                 <tr className="bg-gray-900 text-white"><th className="text-left font-bold py-1.5 px-3">CLEANING</th></tr>

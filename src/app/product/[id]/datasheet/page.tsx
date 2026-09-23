@@ -267,6 +267,34 @@ export default async function DatasheetPage({ params }: { params: Promise<{ id: 
           </div>
         </div>
 
+        {/* ── Product Image Gallery (only if multiple images exist) ── */}
+        {(() => {
+          const gallery: string[] = (product as any).gallery && (product as any).gallery.length > 1
+            ? (product as any).gallery
+            : [];
+          if (gallery.length === 0) return null;
+          return (
+            <div style={{ marginBottom: '32px', pageBreakInside: 'avoid' }}>
+              {/* Section header */}
+              <div style={{ ...darkBg, color: 'white', fontWeight: 700, fontSize: '11px', padding: '6px 12px', letterSpacing: '0.1em', marginBottom: '12px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' } as any}>
+                PRODUCT VIEWS
+              </div>
+              {/* Image grid — 4 per row */}
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
+                {gallery.map((img: string, idx: number) => (
+                  <div key={idx} style={{ border: '1px solid #e5e7eb', padding: '8px', backgroundColor: '#fafafa', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '120px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' } as any}>
+                    <img
+                      src={img}
+                      alt={`${product.prodname} view ${idx + 1}`}
+                      style={{ maxHeight: '110px', maxWidth: '100%', objectFit: 'contain', mixBlendMode: 'multiply' }}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })()}
+
         {/* ── Footer ── */}
         <div className="flex justify-between items-end pt-4" style={{ borderTop: `4px solid ${GREEN}` }}>
           <div>

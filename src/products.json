@@ -2601,71 +2601,72 @@
     "id": "laser-safety-goggles",
     "prodname": "Laser Safety Goggles",
     "category": "Laser Protection",
-    "subtitle": "High-OD Laser Eye Protection",
-    "description": "High optical density laser safety goggles providing protection against specific laser wavelengths. Essential for industrial laser cutting, engraving and medical laser environments.",
+    "subtitle": "High-OD Near-Infrared (NIR) Laser Eye Protection",
+    "description": "High optical density laser safety goggles providing protection against near-infrared laser radiation. Featuring OD6+ attenuation across the 750–2000 nm band, these are specifically designed for Alexandrite, Diode, and Nd:YAG laser systems.",
     "datasheet": {
       "certifications": [
+        "CE Marked",
         "CLI Approved",
         "IS 5983 / 1980"
       ],
       "industries": [
+        "Medical & Aesthetic Laser Clinics",
+        "Dermatology",
         "Electronics Manufacturing",
         "Medical Devices",
-        "Defence",
         "Research & Development",
-        "Photonics",
-        "Aerospace"
+        "Photonics"
       ],
       "packaging": "10 / 12 / 15 nos per inner box — 300 / 400 / 1000 nos per master carton",
       "storage": "Do not store in direct or high heat / sunlight as prolonged exposure may distort the frame geometry or lens tint. Suitable for dark storage for up to 2 years. Can be stored and transported in original manufacturer cartons at ambient temperature (0°C to +30°C).",
       "cleaning": "Clean the lens using the soft cloth supplied with the product. For field cleaning, use a dry, lint-free soft cloth. Do not use solvents, abrasives, or compressed air on the lens surface.",
       "impactResistance": "Yes (CLI Approved)",
       "keyFeatures": [
-        "Wavelength-specific laser attenuation — specify laser type and class for correct filter selection",
-        "Optical Density (OD) rated to applicable laser safety standards",
-        "Wrap-around frame construction eliminates peripheral scatter ingress",
-        "Lightweight design for extended precision laser work",
-        "CLI Approved and IS 5983 / 1980 certified",
-        "Available for Nd:YAG, CO₂, Diode, Excimer, and other common laser types"
+        "Filter Protection Range: 750–2000 nm",
+        "Optical Density: OD6+ (minimum 1,000,000:1 attenuation)",
+        "Nominal Laser Wavelengths: 755 nm / 808 nm / 980 nm / 1064 nm",
+        "Primary Protection: Alexandrite, Diode, and Nd:YAG laser wavelengths",
+        "Lens Type: Green/olive tinted laser protective optical filter",
+        "Full-coverage wraparound frame with integrated side protection",
+        "CE Marked — Product conformity verified"
       ],
       "modifications": "Thread, elastic band, or any other (confirm before supply to all)",
       "components": [
         {
           "name": "Lens",
-          "material": "Laser-attenuating filter glass or polycarbonate (wavelength-specific)",
-          "advantage": "Rated to attenuate specific laser wavelengths to safe levels per applicable OD standards"
+          "material": "Laser protective optical filter (Green/olive tinted)",
+          "advantage": "OD6+ attenuation for 750–2000 nm NIR band"
         },
         {
           "name": "Frame",
-          "material": "Flexible wrap-around nylon or ABS",
+          "material": "Flexible wrap-around protective material",
           "advantage": "Wrap-around design prevents laser scatter ingress from any angle"
         },
         {
           "name": "Side Shields",
-          "material": "Solid or filtered side panels",
+          "material": "Integrated frame material",
           "advantage": "Comprehensive lateral protection against reflected and scattered laser radiation"
-        },
-        {
-          "name": "Headband / Temples",
-          "material": "Adjustable elastic or standard temples",
-          "advantage": "Secure fit during precision laser operations"
         }
       ],
       "applications": [
-        "Laser welding and cutting (operator eyewear)",
-        "Laser marking and engraving",
-        "Medical laser procedures (non-patient)",
+        "Laser hair removal & dermatological treatments (755nm, 808nm, 1064nm)",
+        "Dental & vascular diode laser procedures (980nm)",
+        "Industrial Nd:YAG laser marking and welding (1064nm)",
         "Research laser laboratories",
         "Photonics and optics manufacturing"
       ],
-      "usage": "OSWAL Laser Safety Goggles are precision protective eyewear for operators of Class 3B and Class 4 laser systems. Each pair must be specified with the laser wavelength and output class to ensure the correct Optical Density filter is supplied. Contact OSWAL for wavelength-specific order guidance.",
-      "lensOptions": "Wavelength-specific laser filter (specify laser type: Nd:YAG, CO₂, Diode, etc.)",
-      "opticalClass": "Rated OD per wavelength",
+      "usage": "WARNING: Laser protective eyewear must be selected according to the laser wavelength, operating mode, power/energy and applicable laser-safety requirements. This product should not be used outside its specified protection range. OD alone isn't enough to establish the complete laser-safety rating without confirming your laser's parameters.",
+      "lensOptions": "Green/Olive NIR Filter (750–2000 nm)",
+      "opticalClass": "OD6+ (1,000,000:1 attenuation)",
       "weight": "Approx. 60–90 g"
     },
-    "image": "/products/laser-safety-goggles/cobalt bluee goggle.png",
+    "image": "/products/laser-safety-goggles/01.jpeg",
     "gallery": [
-      "/products/laser-safety-goggles/cobalt bluee goggle.png"
+      "/products/laser-safety-goggles/01.jpeg",
+      "/products/laser-safety-goggles/02.jpeg",
+      "/products/laser-safety-goggles/03.jpeg",
+      "/products/laser-safety-goggles/04 (2).jpeg",
+      "/products/laser-safety-goggles/05.jpeg"
     ]
   },
   {

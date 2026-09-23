@@ -1,14 +1,105 @@
+/* ── Force ALL browsers to preserve background colors & images when printing ── */
+* {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+
 @media print {
   @page {
-    size: A4;
-    margin: 1cm;
+    size: A4 portrait;
+    margin: 0.8cm 1cm;
   }
-  
+
+  /* Reset body */
   html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background: white !important;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif !important;
   }
+
+  /* Hide the floating download button */
+  .print\:hidden,
+  button[onclick],
+  nav {
+    display: none !important;
+  }
+
+  /* Remove browser-injected shadows */
+  .shadow-2xl,
+  .shadow-xl,
+  .shadow {
+    box-shadow: none !important;
+  }
+
+  /* Ensure the page wrapper fits A4 */
+  .my-8 {
+    margin: 0 !important;
+  }
+
+  /* ── Green accent stripe ── */
+  .bg-\[\#7AC142\] {
+    background-color: #7AC142 !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* ── Dark header rows in tables ── */
+  .bg-gray-900 {
+    background-color: #111827 !important;
+    print-color-adjust: exact !important;
+  }
+  .bg-gray-800 {
+    background-color: #1f2937 !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* ── Alternating table rows ── */
+  .bg-gray-50 {
+    background-color: #f9fafb !important;
+    print-color-adjust: exact !important;
+  }
+  .bg-gray-100 {
+    background-color: #f3f4f6 !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* ── Text colors ── */
+  .text-white { color: #ffffff !important; }
+  .text-\[\#7AC142\] { color: #7AC142 !important; }
+  .text-gray-900 { color: #111827 !important; }
+  .text-gray-800 { color: #1f2937 !important; }
+  .text-gray-700 { color: #374151 !important; }
+  .text-gray-600 { color: #4b5563 !important; }
+  .text-gray-500 { color: #6b7280 !important; }
+  .text-gray-400 { color: #9ca3af !important; }
+
+  /* ── Border colors ── */
+  .border-\[\#7AC142\] { border-color: #7AC142 !important; }
+  .border-gray-200 { border-color: #e5e7eb !important; }
+  .border-gray-300 { border-color: #d1d5db !important; }
+
+  /* ── Prevent page breaks inside tables and containers ── */
+  table, .avoid-break {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* ── Ensure flex layouts print correctly ── */
+  .flex { display: flex !important; }
+  .flex-col { flex-direction: column !important; }
+  .gap-5 { gap: 1.25rem !important; }
+  .gap-4 { gap: 1rem !important; }
+  .gap-3 { gap: 0.75rem !important; }
+  .w-1\/2 { width: 50% !important; }
+  .w-\[50\%\] { width: 50% !important; }
+  .w-\[60\%\] { width: 60% !important; }
+  .w-\[40\%\] { width: 40% !important; }
 }

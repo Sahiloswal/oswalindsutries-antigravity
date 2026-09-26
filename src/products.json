@@ -1,5 +1,81 @@
 [
   {
+    "id": "auto-darkening-welding-helmet",
+    "prodname": "True Color Auto Darkening Welding Helmet",
+    "category": "Welding Helmets",
+    "subtitle": "True Color Lens — Solar Powered",
+    "description": "Auto darkening welding helmet with True Color lens technology. Features a large 110×90mm viewing area, adjustable DIN 9-13 shade, and solar-powered operation for continuous protection during MMA, TIG, MIG, and plasma cutting.",
+    "datasheet": {
+      "certifications": [
+        "CE Certified"
+      ],
+      "keyFeatures": [
+        "True Color Lens: Restores real color visibility, eliminating traditional green tint",
+        "Shade Range: Adjustable DIN 9-13 for versatile welding applications",
+        "View Size: Large 110×90mm viewing area for enhanced peripheral vision",
+        "Power Source: Solar powered — no battery change required",
+        "Shell Material: High-impact PP (Polypropylene)",
+        "Weight: Ultra-lightweight design at 430~460g for all-day comfort",
+        "Full UV/IR protection across all shade states"
+      ],
+      "applications": [
+        "MMA (Manual Metal Arc) Welding",
+        "TIG Welding",
+        "MIG Welding",
+        "Plasma Cutting"
+      ],
+      "components": [
+        {
+          "name": "Shell",
+          "material": "PP (Polypropylene)",
+          "advantage": "Impact resistant, heat resistant, and lightweight"
+        },
+        {
+          "name": "ADF Filter",
+          "material": "True Color Auto-Darkening Filter",
+          "advantage": "Provides clear, natural color views while blocking harmful UV/IR radiation"
+        },
+        {
+          "name": "Power",
+          "material": "Solar Cells",
+          "advantage": "Maintenance-free continuous operation"
+        }
+      ],
+      "industries": [
+        "Metal Fabrication",
+        "Automotive Manufacturing",
+        "Shipbuilding",
+        "Construction",
+        "Heavy Engineering",
+        "Oil & Gas"
+      ],
+      "packaging": "Individually boxed",
+      "storage": "Store in a cool, dry place away from direct sunlight when not in use.",
+      "cleaning": "Clean the lens with a soft, lint-free cloth. Do not use abrasive cleaners or solvents on the ADF.",
+      "impactResistance": "Yes",
+      "opticalClass": "Standard",
+      "filter": "DIN 9-13 Auto Darkening",
+      "frameMaterial": "PP",
+      "modifications": "Adjustable headgear",
+      "usage": "Suitable for professional welders performing MMA, TIG, MIG, or plasma cutting, requiring continuous dynamic shade adjustments without removing the helmet.",
+      "lensOptions": "True Color ADF",
+      "glassThickness": "N/A",
+      "weight": "430~460g"
+    },
+    "image": "/products/auto darkening welding helmet/01.jpg",
+    "gallery": [
+      "/products/auto darkening welding helmet/01.jpg",
+      "/products/auto darkening welding helmet/01.1.jpg",
+      "/products/auto darkening welding helmet/02.jpg",
+      "/products/auto darkening welding helmet/022.jpg",
+      "/products/auto darkening welding helmet/03.jpg",
+      "/products/auto darkening welding helmet/04.jpg",
+      "/products/auto darkening welding helmet/05.jpg",
+      "/products/auto darkening welding helmet/06.jpg",
+      "/products/auto darkening welding helmet/07.jpg"
+    ]
+  },
+  {
     "id": "welding-din-2",
     "prodname": "2 DIN Welding Goggles",
     "category": "Welding Goggles",

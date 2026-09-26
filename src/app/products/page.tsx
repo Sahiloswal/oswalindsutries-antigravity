@@ -5,6 +5,7 @@ import productsData from '../../products.json';
 
 // Ordered exactly as OSWAL 2026 catalog
 const SIDEBAR_CATEGORIES = [
+  'Welding Helmets',
   'Welding Goggles',
   'Smelter/Furnace Safety',
   'Safety Goggles',

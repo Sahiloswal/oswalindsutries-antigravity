@@ -42,52 +42,53 @@ export default function CatalogPage() {
         </div>
 
         {/* ── Product Grid ── */}
-        <div id="catalog-content" className="catalog-grid grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-12 print:grid-cols-4 print:gap-x-6 print:gap-y-10">
+        <div id="catalog-content" className="flex flex-wrap -mx-4">
           {catalogProducts.map((p, index) => {
             const serialNumber = String(index + 1).padStart(2, '0');
             const certs = p.datasheet?.certifications ?? ['CLI Approved'];
 
             return (
-              <div
-                key={p.id}
-                className="catalog-card flex flex-col group relative bg-white"
-              >
-                {/* Image Area - Clean White Background */}
-                <div className="relative flex items-center justify-center overflow-hidden mb-4" style={{ height: '220px' }}>
-                  {/* Subtle Serial Number */}
-                  <div className="absolute top-0 left-0 text-gray-300 text-3xl font-black opacity-40 select-none z-10 transition-opacity group-hover:opacity-100 group-hover:text-[#7AC142]">
-                    {serialNumber}
-                  </div>
+              <div key={p.id} className="w-full sm:w-1/2 md:w-1/3 xl:w-1/4 px-4 mb-10">
+                <div className="catalog-card flex flex-col group relative bg-white h-full border border-transparent hover:border-gray-200 p-3 transition-colors">
                   
-                  {p.image ? (
-                    <img
-                      src={p.image}
-                      alt={p.prodname}
-                      className="object-contain w-full h-full p-2 transition-transform duration-500 group-hover:scale-110"
-                    />
-                  ) : (
-                    <div className="text-gray-300 text-[10px] font-bold uppercase tracking-widest text-center px-4">Image Coming Soon</div>
-                  )}
-                </div>
-
-                {/* Typography & Info */}
-                <div className="flex flex-col flex-1">
-                  <p className="text-[10px] font-black tracking-[0.2em] text-[#7AC142] uppercase mb-1.5">{p.category}</p>
-                  <h2 className="text-[14px] font-black uppercase tracking-tight text-gray-900 leading-snug mb-1.5">{p.prodname}</h2>
-                  {p.subtitle && (
-                    <p className="text-[11px] text-gray-500 font-medium leading-snug mb-3">{p.subtitle}</p>
-                  )}
-                  
-                  <div className="flex flex-wrap gap-2 mt-auto mb-4">
-                    {certs.slice(0, 2).map((cert, ci) => (
-                      <span key={ci} className="text-[9px] font-bold text-gray-600 border-b border-gray-300 pb-0.5 uppercase tracking-wider">
-                        {cert}
-                      </span>
-                    ))}
+                  {/* Image Area */}
+                  <div className="relative flex items-center justify-center overflow-hidden mb-4 bg-[#f8f9fa] rounded" style={{ height: '220px' }}>
+                    {/* Subtle Serial Number */}
+                    <div className="absolute top-2 left-3 text-gray-300 text-2xl font-black opacity-40 select-none z-10">
+                      {serialNumber}
+                    </div>
+                    
+                    {p.image ? (
+                      <img
+                        src={p.image}
+                        alt={p.prodname}
+                        className="object-contain w-full h-full p-4 transition-transform duration-500 group-hover:scale-110"
+                        style={{ display: 'block', maxWidth: '100%', maxHeight: '100%' }}
+                      />
+                    ) : (
+                      <div className="text-gray-300 text-[10px] font-bold uppercase tracking-widest text-center px-4">Image Coming Soon</div>
+                    )}
                   </div>
 
-                  <div className="no-print mt-auto border-t border-gray-100 pt-3">
-                    <AddToCartButton id={p.id} prodname={p.prodname} />
+                  {/* Typography & Info */}
+                  <div className="flex flex-col flex-1">
+                    <p className="text-[10px] font-black tracking-[0.2em] text-[#7AC142] uppercase mb-1.5">{p.category}</p>
+                    <h2 className="text-[14px] font-black uppercase tracking-tight text-gray-900 leading-snug mb-1.5">{p.prodname}</h2>
+                    {p.subtitle && (
+                      <p className="text-[11px] text-gray-500 font-medium leading-snug mb-3">{p.subtitle}</p>
+                    )}
+                    
+                    <div className="flex flex-wrap gap-1.5 mt-auto mb-4">
+                      {certs.slice(0, 2).map((cert, ci) => (
+                        <span key={ci} className="text-[9px] font-bold text-gray-600 border border-gray-200 bg-gray-50 px-1.5 py-0.5 uppercase tracking-wider">
+                          {cert}
+                        </span>
+                      ))}
+                    </div>
+
+                    <div className="no-print mt-auto border-t border-gray-100 pt-3">
+                      <AddToCartButton id={p.id} prodname={p.prodname} />
+                    </div>
                   </div>
                 </div>
               </div>

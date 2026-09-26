@@ -26,10 +26,11 @@ export default function PrintButton({ elementId, filename = "OSWAL_Datasheet.pdf
         const html2pdf = (await import('html2pdf.js')).default;
         
         const opt = {
-          margin:       10,
+          margin:       [10, 5, 10, 5],
           filename:     filename,
+          pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] },
           image:        { type: 'jpeg' as const, quality: 0.98 },
-          html2canvas:  { scale: 2, useCORS: true },
+          html2canvas:  { scale: 2, useCORS: true, letterRendering: true },
           jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
         } as any;
         

@@ -3,44 +3,99 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-900">
-      {/* ─── HERO SECTION (Corporate / White Theme) ─── */}
-      <section className="relative w-full min-h-[60vh] flex items-center justify-center pt-24 pb-16 px-6 md:px-8 xl:px-16 mx-auto bg-gradient-to-b from-gray-50 to-white overflow-hidden">
-        {/* Subtle Background Pattern */}
-        <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
-          <div className="w-full h-full" style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
+      {/* ─── HERO SECTION (Udyogi-Style Full-Screen Real Life Industrial Hero) ─── */}
+      <section className="relative w-full min-h-[90vh] lg:min-h-screen flex items-center justify-center overflow-hidden bg-gray-950 text-white">
+        {/* Full-Screen Real-Life Factory Background Image with High Contrast Gradients */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/factory-assembly.jpeg"
+            alt="OSWAL Industries Eyewear Craftsmanship & Manufacturing"
+            className="w-full h-full object-cover object-center filter brightness-[0.40] contrast-[1.15] scale-105 transition-transform duration-1000 ease-out"
+          />
+          {/* Multi-layered cinematic industrial gradients for crisp readability & contrast */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/75 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40"></div>
+          {/* Subtle green glow accent aligned with brand */}
+          <div className="absolute top-1/4 left-10 w-96 h-96 bg-[#7AC142]/10 rounded-full blur-3xl pointer-events-none"></div>
         </div>
 
-        <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-3/5 text-left">
-            <div className="inline-flex items-center gap-2 border border-gray-200 bg-white text-gray-600 text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] px-4 py-2 rounded-full mb-6 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-[#7AC142]"></span>
-              Since 1983
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-8 xl:px-16 py-20 flex flex-col lg:flex-row items-center justify-between gap-12">
+          {/* Left Column: Bold Industrial Proposition */}
+          <div className="w-full lg:w-3/5 text-left">
+            <div className="inline-flex items-center gap-2.5 border border-white/20 bg-black/40 backdrop-blur-md text-gray-200 text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] px-4 py-2 rounded-full mb-6 shadow-xl">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#7AC142] animate-pulse"></span>
+              Authentic Indian Manufacturing · Since 1983
             </div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 uppercase tracking-tighter leading-[1.1] mb-6">
-              Engineering <br />
-              <span className="text-[#7AC142] relative">
-                Industrial Safety
-                <svg className="absolute -bottom-2 left-0 w-full h-3 text-[#7AC142]/20" viewBox="0 0 100 10" preserveAspectRatio="none">
+
+            <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-black text-white uppercase tracking-tighter leading-[1.08] mb-6">
+              Protecting The <br />
+              <span className="text-[#7AC142] relative inline-block">
+                Industrial Force
+                <svg className="absolute -bottom-2 left-0 w-full h-3 text-[#7AC142]/40" viewBox="0 0 100 10" preserveAspectRatio="none">
                   <path d="M0,5 Q50,10 100,5" stroke="currentColor" strokeWidth="4" fill="none" />
                 </svg>
               </span>
             </h1>
-            <p className="text-gray-500 text-base md:text-xl max-w-[600px] mb-8 leading-relaxed font-medium">
-              We are India's leading manufacturer of high-performance Polycarbonate and Cobalt Blue Glass safety eyewear. CLI Approved &amp; IS 5983 Certified protection for the harshest environments.
+
+            <p className="text-gray-300 text-base md:text-xl max-w-[620px] mb-8 leading-relaxed font-normal">
+              India's trusted manufacturer of CLI Approved &amp; IS 5983 Certified industrial safety eyewear, high-heat furnace observation shields, and heavy engineering eye protection. Handcrafted precision engineered for the toughest shop floors.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-              <Link href="/products" className="bg-gray-900 text-white font-bold uppercase tracking-widest text-sm px-8 py-4 rounded hover:bg-[#7AC142] transition-colors shadow-lg text-center flex items-center justify-center gap-2 group">
-                Master Catalog
+
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mb-10">
+              <Link href="/products" className="bg-[#7AC142] text-white font-bold uppercase tracking-widest text-sm px-8 py-4 rounded hover:bg-[#68a835] transition-all shadow-lg text-center flex items-center justify-center gap-2 group">
+                Explore Master Catalog
                 <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
               </Link>
-              <a href="#inquiry" className="bg-white border-2 border-gray-200 text-gray-900 font-bold uppercase tracking-widest text-sm px-8 py-4 rounded hover:border-gray-900 hover:bg-gray-50 transition-colors text-center">
-                Contact Sales
+              <a href="#inquiry" className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white font-bold uppercase tracking-widest text-sm px-8 py-4 rounded transition-all text-center">
+                Request Bulk Quotation
               </a>
             </div>
+
+            {/* Quick stats counter pill */}
+            <div className="grid grid-cols-3 gap-6 pt-6 border-t border-white/15 max-w-lg">
+              <div>
+                <p className="text-2xl md:text-3xl font-black text-white">40+ <span className="text-[#7AC142] text-xl">Yrs</span></p>
+                <p className="text-[11px] font-bold text-gray-400 uppercase tracking-wider mt-1">Excellence</p>
+              </div>
+              <div>
+                <p className="text-2xl md:text-3xl font-black text-white">IS 5983</p>
+                <p className="text-[11px] font-bold text-gray-400 uppercase tracking-wider mt-1">Certified Spec</p>
+              </div>
+              <div>
+                <p className="text-2xl md:text-3xl font-black text-[#7AC142]">CLI</p>
+                <p className="text-[11px] font-bold text-gray-400 uppercase tracking-wider mt-1">Approved Labs</p>
+              </div>
+            </div>
           </div>
-          <div className="w-full md:w-2/5 flex justify-center md:justify-end relative">
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#7AC142]/20 to-transparent rounded-full blur-3xl opacity-50 scale-150"></div>
-            <img src="/products/oswal-boss-clear-economy/boss design .jpeg" alt="OSWAL Boss Safety Goggle" className="relative z-10 w-full max-w-[400px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-700 ease-out rounded-2xl" />
+
+          {/* Right Column: Real-life Craftsmanship Spotlight Card */}
+          <div className="w-full lg:w-2/5 flex flex-col items-center lg:items-end">
+            <div className="relative group w-full max-w-[420px] rounded-2xl overflow-hidden border-2 border-white/20 shadow-[0_20px_50px_rgba(0,0,0,0.8)] bg-black/60 backdrop-blur-md">
+              <div className="relative h-64 sm:h-72 w-full overflow-hidden">
+                <img
+                  src="/factory-crafting.jpeg"
+                  alt="OSWAL Master Technician Precision Lensing"
+                  className="w-full h-full object-cover object-top filter brightness-[0.95] contrast-[1.1] transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+                <div className="absolute top-3 left-3 bg-[#7AC142] text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded shadow">
+                  Shop Floor Precision
+                </div>
+              </div>
+
+              <div className="p-6 text-left">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-[#7AC142]">Hand-Finished Optics</span>
+                  <span className="text-[10px] text-gray-400 font-bold uppercase">Davanagere Unit</span>
+                </div>
+                <h3 className="text-lg font-black uppercase text-white leading-snug mb-2">
+                  Zero-Distortion Lens Edging &amp; Inspection
+                </h3>
+                <p className="text-xs text-gray-300 leading-relaxed">
+                  Every pair is calibrated and inspected by master opticians to guarantee optical clarity and industrial impact resistance.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

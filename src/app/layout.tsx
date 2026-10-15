@@ -62,55 +62,60 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* ─── Scrolling Trusted Brands ─── */}
         <ClientMarquee />
 
-        {/* ─── Footer ─── */}
-        <footer id="contact" className="print:hidden bg-slate-900 text-white">
-          <div className="max-w-7xl mx-auto px-6 md:px-8 py-12">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-slate-800">
+        {/* ─── Footer (scrolls normally at page bottom) ─── */}
+        <footer id="contact" className="print:hidden bg-gray-900 text-white shadow-[0_-10px_40px_rgba(0,0,0,0.15)]">
+          <div className="w-full px-8 xl:px-16 mx-auto py-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
               <div>
-                <div className="text-[26px] font-black tracking-tight text-white leading-none mb-0.5">OSWAL</div>
-                <div className="text-[11px] font-bold tracking-[0.35em] text-amber-500 uppercase mb-4">Industries</div>
-                <p className="text-slate-400 text-sm leading-relaxed">
-                  Manufacturer of industrial safety eyewear since 1983. CLI Approved and IS 5983 certified protection for steel plants, foundries, and heavy industry across India.
+                <div className="text-[32px] font-black tracking-tight mb-2">OSWAL</div>
+                <div className="text-[14px] font-bold tracking-[0.3em] text-[#7AC142] uppercase mb-4">Industries</div>
+                <div className="text-[18px] font-bold text-white mb-4 tracking-widest uppercase">Since 1983</div>
+                <p className="text-gray-300 text-base leading-relaxed">
+                  Manufacturer of industrial safety eyewear since 1983. Trusted by industries across India for quality and reliability.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold uppercase text-xs tracking-widest text-slate-400 mb-5">Products</h4>
-                <ul className="space-y-3 text-sm text-slate-400">
+                <h4 className="font-bold uppercase text-base tracking-widest text-gray-400 mb-6">Our Products</h4>
+                <ul className="space-y-4 text-base text-gray-300">
                   {['Safety Goggles', 'Welding Goggles', 'Furnace Goggles', 'Face Shields', 'Chemical Splash Goggles', 'Spectacle Frames'].map((cat) => (
                     <li key={cat}>
-                      <Link href="/products" className="hover:text-amber-400 transition-colors">{cat}</Link>
+                      <Link href="/products" className="hover:text-[#7AC142] transition-colors">{cat}</Link>
                     </li>
                   ))}
                   <li>
-                    <Link href="/library" className="font-bold text-amber-500 hover:text-amber-400 transition-colors">Technical Library →</Link>
+                    <Link href="/library" className="hover:text-[#7AC142] transition-colors font-bold text-[#7AC142]">Technical Library →</Link>
                   </li>
                 </ul>
               </div>
-              <div>
-                <h4 className="font-bold uppercase text-xs tracking-widest text-slate-400 mb-5">Contact</h4>
-                <ul className="space-y-4 text-sm text-slate-400">
-                  <li className="flex items-start gap-3">
-                    <svg className="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+              <div id="about">
+                <h4 className="font-bold uppercase text-base tracking-widest text-gray-400 mb-6">Contact Us</h4>
+                <ul className="space-y-5 text-base text-gray-300">
+                  <li className="flex items-start gap-4">
+                    <svg className="w-6 h-6 text-[#7AC142] flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     <span>Davanagere, Karnataka, India</span>
                   </li>
-                  <li className="flex items-center gap-3">
-                    <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                    <a href="tel:+919535354312" className="hover:text-amber-400 transition-colors font-bold text-white">+91 95353 54312</a>
+                  <li className="flex items-center gap-4">
+                    <svg className="w-6 h-6 text-[#7AC142] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                    <span className="font-bold text-lg">+91 9535354312</span>
                   </li>
-                  <li className="flex items-center gap-3">
-                    <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
-                    <a href="mailto:oswaloptical@yahoo.co.in" className="hover:text-amber-400 transition-colors break-all">oswaloptical@yahoo.co.in</a>
+                  <li className="flex items-center gap-4">
+                    <svg className="w-6 h-6 text-[#7AC142] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    <span>oswaloptical@yahoo.co.in</span>
                   </li>
-                  <li className="pt-2 border-t border-slate-800">
-                    <span className="block text-[10px] uppercase tracking-widest text-slate-500 font-bold mb-1">GST No.</span>
-                    <span className="font-mono text-slate-300 tracking-wider text-xs">29AAFPO7702C1ZT</span>
+                  <li className="flex items-start gap-4 pt-4 border-t border-gray-800">
+                    <svg className="w-6 h-6 text-[#7AC142] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                    <div>
+                      <span className="block text-xs uppercase tracking-widest text-gray-500 mb-1 font-bold">GST No.</span>
+                      <span className="font-mono font-bold text-white tracking-wider">29AAFPO7702C1ZT</span>
+                    </div>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-slate-500 font-medium">
+
+            <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500 font-medium">
               <span>© {new Date().getFullYear()} OSWAL Industries, Davanagere. All rights reserved.</span>
-              <span className="flex items-center gap-2">GST: <span className="font-mono text-slate-400">29AAFPO7702C1ZT</span></span>
+              <span className="flex items-center gap-2">GST: <span className="font-mono text-gray-400">29AAFPO7702C1ZT</span></span>
             </div>
           </div>
         </footer>
@@ -120,12 +125,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CartOverlay />
         <MobileBottomNav />
 
-        {/* ─── Floating WhatsApp ─── */}
-        <a
+        {/* ─── Floating WhatsApp Icon ─── */}
+        <a 
           href="https://wa.me/919535354312"
           target="_blank"
           rel="noopener noreferrer"
-          className="print:hidden fixed bottom-24 right-6 z-50 bg-[#25D366] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition-transform duration-200"
+          className="print:hidden fixed bottom-24 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-[0_8px_24px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_12px_32px_rgba(37,211,102,0.6)] transition-all duration-300"
           aria-label="Chat on WhatsApp"
         >
           <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">

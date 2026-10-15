@@ -22,16 +22,15 @@ export default function ClientMarquee() {
   ];
 
   return (
-    <div className="w-full bg-white border-t border-b border-gray-200 print:hidden">
+    <div className="w-full bg-slate-50 border-t border-b border-slate-200 print:hidden">
       {/* Header label */}
-      <div className="w-full px-8 xl:px-16 pt-5 pb-3 flex items-center gap-6">
-        <span className="text-xs font-black uppercase tracking-[0.25em] text-gray-400 whitespace-nowrap flex-shrink-0">Trusted By</span>
-        <div className="flex-1 h-px bg-gray-100" />
-        <span className="text-xs font-bold uppercase tracking-widest text-[#7AC142] whitespace-nowrap flex-shrink-0">100+ Leading Industries</span>
+      <div className="w-full px-6 md:px-8 pt-4 pb-2 flex items-center gap-4">
+        <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400 whitespace-nowrap flex-shrink-0">Supplied to</span>
+        <div className="flex-1 h-px bg-slate-200" />
       </div>
 
       {/* Scrolling strip */}
-      <div className="overflow-hidden pb-5">
+      <div className="overflow-hidden pb-4">
         <div className="flex items-center animate-marquee whitespace-nowrap">
           {trustedBrands.map((brand, i) => (
             <BrandLogo key={i} brand={brand} />
@@ -63,8 +62,8 @@ function BrandLogo({ brand }: { brand: { name: string; file: string } }) {
   const [imgError, setImgError] = useState(false);
 
   return (
-    <div className="mx-6 flex-shrink-0 flex items-center justify-center bg-white border border-gray-100 rounded-lg shadow-sm"
-         style={{ width: '160px', height: '80px', padding: '10px' }}>
+    <div className="mx-5 flex-shrink-0 flex items-center justify-center bg-white border border-slate-200"
+         style={{ width: '140px', height: '64px', padding: '10px' }}>
       {!imgError ? (
         <img
           src={`/brands/${brand.file}`}
@@ -74,11 +73,12 @@ function BrandLogo({ brand }: { brand: { name: string; file: string } }) {
             height: '100%',
             objectFit: 'contain',
             display: 'block',
+            filter: 'grayscale(1) opacity(0.65)',
           }}
           onError={() => setImgError(true)}
         />
       ) : (
-        <span className="text-sm font-black tracking-widest text-gray-700 uppercase text-center leading-tight">
+        <span className="text-xs font-bold tracking-widest text-slate-500 uppercase text-center leading-tight">
           {brand.name}
         </span>
       )}
